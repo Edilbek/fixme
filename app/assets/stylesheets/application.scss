@@ -1,0 +1,54 @@
+@import "bootstrap";
+@import "font-awesome";
+
+body {
+  background-image: url('background.jpeg');
+  margin: 0 auto;
+  width: 85%;
+}
+
+/* NAVIGATON */
+.navigation {
+  border: 1px solid lightgrey;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.navbar-brand {
+  margin-top: -22px;
+  margin-bottom: -22px;
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+.login {
+  margin-left: 10px;
+}
+
+.search {
+  margin-bottom: -80px;
+  margin-right: -60px;
+}
+
+.user-action {
+  margin-top: -90px;
+  margin-right: -50px;
+}
+
+.create {
+  background-color: #28A745;
+  color: white;
+  margin-left: 10px;
+}
+/* END NAVIGATON */
+
+.yield {
+  background-color: white;
+  border: 1px solid lightgrey;
+  margin-top: 10px;
+padding: 15px 0 15px 0;
+
+}
