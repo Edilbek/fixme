@@ -1,0 +1,8 @@
+<%=current_user.email %>
+<br>
+<% @user = current_user %>
+<% @user.problems.each do |problem| %>
+  <tr>
+    <td><%= problem.description %></td>
+  </tr>
+<% end %>

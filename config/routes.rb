@@ -1,7 +1,18 @@
 Rails.application.routes.draw do
-  get 'home/index'
+
+  devise_for :admin, controllers: {
+    sessions: 'admin/sessions'
+  }
 
   devise_for :users
   root to: "home#index"
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
+  resources :users do
+    resources :problems
+  end
+
+  namespace :admin do
+    root to: 'home#index'
+    resources :problems
+  end
 end
