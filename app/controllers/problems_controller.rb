@@ -35,7 +35,7 @@ class ProblemsController < ApplicationController
     params.require(:problem).permit(
       :location,
       :description,
-      :images
+      :image
     )
   end
 end

@@ -1,2 +1,3 @@
-<h1>Problems</h1>
-<p>Problem: <%= @problem.description %></p>
+<h1>Problem</h1>
+<p>Description: <%= @problem.description %></p>
+<p>Images: <%= image_tag @problem.image.url(:medium), class: "image-show" if @problem.image? %></p>

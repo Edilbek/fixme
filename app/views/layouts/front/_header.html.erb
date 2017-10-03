@@ -19,7 +19,7 @@
         <% if user_signed_in? %>
           <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
           <%= link_to 'Profile', edit_user_registration_path, class: "profile" %>
-          <%= link_to 'Problems', user_problems_path(current_user, @problems), class: "profile" %>
+          <%= link_to 'Problems', user_problems_path(current_user), class: "profile" %>
           <i class="fa fa-sign-out" aria-hidden="true"></i>
           <%= link_to 'Logout', destroy_user_session_path, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn-sm logout" %>
         <% else %>

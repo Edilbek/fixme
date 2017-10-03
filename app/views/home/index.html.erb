@@ -1,6 +1,11 @@
-<div align="center">
-  <h2>All Problems</h2>
-  <% @problems.each do |u| %>
-    <%= u.description %>
+<h2 align='center'>All Problems</h2>
+<div class="container">
+  <% @problems.each do |problem| %>
+    <div class="row">
+      <div class="col-md-4">
+        <%= link_to "#{problem.description}", problem_path(problem.id)%><br>
+        <%= link_to image_tag "#{problem.image.url(:thumb)}", class: "image-show" if problem.image? %>
+      </div>
+    </div>
   <% end %>
 </div>

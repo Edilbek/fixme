@@ -1,8 +1,13 @@
-<%=current_user.email %>
+<h3 align='center'><%=current_user.email %></h3>
 <br>
-<% @user = current_user %>
-<% @user.problems.each do |problem| %>
-  <tr>
-    <td><%= problem.description %></td>
-  </tr>
-<% end %>
+<div class="container">
+  <% @user = current_user %>
+  <% @user.problems.each do |problem| %>
+    <div class="row">
+      <div class="col-md-4">
+        <%= link_to "#{problem.description}", user_problem_path(@user, problem.id) %><br>
+        <%= link_to image_tag "#{problem.image.url(:thumb)}", class: "image-show" if problem.image? %>
+      </div>
+    </div>
+  <% end %>
+</div>
