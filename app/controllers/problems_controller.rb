@@ -18,6 +18,11 @@ class ProblemsController < ApplicationController
 
   def show
     @problem = Problem.find(params[:id])
+    @hash = Gmaps4rails.build_markers(@problem) do |problem, marker|
+      marker.lat problem.latitude
+      marker.lng problem.longitude
+      marker.infowindow problem.title
+    end
   end
 
   def edit
@@ -35,7 +40,11 @@ class ProblemsController < ApplicationController
     params.require(:problem).permit(
       :location,
       :description,
-      :image
+      :image,
+      :title,
+      :latitude,
+      :longitude,
+      :address
     )
   end
 end

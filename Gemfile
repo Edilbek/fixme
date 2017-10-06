@@ -11,6 +11,9 @@ gem 'jquery-rails'
 gem "font-awesome-rails"
 gem 'carrierwave'
 gem "mini_magick"
+gem 'gmaps4rails'
+gem 'geocoder'
+gem 'underscore-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'

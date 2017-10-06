@@ -2,13 +2,27 @@
 <div class="container">
   <%= form_for [current_user, @problem], html: { multipart: true } do |f| %>
     <div class="row adding-page">
-      <div class="col-sm-5 description-problem">
+      <div class="col-sm-3 description-problem">
+        <%= f.label :title %><br>
+        <hr>
+        <%= f.text_field :title, class: "form-control", placeholder: 'Title...' %>
+      </div>
+
+      <div class="col-sm-3 description-problem">
         <%= f.label :description %><br>
+        <hr>
         <%= f.text_area :description, class: "form-control", placeholder: 'Description...' %>
       </div>
 
-      <div class="col-sm-5 image-problem">
+      <div class="col-sm-3 description-problem">
+        <%= f.label :address %><br>
+        <hr>
+        <%= f.text_field :address, class: "form-control", placeholder: 'Address...' %>
+      </div>
+
+      <div class="col-sm-3 image-problem">
         <%= f.label :image %><br>
+        <hr>
         <%= f.file_field :image %><br>
       </div>
 
