@@ -10,7 +10,7 @@ class ProblemsController < ApplicationController
   def create
     @problem = current_user.problems.new problem_params
     if @problem.save
-       redirect_to user_problems_path(current_user.id)
+       redirect_to user_problem_path(current_user, @problem)
     else
       render 'new'
     end
@@ -18,11 +18,11 @@ class ProblemsController < ApplicationController
 
   def show
     @problem = Problem.find(params[:id])
-    @hash = Gmaps4rails.build_markers(@problem) do |problem, marker|
-      marker.lat problem.latitude
-      marker.lng problem.longitude
-      marker.infowindow problem.title
-    end
+      # @hash = Gmaps4rails.build_markers(@problem) do |problem, marker|
+      #   marker.lat problem.latitude
+      #   marker.lng problem.longitude
+      #   marker.infowindow problem.title
+      # end
   end
 
   def edit

@@ -1,0 +1,78 @@
+/* NAVIGATON */
+.navigation {
+  border: 1px solid lightgrey;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.navbar-brand {
+  margin-top: -22px;
+  margin-bottom: -22px;
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+
+.login {
+  margin-left: -9px;
+  color: grey;
+}
+
+.login:hover{
+  text-decoration: none;
+  color: #28A745;
+}
+
+.signup {
+  margin-left: -12px;
+  color: grey;
+}
+
+.signup:hover{
+  text-decoration: none;
+}
+
+.logout {
+  margin-left: -12px;
+  color: grey;
+}
+
+.profile {
+  margin-left: -4px;
+  color: grey;
+  margin-right: 10px;
+}
+
+.profile:hover{
+  text-decoration: none;
+}
+
+.logout:hover{
+  text-decoration: none;
+  color: red;
+}
+
+.create {
+  background-color: #28A745;
+  color: white;
+  margin-left: 10px;
+}
+
+.nav-user-actions {
+  float:right;
+}
+
+.search-create {
+  margin:5px;
+}
+
+.user-action {
+  text-align: right;
+  margin: 0 0 50px 0;
+}
+
+
+/* END NAVIGATON */
