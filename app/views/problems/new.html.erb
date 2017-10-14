@@ -1,4 +1,7 @@
 <script async defer src="http://maps.google.com/maps/api/js?key=AIzaSyDgxr_BEXzQRpEtjNbEH5w4EQdgm0GbBGM&callback=initMap"></script>
+<script type="text/javascript">
+  alert('Mac os: Чтобы выбрать 2 и более изображении нажмите и удерживайте command и выбирайте \n\nWindows: Чтобы выбрать 2 и более изображении нажмите и удерживайте ctrl и выбирайте');
+</script>
 <h1 align='center'>Create Problem</h1>
 <div class="container">
   <%= form_for [current_user, @problem], html: { multipart: true } do |f| %>
@@ -26,7 +29,7 @@
       <div class="col-sm-4 image-problem">
         <%= f.label :image %><br>
         <hr>
-        <%= f.file_field :image %><br>
+        <%= f.file_field :images, multiple: true %><br>
       </div>
 
     </div>
@@ -36,8 +39,10 @@
       <div id="current">Nothing yet...</div>
     </section>
 
-    <div class="row save-problem">
-      <%= f.submit "Save", class: "btn btn-primary" %>
+    <div class="save-problem col-sm-12">
+      <div class="text-center">
+        <%= f.submit "Save", class: "btn btn-primary" %>
+      </div>
     </div>
   <% end %>
 </div>

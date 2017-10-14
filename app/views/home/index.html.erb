@@ -4,7 +4,7 @@
     <div class="row problems">
       <div class="col-md-4 problem">
         <%= link_to "#{problem.title}", problem_path(problem.id)%><br>
-        <%= link_to image_tag "#{problem.image.url(:thumb)}", class: "image-show" if problem.image? %>
+        <%= link_to image_tag "#{problem.images.first.url(:thumb)}" %>
       </div>
     </div>
   <% end %>

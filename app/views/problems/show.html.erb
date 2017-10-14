@@ -2,8 +2,11 @@
 <h1>Problem</h1>
 <p>Title: <%= @problem.title %></p>
 <p>Description: <%= @problem.description %></p>
-<p>Images: <%= image_tag @problem.image.url(:medium), class: "image-show" if @problem.image? %></p>
+<p>
+  <% @problem.images.each do | image | %>
+    <%= image_tag image.url(:thumb)  %>
+  <% end %>
+</p>
 <section data-lat="<%= @problem.latitude %>" data-lng="<%= @problem.longitude %>">
   <div id='map_canvas'></div>
 </section>
-<span></span>

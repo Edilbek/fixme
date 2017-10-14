@@ -10,10 +10,6 @@
   margin-bottom: -10px;
 }
 
-.save-problem {
-  margin: 20px 50% 0 47%;
-}
-
 .image-problem {
   text-align: center;
   border: 1px solid lightgrey;
@@ -29,24 +25,19 @@
   margin: 0 auto;
 }
 
-.problems {
-  display: inline-block;
-  margin: 0 auto;
-}
-
-.problem {
-  width: 30%;
+.save-problem {
+  margin: 20px;
 }
 
 #map_canvas {
-    width: 980px;
+    width: 95%;
     height: 500px;
     border: 1px solid lightgrey;
     margin: 0 auto;
 }
 #current {
     padding-top: 25px;
-    margin-left: 37px;
+    margin-left: 40px;
 }
 
 .choose-place-label {

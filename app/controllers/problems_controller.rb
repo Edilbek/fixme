@@ -40,11 +40,11 @@ class ProblemsController < ApplicationController
     params.require(:problem).permit(
       :location,
       :description,
-      :image,
       :title,
       :latitude,
       :longitude,
-      :address
+      :address,
+      {images: []}
     )
   end
 end
