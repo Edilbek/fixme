@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   devise_for :admin, controllers: {
     sessions: 'admin/sessions'
   }
-  
+
   resources :problems
 
   devise_for :users
@@ -16,5 +16,6 @@ Rails.application.routes.draw do
   namespace :admin do
     root to: 'home#index'
     resources :problems
+    resources :users
   end
 end

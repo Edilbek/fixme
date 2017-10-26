@@ -4,9 +4,9 @@
   <% @user = current_user %>
   <% @user.problems.each do |problem| %>
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4 problem">
         <%= link_to "#{problem.description}", user_problem_path(@user, problem.id) %><br>
-        <%= link_to image_tag "#{problem.image.url(:thumb)}", class: "image-show" if problem.image? %>
+        <%= link_to image_tag "#{problem.images.first.url(:thumb)}" if problem.images? %>
       </div>
     </div>
   <% end %>
