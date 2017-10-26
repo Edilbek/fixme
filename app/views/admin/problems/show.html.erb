@@ -1,0 +1,20 @@
+<script async defer src="http://maps.google.com/maps/api/js?key=AIzaSyDgxr_BEXzQRpEtjNbEH5w4EQdgm0GbBGM&callback=showMap"></script>
+<%= form_for @problem do |f| %>
+  <h1>Problem</h1>
+  <p>Title: <%= @problem.title %></p>
+  <p>Description: <%= @problem.description %></p>
+  <p>Status: <%= @problem.status %></p>
+  <br>
+  <% @problem.images.each do | image | %>
+    <%= image_tag image.url(:thumb)  %>
+  <% end %>
+  </p>
+  <section data-lat="<%= @problem.latitude %>" data-lng="<%= @problem.longitude %>">
+    <div id='map_canvas'></div>
+  </section><br>
+  <div class="save-problem col-sm-12">
+    <div class="text-center">
+      <%= f.submit "Save", class: "btn btn-primary" %>
+    </div>
+  </div>
+<% end %>

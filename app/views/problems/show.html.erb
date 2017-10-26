@@ -2,6 +2,7 @@
 <h1>Problem</h1>
 <p>Title: <%= @problem.title %></p>
 <p>Description: <%= @problem.description %></p>
+<p>Status: <%= @problem.status %></p>
 <p>
   <% @problem.images.each do | image | %>
     <%= image_tag image.url(:thumb)  %>
