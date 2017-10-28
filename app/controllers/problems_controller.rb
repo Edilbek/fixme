@@ -1,10 +1,12 @@
 class ProblemsController < ApplicationController
   def index
     @problems = current_user.problems
-    @all_problems = Problem.all.count
-    @resolved_problems = Problem.where(status: 'resolved').count
-    @unresolved_problems = Problem.where(status: 'unresolved').count
-    @in_progress_problems = Problem.where(status: 'in_progress').count
+    counted_problems
+  end
+
+  def search
+    @search = Problem.ransack(params[:q])
+    @search_problems = @search.result
   end
 
   def new
@@ -22,6 +24,7 @@ class ProblemsController < ApplicationController
 
   def show
     @problem = Problem.find(params[:id])
+    counted_problems
   end
 
   def edit
@@ -53,5 +56,12 @@ class ProblemsController < ApplicationController
       :address,
       {images: []}
     )
+  end
+
+  def counted_problems
+    @all_problems = Problem.all.count
+    @resolved_problems = Problem.where(status: 'resolved').count
+    @unresolved_problems = Problem.where(status: 'unresolved').count
+    @in_progress_problems = Problem.where(status: 'in_progress').count
   end
 end

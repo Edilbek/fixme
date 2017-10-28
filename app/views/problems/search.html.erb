@@ -1,0 +1,10 @@
+<div class="container">
+  <% @search_problems.each do |prob| %>
+    <div class="row">
+      <div class="col-md-4 main-problem">
+        <%= link_to "#{prob.title}", problem_path(prob.id) %><br>
+        <%= link_to image_tag "#{prob.images.first.url(:thumb)}" if prob.images? %>
+      </div>
+    </div>
+  <% end %>
+</div>

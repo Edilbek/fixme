@@ -4,7 +4,11 @@ Rails.application.routes.draw do
     sessions: 'admin/sessions'
   }
 
-  resources :problems
+  resources :problems do
+    collection do
+      match 'search' => 'problems#search', via: [:get, :post], as: :search
+    end
+  end
 
   devise_for :users
   root to: "home#index"

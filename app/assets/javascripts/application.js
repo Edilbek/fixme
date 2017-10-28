@@ -14,5 +14,4 @@
 //= require jquery_ujs
 //= require popper
 //= require bootstrap-sprockets
-//= require underscore
 //= require maps
