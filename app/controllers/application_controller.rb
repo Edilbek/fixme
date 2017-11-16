@@ -1,10 +1,9 @@
 class ApplicationController < ActionController::Base
+  before_action :authenticate_user!, except: [:index, :search]
   before_action :global_search
   before_action :count_of_problems
   protect_from_forgery with: :exception
   layout :layout
-
-
 
   def global_search
     @search = Problem.ransack(params[:q])

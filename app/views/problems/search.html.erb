@@ -1,10 +1,15 @@
+<h4 align='center'>Search results</h4>
 <div class="container">
-  <% @search_problems.each do |prob| %>
-    <div class="row">
-      <div class="col-md-4 main-problem">
-        <%= link_to "#{prob.title}", problem_path(prob.id) %><br>
-        <%= link_to image_tag "#{prob.images.first.url(:thumb)}" if prob.images? %>
+  <% if @search_problems.empty? %>
+    <h2>asd</h2>
+  <% else %>
+    <% @search_problems.each do |prob| %>
+      <div class="row">
+        <div class="col-md-4 main-problem">
+          <%= link_to "#{prob.title}", problem_path(prob.id) %><br>
+          <%= link_to image_tag "#{prob.images.first.url(:thumb)}" if prob.images? %>
+        </div>
       </div>
-    </div>
+    <% end %>
   <% end %>
 </div>
