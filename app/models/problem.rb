@@ -8,6 +8,7 @@ class Problem < ApplicationRecord
   mount_uploaders :images, ImageUploader
   serialize :images, JSON # If you use SQLite, add this line.
 
+  has_many :comments, dependent: :destroy
   belongs_to :user, optional: true
 
 end

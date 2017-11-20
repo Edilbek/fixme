@@ -1,0 +1,14 @@
+<br>
+<h3>This problem has <%= pluralize(@comments.count, 'Comment') %></h3>
+<hr>
+<% @comments.each do |comment| %>
+  <p><b><%= comment.user.email %></b></p>
+  <%= comment.content %>
+  <% if current_user == comment.user %>
+    <%= link_to 'Delete', [comment.problem, comment], method: :delete %>
+    <%= link_to 'Edit', edit_problem_comment_path(comment.problem, comment)%>
+    <hr>
+  <% end %>
+<% end %>
+
+<%= render 'comments/form' %>

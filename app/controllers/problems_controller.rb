@@ -23,6 +23,7 @@ class ProblemsController < ApplicationController
 
   def show
     @problem = Problem.find(params[:id])
+    @comments = Comment.where(problem_id: @problem).order('created_at DESC')
   end
 
   def edit
