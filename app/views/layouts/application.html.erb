@@ -10,10 +10,14 @@
   </head>
 
   <body>
-    <%= render 'layouts/front/header' %>
+    <div class="header">
+      <%= render 'layouts/front/header' %>
+    </div>
+
     <div class="yield ">
       <%= yield %>
     </div>
+
     <div class="count_problems">
       <%= render 'layouts/front/footer' %>
     </div>

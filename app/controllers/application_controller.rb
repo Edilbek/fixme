@@ -12,10 +12,10 @@ class ApplicationController < ActionController::Base
 
   def count_of_problems
     @all_problems = Problem.all.count
-    @resolved_problems1 = Problem.where(status: 'resolved')
+    @resolved_problems1 = Problem.where(status: 'resolved').page(params[:page]).per(5)
     @resolved_problems = Problem.where(status: 'resolved').count
     @unresolved_problems = Problem.where(status: 'unresolved').count
-    @in_progress_problems1 = Problem.where(status: 'in_progress')
+    @in_progress_problems1 = Problem.where(status: 'in_progress').page(params[:page]).per(5)
     @in_progress_problems = Problem.where(status: 'in_progress').count
   end
 
