@@ -3,6 +3,10 @@ class ProblemsController < ApplicationController
     @problems = current_user.problems
   end
 
+  def all_problems
+    @problems_for_moderator = Problem.all
+  end
+
   def search
     @search = Problem.ransack(params[:q])
     @search_problems = @search.result

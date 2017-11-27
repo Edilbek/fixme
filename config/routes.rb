@@ -12,6 +12,8 @@ Rails.application.routes.draw do
     resources :comments
   end
 
+  get 'all_problems', to: :all_problems, controller: 'problems'
+
   devise_for :users
   root to: "home#index"
 

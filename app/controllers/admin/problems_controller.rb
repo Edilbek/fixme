@@ -1,4 +1,4 @@
-class Admin::ProblemsController < ApplicationController
+class Admin::ProblemsController < ApplicationAdminController
   def index
 
   end
@@ -8,7 +8,7 @@ class Admin::ProblemsController < ApplicationController
   end
 
   def update
-    
+
   end
 
   def show

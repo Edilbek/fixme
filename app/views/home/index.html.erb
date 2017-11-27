@@ -1,11 +1,25 @@
-<h2 align='center'>All Problems</h2>
+<h2 align='center'>In Progress</h2>
 <div class="container main-problems">
-  <% @problems.each do |problem| %>
-    <div class="row main-problem">
+  <% @in_progress_problems1.each do |inprogress_problem| %>
+    <div class="row main-inprogress_problem">
       <div class="col-md-4">
-        <%= link_to "#{problem.title}", problem_path(problem.id)%><br>
-        <%= link_to image_tag "#{problem.images.first.url(:thumb)}" if problem.images? %>
+        <%= link_to "#{inprogress_problem.title}", problem_path(inprogress_problem.id)%><br>
+        <%= link_to image_tag "#{inprogress_problem.images.first.url(:thumb)}" if inprogress_problem.images? %>
       </div>
     </div>
   <% end %>
+  <%= paginate @in_progress_problems1 %>
+</div>
+
+<h2 align='center'>Resolved</h2>
+<div class="container main-problems">
+  <% @resolved_problems1.each do |resolved_problem| %>
+    <div class="row main-resolved_problem">
+      <div class="col-md-4">
+        <%= link_to "#{resolved_problem.title}", problem_path(resolved_problem.id)%><br>
+        <%= link_to image_tag "#{resolved_problem.images.first.url(:thumb)}" if resolved_problem.images? %>
+      </div>
+    </div>
+  <% end %>
+  <%= paginate @resolved_problems1 %>
 </div>
