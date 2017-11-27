@@ -8,10 +8,25 @@ class Admin::UsersController < ApplicationAdminController
     @user = User.find(params[:id])
   end
 
+  def edit
+    @user = User.find(params[:id])
+  end
+
+  def update
+
+  end
+
   def destroy
     @user = User.find(params[:id])
     @user.destroy
     redirect_to admin_users_path
   end
 
+  private
+
+  def user_params
+    params.require(:user).permit(
+      :role
+    )
+  end
 end

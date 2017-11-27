@@ -1,2 +1,11 @@
-Email: <%= @user.email %><br>
-Role: <%= @user.role %>
+<!-- <h1 align='center'>Edit User</h1>
+<%= form_for @user, html: { multipart: true } do |f| %>
+  Email: <%= @user.email %><br>
+  Role: <%= f.select :role, User.roles.map { |key, value| [key.humanize, key] } %><br>
+
+<% end %> -->
+<h1><%= @user.email %></h1>
+<%= @user.role %>
+<% @user.problems.each do |prob| %>
+    Problems of this user: <%= link_to "#{prob.title}", problem_path(prob.id) %>
+<% end %>
