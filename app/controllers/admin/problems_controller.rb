@@ -8,7 +8,12 @@ class Admin::ProblemsController < ApplicationAdminController
   end
 
   def update
-
+    @problem = Problem.find(params[:id])
+    if @problem.update(problem_params)
+      redirect_to problem_path(@problem)
+    else
+      render 'edit'
+    end
   end
 
   def show

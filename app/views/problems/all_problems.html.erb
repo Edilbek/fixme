@@ -3,7 +3,7 @@
   <% @problems_for_moderator.each do |problem| %>
     <div class="row main-problem">
       <div class="col-md-4">
-        <%= link_to "#{problem.title}", problem_path(problem.id)%><br>
+        <%= link_to "#{problem.title}", edit_problem_path(problem.id)%><br>
         <%= link_to image_tag "#{problem.images.first.url(:thumb)}" if problem.images? %>
       </div>
     </div>
