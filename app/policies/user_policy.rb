@@ -13,4 +13,8 @@ class UserPolicy < ApplicationPolicy
   def show?
     @current_user.moderator? || @current_user == @user
   end
+
+  def edit?
+    @current_user == @user
+  end
 end
