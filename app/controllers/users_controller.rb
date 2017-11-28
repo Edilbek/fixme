@@ -1,6 +1,8 @@
 class UsersController < ApplicationController
+  before_action :authenticate_user!
   def index
     @users = User.all
+    authorize @users
   end
 
   def edit
@@ -11,9 +13,15 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
     if @user.update(user_params)
       redirect_to admin_user_path(@user)
+      flash[:success] = 'User was successfully edited'
     else
       render 'edit'
     end
+  end
+
+  def show
+    @user = User.find(params[:id])
+    authorize @user
   end
 
   private

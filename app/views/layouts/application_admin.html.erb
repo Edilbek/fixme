@@ -2,12 +2,16 @@
 <html>
    <head>
      <title>fixme.kg - Панель администратора</title>
+     <%= csrf_meta_tags %>
+     
      <%= stylesheet_link_tag "application_admin", media: 'all' %>
      <%= javascript_include_tag "application_admin" %>
-     <%= csrf_meta_tags %>
    </head>
    <body>
      <%= render 'layouts/admin/header' %>
+     <div class="flash_error">
+       <%= render 'layouts/admin_error_messages' %>
+     </div>
      <%= yield %>
    </body>
 </html>

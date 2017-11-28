@@ -18,7 +18,7 @@
       <div class="user-action">
         <% if user_signed_in? %>
           <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-          <%= link_to 'Profile', edit_user_registration_path, class: "profile" %>
+          <%= link_to 'Profile', user_path(current_user), class: "profile" %>
           <% if current_user.role == 'user' %>
             <%= link_to 'My Problems', user_problems_path(current_user), class: "profile" %>
           <% end %>

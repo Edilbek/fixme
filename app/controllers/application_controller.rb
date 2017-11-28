@@ -1,4 +1,5 @@
 class ApplicationController < ActionController::Base
+  
   before_action :authenticate_user!, except: [:index, :search, :show]
   before_action :global_search
   before_action :count_of_problems
@@ -6,6 +7,14 @@ class ApplicationController < ActionController::Base
   layout :layout
 
   include Pundit
+  rescue_from Pundit::NotAuthorizedError, with: :user_not_authorized
+
+  private
+
+  def user_not_authorized
+    flash[:alert] = 'Access denied.'
+    redirect_to (request.referer || root_path)
+  end
 
   def global_search
     @search = Problem.ransack(params[:q])

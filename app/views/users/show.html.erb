@@ -1,0 +1,8 @@
+<%= @user.email %>
+<%= @user.role %>
+<% @user.problems.each do |p| %>
+  <%= p.title %><br>
+<% end %>
+<% if @user == current_user %>
+  <%= link_to "Edit", edit_user_registration_path %>
+<% end %>

@@ -37,7 +37,8 @@ class ProblemsController < ApplicationController
   def update
     @problem = Problem.find(params[:id])
     if @problem.update(problem_params)
-      redirect_to problem_path(@problem)
+      flash[:success] = 'Problem was successfully edited'
+      redirect_to admin_problem_path(@problem)
     else
       render 'edit'
     end

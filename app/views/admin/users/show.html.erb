@@ -1,9 +1,14 @@
-<!-- <h1 align='center'>Edit User</h1>
-<%= form_for @user, html: { multipart: true } do |f| %>
-  Email: <%= @user.email %><br>
-  Role: <%= f.select :role, User.roles.map { |key, value| [key.humanize, key] } %><br>
+<div class="row error_flashes">
+  <div class="col-md-12">
+    <% flash.each do |name, msg| %>
+      <div class='alert alert-<%= "#{name}" %>'>
+        <button type="button" class="close" data-dismiss="alert"> &times; </button>
+        <%= content_tag :div, msg, :id => "flash_#{name}" if msg.is_a?(String)%>
+      </div>
+    <% end %>
+  </div>
+</div>
 
-<% end %> -->
 <h1><%= @user.email %></h1>
 <%= @user.role %>
 <% @user.problems.each do |prob| %>
