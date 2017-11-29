@@ -1,4 +1,4 @@
-<script async defer src="https://maps.google.com/maps/api/js?key=AIzaSyDgxr_BEXzQRpEtjNbEH5w4EQdgm0GbBGM&callback=showMap"></script>
+<%= render 'shared/google_map' %>
 <%= form_for @problem do |f| %>
   <h1>Problem</h1>
   <p>Title: <%= @problem.title %></p>
