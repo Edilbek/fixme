@@ -1,14 +1,14 @@
 class Admin::ProblemsController < ApplicationAdminController
+  before_action :find_problem, only: [:show, :edit, :update]
+
   def index
 
   end
 
   def edit
-    @problem = Problem.find(params[:id])
   end
 
   def update
-    @problem = Problem.find(params[:id])
     if @problem.update(problem_params)
       redirect_to problem_path(@problem)
     else
@@ -17,10 +17,13 @@ class Admin::ProblemsController < ApplicationAdminController
   end
 
   def show
-    @problem = Problem.find(params[:id])
   end
 
   private
+
+  def find_problem
+    @problem = Problem.find(params[:id])
+  end
 
   def problem_params
     params.require(:problem).permit(

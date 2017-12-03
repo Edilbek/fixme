@@ -3,7 +3,7 @@
   Email: <%= @user.email %><br>
   Role: <%= f.select :role, User.roles.map { |key, value| [key.humanize, key] } %><br>
   <% @user.problems.each do |prob| %>
-      Problems of this user: <%= link_to "#{prob.title}", problem_path(prob.id) %>
+      Problems of this user: <%= link_to "#{prob.title}", problem_path(prob.id) %><br>
   <% end %><br>
   <%= f.submit 'Edit' %>
 <% end %>

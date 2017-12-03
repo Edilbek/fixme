@@ -1,4 +1,5 @@
 class ProblemsController < ApplicationController
+  before_action :find_problem, only: [:show, :edit, :update]
   def index
     @problems = current_user.problems
   end
@@ -26,16 +27,14 @@ class ProblemsController < ApplicationController
   end
 
   def show
-    @problem = Problem.find(params[:id])
     @comments = Comment.where(problem_id: @problem).order('created_at DESC')
   end
 
   def edit
-    @problem = Problem.find(params[:id])
+
   end
 
   def update
-    @problem = Problem.find(params[:id])
     if @problem.update(problem_params)
       flash[:success] = 'Problem was successfully edited'
       redirect_to admin_problem_path(@problem)
@@ -48,6 +47,10 @@ class ProblemsController < ApplicationController
   end
 
   private
+
+  def find_problem
+    @problem = Problem.find(params[:id])
+  end
 
   def problem_params
     params.require(:problem).permit(
