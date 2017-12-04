@@ -1,14 +1,14 @@
-<br>
-<h3>This problem has <%= pluralize(@comments.count, 'Comment') %></h3>
-<hr>
-<% @comments.each do |comment| %>
-  <p><b><%= comment.user.email %></b></p>
-  <%= comment.content %>
-  <% if current_user == comment.user %>
-    <%= link_to 'Delete', [comment.problem, comment], method: :delete %>
-    <%= link_to 'Edit', edit_problem_comment_path(comment.problem, comment)%>
-    <hr>
+<div class="comments">
+  <% @comments.each do |comment| %>
+    <div class="show_comment">
+      “<%= comment.content %>” <br>
+      <span><b><%= comment.user.email %></b></span>,   <span class="datetime"><%= comment.created_at.strftime("%Y-%m-%d") %></span> <br>
+      <% if current_user == comment.user %>
+        <%= link_to 'Delete', [comment.problem, comment], method: :delete %>
+        <%= link_to 'Edit', edit_problem_comment_path(comment.problem, comment)%>
+      <% end %>
+    </div>
   <% end %>
-<% end %>
 
-<%= render 'comments/form' %>
+  <%= render 'comments/form' %>
+</div>

@@ -1,4 +1,6 @@
-<%= form_for([@problem, @problem.comments.build ]) do |f| %>
-  <%= f.text_area :content %><br>
-  <%= f.submit %>
-<% end %>
+<div class="create_comment">
+  <%= form_for([@problem, @problem.comments.build ]) do |f| %>
+    <%= f.text_area :content, class: "form-control" %><br>
+    <%= f.submit class: "btn btn-primary create_comment_btn" %>
+  <% end %>
+</div>

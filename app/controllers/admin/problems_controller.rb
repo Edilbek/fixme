@@ -10,7 +10,7 @@ class Admin::ProblemsController < ApplicationAdminController
 
   def update
     if @problem.update(problem_params)
-      redirect_to problem_path(@problem)
+      redirect_to admin_problem_path(@problem)
     else
       render 'edit'
     end
