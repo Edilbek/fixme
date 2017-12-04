@@ -1,8 +1,9 @@
-<%= @user.email %>
-<%= @user.role %>
-<% @user.problems.each do |p| %>
-  <%= p.title %><br>
-<% end %>
-<% if @user == current_user %>
-  <%= link_to "Редактировать", edit_user_registration_path %>
-<% end %>
+<div class="user_profile">
+  <h3 align='center'><%= @user.email %><br></h3>
+  <span><b class="role">Роль:</b></span><span class="user_role"><%= @user.role %><br></span>
+  <div class="edit">
+    <% if @user == current_user %>
+      <%= link_to "Редактировать", edit_user_registration_path %>
+    <% end %>
+  </div>
+</div>
