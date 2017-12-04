@@ -11,4 +11,9 @@ class Problem < ApplicationRecord
   has_many :comments, dependent: :destroy
   belongs_to :user, optional: true
 
+  validates :title, presence: true
+  validates :description, presence: true
+  validates :images, presence: true
+  validates :latitude, presence: true
+  validates :longitude, presence: true
 end

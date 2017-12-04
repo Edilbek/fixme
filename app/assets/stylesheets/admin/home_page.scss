@@ -4,3 +4,53 @@
 .navbar-toggler-icon{
   color: white;
 }
+
+/*Adding problem page*/
+
+.adding-page {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.adding-page label {
+  font-size: 30px;
+  margin-bottom: -10px;
+}
+
+.image-problem {
+  text-align: center;
+  border: 1px solid lightgrey;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  // margin: 0 20px 0 20px;
+}
+
+.description-problem {
+  text-align: center;
+  border: 1px solid lightgrey;
+  padding-bottom: 10px;
+  margin: 0 auto;
+}
+
+.save-problem {
+  margin: 20px;
+}
+
+#map_canvas {
+    width: 95%;
+    height: 500px;
+    border: 1px solid lightgrey;
+    margin: 0 auto;
+}
+#current {
+    padding-top: 25px;
+    margin-left: 40px;
+}
+
+.choose-place-label {
+  margin: 15px 0 15px 0;
+}
+
+.admin_header_users{
+  margin-left: 30px;
+}

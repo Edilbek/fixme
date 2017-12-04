@@ -1,4 +1,4 @@
-<h2 align = 'center'>All Problems</h2>
+<h2 align = 'center'>Все проблемы</h2>
 <% @problems.each do |problem| %>
   <%= link_to "#{problem.title}", edit_admin_problem_path(problem.id) %><br>
 <% end %>
