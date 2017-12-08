@@ -2,7 +2,7 @@ class Admin::UsersController < ApplicationAdminController
   before_action :find_user, only: [:show, :edit, :update]
 
   def index
-    @users = User.order("id ASC").all
+    @users = User.order("id DESC").all
   end
 
   def show

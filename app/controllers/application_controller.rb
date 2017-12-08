@@ -1,8 +1,10 @@
 class ApplicationController < ActionController::Base
-  
+
   before_action :authenticate_user!, except: [:index, :search, :show]
   before_action :global_search
   before_action :count_of_problems
+  before_action :all_in_progress_problems
+  before_action :all_resolved_problems
   protect_from_forgery with: :exception
   layout :layout
 
@@ -23,12 +25,21 @@ class ApplicationController < ActionController::Base
 
   def count_of_problems
     @all_problems = Problem.all.count
-    @resolved_problems1 = Problem.where(status: 'resolved').page(params[:page]).per(5)
+    @resolved_problems1 = Problem.where(status: 'resolved')
     @resolved_problems = Problem.where(status: 'resolved').count
     @unresolved_problems = Problem.where(status: 'unresolved').count
-    @in_progress_problems1 = Problem.where(status: 'in_progress').page(params[:page]).per(5)
+    @in_progress_problems1 = Problem.where(status: 'in_progress')
     @in_progress_problems = Problem.where(status: 'in_progress').count
   end
+
+  def all_in_progress_problems
+    @all_in_progress_problems = Problem.where(status: 'in_progress')
+  end
+
+  def all_resolved_problems
+    @all_resolved_problems = Problem.where(status: 'resolved')
+  end
+
 
   def layout
     if self.class.parent == Admin

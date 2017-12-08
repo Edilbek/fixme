@@ -58,3 +58,17 @@ body {
 .flash_error{
   margin-top: 10px;
 }
+
+@media (min-width: 992px) {
+  body {
+    // padding-top: 56px;
+  }
+}
+
+.problem_show:hover {
+  border: 1px solid white;
+}
+
+.pagination {
+  margin-bottom: 30px;
+}

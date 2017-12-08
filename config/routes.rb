@@ -13,6 +13,8 @@ Rails.application.routes.draw do
   end
 
   get 'all_problems', to: :all_problems, controller: 'problems'
+  get 'all_in_progress_problems', to: :all_in_progress_problems, controller: 'problems'
+  get 'all_resolved_problems', to: :all_resolved_problems, controller: 'problems'
 
   devise_for :users
   root to: "home#index"
