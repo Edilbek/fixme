@@ -1,0 +1,32 @@
+.user_profile {
+  text-align: center;
+}
+
+.role {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.user_role  {
+  font-size: 19px;
+}
+
+.edit {
+  margin-top: 10px;
+}
+
+.users_index {
+  border: 2px solid lightgrey;
+  text-align: center;
+  width: 50%;
+  border-radius: 10px;
+  margin: 10px auto 10px auto;
+}
+
+.users_index:hover {
+  border: 2px solid #28A745;
+}
+
+.user_id {
+  text-align: left;
+}

@@ -1,0 +1,43 @@
+<%= render 'shared/show_google_map'%>
+<%= render 'errors' %>
+<h1 align='center'>Редактировать проблему</h1>
+<div class="container">
+  <%= form_for [current_user, @problem], html: { multipart: true } do |f| %>
+    <%= f.hidden_field :latitude, id: "problem-lat" %>
+    <%= f.hidden_field :longitude, id: "problem-lng" %>
+    <div class="row adding-page">
+      <div class="col-sm-4 description-problem">
+        <%= f.label 'Название'%><br>
+        <hr>
+        <%= f.text_field :title, class: "form-control", placeholder: 'Title...' %>
+      </div>
+
+      <div class="col-sm-4 description-problem">
+        <%= f.label 'Описание' %><br>
+        <hr>
+        <%= f.text_area :description, class: "form-control", placeholder: 'Description...' %>
+      </div>
+
+      <div class="col-sm-4 image-problem">
+        <%= f.label 'Изображения' %><br>
+        <hr>
+        <% @problem.images.each do | image | %>
+          <%= image_tag image.url(:very_thumb)  %>
+        <% end %><br>
+        <!-- <%= f.file_field :images, multiple: true %><br> -->
+      </div>
+
+    </div>
+    <section data-lat="<%= @problem.latitude %>" data-lng="<%= @problem.longitude %>">
+      <div id='map_canvas'></div>
+    </section>
+
+    <%= f.select :status, Problem.statuses.map { |key, value| [key.humanize, key] } %>
+
+    <div class="save-problem col-sm-12">
+      <div class="text-center">
+        <%= f.submit "Save", class: "btn btn-primary" %>
+      </div>
+    </div>
+  <% end %>
+</div>

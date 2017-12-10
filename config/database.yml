@@ -1,0 +1,24 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  # For details on connection pooling, see rails configuration guide
+  # http://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: 5
+
+development:
+  <<: *default
+  host: localhost
+  username: edil.talantbekov
+  database: fixme_development
+
+test:
+  <<: *default
+  host: localhost
+  username: edil.talantbekov
+  database: fixme_test
+
+production:
+  <<: *default
+  database: fixme_production
+  username: deploy
+  password: <%= ENV['APP_DATABASE_PASSWORD'] %>

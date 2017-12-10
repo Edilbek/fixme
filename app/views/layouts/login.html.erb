@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <title>fixme.kg - Вход в админ панель</title>
+     <%= stylesheet_link_tag "application_admin", media: 'all' %>
+     <%= javascript_include_tag "application_admin" %>
+     <%= csrf_meta_tags %>
+   </head>
+   <body>
+     <%= render 'layouts/admin/header' %>
+     <%= yield %>
+   </body>
+</html>

@@ -1,0 +1,32 @@
+<!-- <h2 align = 'center'>All Users</h2>
+<% @users.each do |user| %>
+  <%= link_to  "#{user.id}:", edit_admin_user_path(user.id) %>
+  <%= link_to  "#{user.email}", edit_admin_user_path(user.id) %>
+  <%= link_to 'Destroy',  admin_user_path(user.id), data: { confirm: 'Are you sure?' }, method: :delete %><br>
+<% end %> -->
+
+<h1 align='center'>Все Пользователи</h1>
+<table class="table table-bordered table-hover">
+  <thead class="thead-table">
+    <tr class="main_orders_table">
+      <th>#</th>
+      <th>Email</th>
+      <th>Кол-во созданных проблем</th>
+      <th>Действие</th>
+    </tr>
+  </thead>
+
+  <tbody class="table-striped">
+    <% @users.each do |user| %>
+      <tr class="main_orders_table">
+        <td><%= user.id %></td>
+        <td><%= user.email %></td>
+        <td><%= user.problems.count %></td>
+        <td>
+          <%= link_to 'Показать', edit_admin_user_path(user.id), class: "show_order" %><br>
+          <%= link_to 'Удалить',  admin_user_path(user.id), data: { confirm: 'Are you sure?' }, method: :delete %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
