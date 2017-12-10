@@ -7,6 +7,7 @@
   </div>
   <div class="row all_in_progress_problems">
     <% @all_in_progress_problems.each do |inprogress_problem| %>
+  <div class="row">
       <%= link_to problem_path(inprogress_problem.id) do %>
         <div class="col-lg-3 col-md-4 col-sm-6 problem_show">
           <div class="card h-100">
@@ -35,7 +36,11 @@
     Исправлены
   </h2>
   <div class="row">
+<<<<<<< HEAD
     <% @all_resolved_problems.each do |resolved_problem| %>
+=======
+    <% @resolved_problems1.each do |resolved_problem| %>
+>>>>>>> f64b366f0484c8de210a49806b51e1497dca3a5b
       <%= link_to problem_path(resolved_problem.id) do %>
         <div class="col-lg-3 col-md-4 col-sm-6 problem_show">
           <div class="card h-100">

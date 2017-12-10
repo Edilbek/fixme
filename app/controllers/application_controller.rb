@@ -32,6 +32,7 @@ class ApplicationController < ActionController::Base
   end
 
   def all_in_progress_problems
+<<<<<<< HEAD
     @all_in_progress_problems = Problem.where(status: 'in_progress').order(created_at: :desc).page(params[:page]).per(4)
     @all_in_progress_problems1 = Problem.where(status: 'in_progress').all
   end
@@ -41,6 +42,16 @@ class ApplicationController < ActionController::Base
     @all_resolved_problems1 = Problem.where(status: 'resolved').all
   end
 
+=======
+    @all_in_progress_problems = Problem.where(status: 'in_progress')
+  end
+
+  def all_resolved_problems
+    @all_resolved_problems = Problem.where(status: 'resolved')
+  end
+
+
+>>>>>>> f64b366f0484c8de210a49806b51e1497dca3a5b
   def layout
     if self.class.parent == Admin
       'application_admin'
