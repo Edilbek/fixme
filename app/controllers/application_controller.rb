@@ -24,21 +24,21 @@ class ApplicationController < ActionController::Base
 
   def count_of_problems
     @all_problems = Problem.all.count
-    @resolved_problems1 = Problem.where(status: 'resolved')
-    @resolved_problems = Problem.where(status: 'resolved').count
-    @unresolved_problems = Problem.where(status: 'unresolved').count
-    @in_progress_problems1 = Problem.where(status: 'in_progress')
-    @in_progress_problems = Problem.where(status: 'in_progress').count
+    @resolved_problems1 = Problem.resolved
+    @resolved_problems = Problem.resolved.count
+    @unresolved_problems = Problem.unresolved.count
+    @in_progress_problems1 = Problem.in_progress
+    @in_progress_problems = Problem.in_progress.count
   end
 
   def all_in_progress_problems
-    @all_in_progress_problems = Problem.where(status: 'in_progress').order(created_at: :desc).page(params[:page]).per(4)
-    @all_in_progress_problems1 = Problem.where(status: 'in_progress').all
+    @all_in_progress_problems = Problem.in_progress.order(created_at: :desc).page(params[:page]).per(4)
+    @all_in_progress_problems1 = Problem.in_progress.all
   end
 
   def all_resolved_problems
-    @all_resolved_problems = Problem.where(status: 'resolved').order(created_at: :desc).page(params[:page]).per(4)
-    @all_resolved_problems1 = Problem.where(status: 'resolved').all
+    @all_resolved_problems = Problem.resolved.order(created_at: :desc).page(params[:page]).per(4)
+    @all_resolved_problems1 = Problem.resolved.all
   end
 
   def layout

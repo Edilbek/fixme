@@ -35,7 +35,7 @@
     Исправлены
   </h2>
   <div class="row">
-    <% @resolved_problems1.each do |resolved_problem| %>
+    <% @all_resolved_problems.each do |resolved_problem| %>
       <%= link_to problem_path(resolved_problem.id) do %>
         <div class="col-lg-3 col-md-4 col-sm-6 problem_show">
           <div class="card h-100">
