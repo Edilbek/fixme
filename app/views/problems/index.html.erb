@@ -1,13 +1,30 @@
 <h3 align='center'><%=current_user.email %></h3>
 <br>
+
 <div class="container">
-  <% @user = current_user %>
-  <% @user.problems.each do |problem| %>
-    <div class="row">
-      <div class="col-md-4 problem">
-        <%= link_to "#{problem.description}", user_problem_path(@user, problem.id) %><br>
-        <%= link_to image_tag "#{problem.images.first.url(:thumb)}" if problem.images? %>
-      </div>
-    </div>
-  <% end %>
+  <h2 class="my-4">
+    Мои Проблемы
+  </h2>
+  <div class="row">
+    <% @user = current_user %>
+    <% @user.problems.each do |problem| %>
+      <%= link_to problem_path(problem.id) do %>
+        <div class="col-lg-3 col-md-4 col-sm-6 problem_show">
+          <div class="card h-100">
+            <div class="card-img-top">
+              <%= link_to image_tag "#{problem.images.first.url(:thumb)}", class: 'img-fluid' if problem.images? %>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">
+                <%= link_to "#{problem.title}", problem_path(problem.id)%>
+              </h4>
+              <div class="card-text">
+                <%= link_to truncate("#{problem.description}", length: 150), problem_path(problem.id)%>
+              </div>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
 </div>

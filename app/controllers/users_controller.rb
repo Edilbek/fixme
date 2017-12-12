@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
   before_action :authenticate_user!
-  before_action :find_user, only: [:show, :edit, :update]
+  before_action :find_user, only: [:show, :edit, :update, :destroy]
+
 
   def index
     @users = User.order("id ASC").all
@@ -22,6 +23,12 @@ class UsersController < ApplicationController
 
   def show
     authorize @user
+  end
+
+  def destroy
+    @user.destroy
+    flash[:info] = 'User deleted'
+    redirect_to admin_users_path
   end
 
   private

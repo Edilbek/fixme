@@ -1,10 +1,10 @@
 <%= render 'shared/show_google_map'%>
   <%= form_for @problem do |f| %>
     <div class="admin_problem_show">
-      <h1>Problem #<%= @problem.id %></h1>
-      <p>Title: <%= @problem.title %></p>
-      <p>Description: <%= @problem.description %></p>
-      <p>Status: <%= @problem.status %></p>
+      <h1>Проблема #<%= @problem.id %></h1>
+      <h3>Название: <%= @problem.title %></h3>
+      <p><b style="font-size: 20px">Описание:</b> <%= @problem.description %></p>
+      <p><b style="font-size: 20px">Статус:</b> <%= @problem.status %></p>
       <br>
       <% @problem.images.each do | image | %>
         <%= image_tag image.url(:thumb)  %>
@@ -16,7 +16,7 @@
     </section><br>
     <div class="save-problem col-sm-12">
       <div class="text-center">
-        <%= f.submit "Save", class: "btn btn-primary" %>
+        <%= f.submit "Сохранить", class: "btn btn-primary" %>
       </div>
     </div>
   <% end %>
