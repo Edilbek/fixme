@@ -38,6 +38,7 @@ class ProblemsController < ApplicationController
     if @problem.update(problem_params)
       flash[:success] = 'Problem was successfully edited'
       redirect_to problem_path(@problem)
+      ProblemMailer.state_changed(@problem).deliver_now
     else
       render 'edit'
     end

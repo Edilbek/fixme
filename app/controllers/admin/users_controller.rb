@@ -5,10 +5,6 @@ class Admin::UsersController < ApplicationAdminController
     @users = User.order("id DESC").all
   end
 
-  def new
-    @user = User.new
-  end
-
   def show
   end
 
