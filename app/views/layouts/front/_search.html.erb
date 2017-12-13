@@ -1,0 +1,5 @@
+<%= search_form_for @search, url: search_problems_path, html: { method: :post } do |f| %>
+  <div class="field">
+    <%= f.search_field :title_or_description_cont, placeholder: 'Что-то ищете?...', class: "form-control" %>
+  </div>
+<% end %>

@@ -1,0 +1,26 @@
+<div class="container">
+  <h2 class="my-4">
+    В Процессе
+  </h2>
+  <div class="row">
+    <% @all_in_progress_problems1.each do |inprogress_problem| %>
+      <%= link_to problem_path(inprogress_problem.id) do %>
+        <div class="col-lg-3 col-md-4 col-sm-6 problem_show">
+          <div class="card h-100">
+            <div class="card-img-top">
+              <%= link_to image_tag "#{inprogress_problem.images.first.url(:thumb)}", class: 'img-fluid' if inprogress_problem.images? %>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">
+                <%= link_to "#{inprogress_problem.title}", problem_path(inprogress_problem.id)%>
+              </h4>
+              <div class="card-text">
+                <%= link_to truncate("#{inprogress_problem.description}", length: 100), problem_path(inprogress_problem.id)%>
+              </div>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+<h1 align='center'>Все Проблемы</h1>
+<table class="table table-bordered table-hover">
+  <thead class="thead-table">
+    <tr class="main_orders_table">
+      <th>#</th>
+      <th>Название</th>
+      <th>Время создания</th>
+      <th>Статус</th>
+      <th>Действие</th>
+    </tr>
+  </thead>
+
+  <tbody class="table-striped">
+    <% @problems.each do |problem| %>
+      <tr class="main_orders_table">
+        <td><%= problem.id %></td>
+        <td><%= problem.title %></td>
+        <td><%= problem.created_at.strftime("%b %e, %H:%M") %></td>
+        <td><%= problem.status %></td>
+        <td><%= link_to 'Показать', edit_admin_problem_path(problem), class: "show_order" %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
