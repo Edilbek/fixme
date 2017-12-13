@@ -9,13 +9,19 @@ class Admin::UsersController < ApplicationAdminController
   end
 
   def edit
+    
   end
 
   def update
+    if @user.update(user_params)
+      redirect_to admin_user_path(@user)
+      flash[:success] = 'User was successfully edited'
+    else
+      render 'edit'
+    end
   end
 
   def destroy
-
     @user.destroy
     flash[:info] = 'User deleted'
     redirect_to admin_users_path

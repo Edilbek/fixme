@@ -1,7 +1,7 @@
 <%= render 'shared/show_google_map'%>
 <h1 align='center'>Редактировать проблему</h1>
 <div class="container">
-  <%= form_for @problem, html: { multipart: true } do |f| %>
+  <%= form_for [:admin, @problem], html: { multipart: true } do |f| %>
     <%= f.hidden_field :latitude, id: "problem-lat" %>
     <%= f.hidden_field :longitude, id: "problem-lng" %>
     <div class="row adding-page">
