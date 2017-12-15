@@ -5,6 +5,7 @@ class ProblemsController < ApplicationController
   end
 
   def all_problems
+    authorize Problem
     @problems_for_moderator = Problem.order('created_at DESC')
   end
 
@@ -31,7 +32,7 @@ class ProblemsController < ApplicationController
   end
 
   def edit
-
+    authorize @problem
   end
 
   def update

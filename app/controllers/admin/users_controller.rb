@@ -9,7 +9,7 @@ class Admin::UsersController < ApplicationAdminController
   end
 
   def edit
-    
+
   end
 
   def update
