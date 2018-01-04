@@ -24,7 +24,7 @@
           <% end %>
           <% if current_user.role == 'moderator' %>
             <%= link_to 'Пользователи', users_path, class: "profile" %>
-            <%= link_to 'Все проблемы', all_problems_path, class: "profile profile" %>
+            <%= link_to 'Все проблемы', all_problems_path, class: "profile all_problems" %>
             <%= link_to 'Мои проблемы', user_problems_path(current_user), class: "profile" %>
           <% end %>
           <i class="fa fa-sign-out" aria-hidden="true"></i>

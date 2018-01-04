@@ -15,16 +15,10 @@
         <%= f.text_area :description, class: "form-control", placeholder: 'Description...' %>
       </div>
 
-      <!-- <div class="col-sm-3 description-problem">
-        <%= f.label :address %><br>
-        <hr>
-        <%= f.text_field :address, class: "form-control", placeholder: 'Address...' %>
-      </div> -->
-
       <div class="col-sm-4 image-problem">
         <%= f.label 'Изображения' %><br>
         <hr>
-        <%= f.file_field :images, multiple: true %><br>
+        <%= f.file_field :images, multiple: true, class: "images" %><br>
       </div>
 
     </div>
@@ -36,7 +30,7 @@
 
     <div class="save-problem col-sm-12">
       <div class="text-center">
-        <%= f.submit "Save", class: "btn btn-primary" %>
+        <%= f.submit "Save", class: "btn btn-primary create_problem" %>
       </div>
     </div>
   <% end %>
