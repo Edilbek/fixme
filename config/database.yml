@@ -8,13 +8,13 @@ default: &default
 development:
   <<: *default
   host: localhost
-  username: edil.talantbekov
+  username: edil
   database: fixme_development
 
 test:
   <<: *default
   host: localhost
-  username: edil.talantbekov
+  username: edil
   database: fixme_test
 
 production:

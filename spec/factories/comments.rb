@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :comment do
-    content "MyText"
+    content 'Edil comment'
     problem nil
     user nil
   end

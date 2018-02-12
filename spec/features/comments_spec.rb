@@ -5,7 +5,6 @@ RSpec.feature 'Comments', type: :feature do
 
   scenario 'New user successfully place an comment' do
     visit root_path
-
     find('.create').trigger('click')
 
     find('.signup').trigger('click')
@@ -30,7 +29,9 @@ RSpec.feature 'Comments', type: :feature do
 
     find('.create_problem').trigger('click')
 
-    find('.all_problems').trigger('click')
-    # expect(page).to have_content("Название")
+    expect(page).to have_content("Название")
+
+    fill_in 'Написать коментарий....', with: 'testing'
+    find('.create_comment_btn').trigger('click')
   end
 end
