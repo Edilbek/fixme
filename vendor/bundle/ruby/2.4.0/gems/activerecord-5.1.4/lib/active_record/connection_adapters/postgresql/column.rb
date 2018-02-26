@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveRecord
   module ConnectionAdapters
     # PostgreSQL-specific extensions to column definitions in a table.

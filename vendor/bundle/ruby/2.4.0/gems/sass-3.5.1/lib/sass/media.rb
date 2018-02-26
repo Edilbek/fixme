@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # A namespace for the `@media` query parse tree.
 module Sass::Media
   # A comma-separated list of queries.

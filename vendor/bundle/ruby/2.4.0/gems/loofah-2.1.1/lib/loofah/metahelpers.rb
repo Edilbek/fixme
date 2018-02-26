@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Loofah
   module MetaHelpers # :nodoc:
     def self.add_downcased_set_members_to_all_set_constants mojule

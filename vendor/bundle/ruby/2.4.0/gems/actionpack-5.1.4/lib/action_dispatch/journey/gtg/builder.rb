@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "action_dispatch/journey/gtg/transition_table"
 
 module ActionDispatch

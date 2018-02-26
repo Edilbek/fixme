@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "execjs/encoding"
 
 module ExecJS

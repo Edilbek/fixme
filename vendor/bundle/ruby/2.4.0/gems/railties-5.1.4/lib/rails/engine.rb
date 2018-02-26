@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "rails/railtie"
 require "rails/engine/railties"
 require "active_support/core_ext/module/delegation"

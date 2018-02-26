@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Rails
   module Html
     XPATHS_TO_REMOVE = %w{.//script .//form comment()}

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'set'
 require 'sprockets/http_utils'
 require 'sprockets/path_dependency_utils'

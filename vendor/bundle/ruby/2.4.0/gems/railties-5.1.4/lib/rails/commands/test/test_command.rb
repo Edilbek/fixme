@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require_relative "../../command"
 require_relative "../../test_unit/runner"
 

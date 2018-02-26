@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Concurrent
 
   # Various classes within allows for +nil+ values to be stored,

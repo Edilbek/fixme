@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Coffee
   module Rails
     class TemplateHandler

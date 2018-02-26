@@ -1,5 +1,5 @@
-<div class="container">
-  <h2 class="my-4">
+<div class="container home_container">
+  <h2 class="my-4 in_progress">
     В Процессе
   </h2>
   <div class="in_prog_paginator">
@@ -8,7 +8,7 @@
   <div class="row all_in_progress_problems">
     <% @all_in_progress_problems.each do |inprogress_problem| %>
       <%= link_to problem_path(inprogress_problem.id) do %>
-        <div class="col-lg-3 col-md-4 col-sm-6 problem_show">
+        <div class="col-6 col-sm-3 problem_show">
           <div class="card h-100">
             <div class="card-img-top">
               <%= link_to image_tag "#{inprogress_problem.images.first.url(:thumb)}", class: 'img-fluid' if inprogress_problem.images? %>
@@ -27,16 +27,17 @@
     <% end %>
   </div>
   <%= link_to 'Посмотреть все', all_in_progress_problems_path , class: "btn btn-primary pull-right btn-sm all_in_progress_problems_btn" if @all_in_progress_problems.present?%>
+  <div class="clearfix hidden-sm-up"></div>
 </div>
 
 <div class="container resolved_problem">
-  <h2 class="my-4">
+  <h2 class="my-4 resolved">
     Исправлены
   </h2>
   <div class="row">
     <% @all_resolved_problems.each do |resolved_problem| %>
       <%= link_to problem_path(resolved_problem.id) do %>
-        <div class="col-lg-3 col-md-4 col-sm-6 problem_show">
+        <div class="col-6 col-sm-3 problem_show">
           <div class="card h-100">
             <div class="card-img-top">
               <%= link_to image_tag "#{resolved_problem.images.first.url(:thumb)}", class: 'img-fluid' if resolved_problem.images? %>
@@ -55,4 +56,5 @@
     <% end %>
   </div>
   <%= link_to 'Посмотреть все', all_resolved_problems_path , class: "btn btn-primary pull-right btn-sm all_resolved_problems_btn" if @all_resolved_problems.present? %>
+  <div class="clearfix hidden-sm-up"></div>
 </div>

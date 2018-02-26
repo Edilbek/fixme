@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'date'
 require 'rational' unless defined?(Rational)
 require 'time'

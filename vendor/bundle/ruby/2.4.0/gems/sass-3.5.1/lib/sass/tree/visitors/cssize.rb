@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # A visitor for converting a static Sass tree into a static CSS tree.
 class Sass::Tree::Visitors::Cssize < Sass::Tree::Visitors::Base
   # @param root [Tree::Node] The root node of the tree to visit.

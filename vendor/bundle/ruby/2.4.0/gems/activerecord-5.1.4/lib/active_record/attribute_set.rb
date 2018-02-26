@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "active_record/attribute_set/builder"
 require "active_record/attribute_set/yaml_encoder"
 

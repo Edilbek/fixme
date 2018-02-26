@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'sass/selector/simple'
 require 'sass/selector/abstract_sequence'
 require 'sass/selector/comma_sequence'

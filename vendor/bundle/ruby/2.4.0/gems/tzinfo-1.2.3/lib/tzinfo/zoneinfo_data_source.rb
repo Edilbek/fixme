@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module TZInfo
   # An InvalidZoneinfoDirectory exception is raised if the DataSource is
   # set to a specific zoneinfo path, which is not a valid zoneinfo directory

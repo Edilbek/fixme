@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'rails_helper'
 
 RSpec.describe "problems/index.html.erb", type: :view do

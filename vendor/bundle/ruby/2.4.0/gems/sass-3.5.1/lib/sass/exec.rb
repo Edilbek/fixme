@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass
   # This module handles the Sass executables (`sass` and `sass-convert`).
   module Exec

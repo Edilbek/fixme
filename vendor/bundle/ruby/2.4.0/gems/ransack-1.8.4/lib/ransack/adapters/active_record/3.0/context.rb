@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'ransack/context'
 require 'polyamorous'
 require 'ransack/adapters/active_record/3.0/compat'

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveRecord
   module LegacyYamlAdapter
     def self.convert(klass, coder)

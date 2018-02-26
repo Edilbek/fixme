@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module CarrierWave
 
   # this is an internal class, used by CarrierWave::Mount so that

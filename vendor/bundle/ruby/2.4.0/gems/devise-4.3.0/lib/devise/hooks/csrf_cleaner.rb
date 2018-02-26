@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Warden::Manager.after_authentication do |record, warden, options|
   clean_up_for_winning_strategy = !warden.winning_strategy.respond_to?(:clean_up_csrf?) ||
     warden.winning_strategy.clean_up_csrf?

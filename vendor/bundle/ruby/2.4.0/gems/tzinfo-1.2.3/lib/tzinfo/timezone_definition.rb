@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module TZInfo
   
   # TimezoneDefinition is included into Timezone definition modules.

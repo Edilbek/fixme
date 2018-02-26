@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module RSpec
   module Core
     # A sandbox isolates the enclosed code into an environment that looks 'new'

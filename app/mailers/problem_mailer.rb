@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class ProblemMailer < ApplicationMailer
   def state_changed(problem)
     @problem = problem

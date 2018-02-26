@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Responders
   module ControllerMethod
     # Adds the given responders to the current controller's responder, allowing you to cherry-pick

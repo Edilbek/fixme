@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # -*- ruby encoding: utf-8 -*-
 
 # Represents a simplistic (non-contextual) change. Represents the removal or

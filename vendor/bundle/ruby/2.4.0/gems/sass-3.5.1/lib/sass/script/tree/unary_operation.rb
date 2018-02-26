@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass::Script::Tree
   # A SassScript parse node representing a unary operation,
   # such as `-$b` or `not true`.

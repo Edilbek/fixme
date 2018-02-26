@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveJob
   module QueueName
     extend ActiveSupport::Concern

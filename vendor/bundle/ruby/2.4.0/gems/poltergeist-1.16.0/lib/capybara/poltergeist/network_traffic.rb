@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Capybara::Poltergeist
   module NetworkTraffic
     require 'capybara/poltergeist/network_traffic/request'

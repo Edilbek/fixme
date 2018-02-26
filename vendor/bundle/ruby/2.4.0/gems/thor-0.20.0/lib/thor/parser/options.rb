@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Thor
   class Options < Arguments #:nodoc: # rubocop:disable ClassLength
     LONG_RE     = /^(--\w+(?:-\w+)*)$/

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass
   module CacheStores
     # A meta-cache that chains multiple caches together.

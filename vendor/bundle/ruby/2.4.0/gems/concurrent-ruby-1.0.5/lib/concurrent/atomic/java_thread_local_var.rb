@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'concurrent/atomic/abstract_thread_local_var'
 
 if Concurrent.on_jruby?

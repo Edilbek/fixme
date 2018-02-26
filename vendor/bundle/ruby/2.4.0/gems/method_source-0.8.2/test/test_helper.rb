@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 def is_rbx?
   defined?(RUBY_ENGINE) && RUBY_ENGINE =~ /rbx/
 end

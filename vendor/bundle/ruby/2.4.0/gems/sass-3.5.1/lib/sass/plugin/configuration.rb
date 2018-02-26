@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass
   module Plugin
     # We keep configuration in its own self-contained file so that we can load

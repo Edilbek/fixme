@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'concurrent/executor/abstract_executor_service'
 require 'concurrent/executor/cached_thread_pool'
 require 'concurrent/executor/executor_service'

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ThreadSafe
   describe Array do
     let!(:ary) { described_class.new }

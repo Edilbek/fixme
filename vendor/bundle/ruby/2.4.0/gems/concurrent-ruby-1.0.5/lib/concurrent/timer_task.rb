@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'concurrent/collection/copy_on_notify_observer_set'
 require 'concurrent/concern/dereferenceable'
 require 'concurrent/concern/observable'

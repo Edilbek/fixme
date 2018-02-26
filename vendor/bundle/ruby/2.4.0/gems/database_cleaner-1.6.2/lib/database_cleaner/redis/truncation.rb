@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'database_cleaner/redis/base'
 require 'database_cleaner/generic/truncation'
 

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module INotify
   # Watchers monitor a single path for changes,
   # specified by {INotify::Notifier#watch event flags}.

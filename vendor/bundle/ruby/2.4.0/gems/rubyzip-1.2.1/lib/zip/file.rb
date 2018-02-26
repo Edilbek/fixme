@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Zip
   # ZipFile is modeled after java.util.zip.ZipFile from the Java SDK.
   # The most important methods are those inherited from

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Zip
   class StreamableDirectory < Entry
     def initialize(zipfile, entry, srcPath = nil, permissionInt = nil)

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "thor"
 require "thor/group"
 require "thor/core_ext/io_binary_read"

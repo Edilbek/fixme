@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'puma/events'
 require 'puma/detect'
 

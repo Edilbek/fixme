@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'capybara/dsl'
 require 'fileutils'
 module DummyRailsIntegration

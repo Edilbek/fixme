@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Rack
   # Rack::MediaType parse media type and parameters out of content_type string
 

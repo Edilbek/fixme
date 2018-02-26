@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "active_support/descendants_tracker"
 
 module ActionMailer

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module TZInfo
   # A DataSource that loads data from the set of Ruby modules included in the
   # TZInfo::Data library (tzinfo-data gem).

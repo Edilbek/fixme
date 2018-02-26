@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 #Hilarious as it seems, this is necessary so bundle exec cucumber works for mongoid cukeage (I'm assuming mongomapper is automatically present because its a git repo)
 Object.send(:remove_const, 'MongoMapper')  if defined?(::MongoMapper)
 

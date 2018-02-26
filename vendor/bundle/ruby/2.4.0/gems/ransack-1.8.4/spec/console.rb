@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Bundler.setup
 require 'machinist/active_record'
 require 'sham'

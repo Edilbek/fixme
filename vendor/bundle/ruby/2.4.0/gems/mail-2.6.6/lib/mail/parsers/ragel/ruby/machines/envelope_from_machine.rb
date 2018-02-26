@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 
 # line 1 "/Users/raindrift/workspace/mail/lib/mail/parsers/ragel/ruby/machines/envelope_from_machine.rb.rl"
 

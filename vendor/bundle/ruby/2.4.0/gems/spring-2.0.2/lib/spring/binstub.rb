@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 command  = File.basename($0)
 bin_path = File.expand_path("../../../bin/spring", __FILE__)
 

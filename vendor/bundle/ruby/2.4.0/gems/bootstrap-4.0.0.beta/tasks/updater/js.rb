@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Updater
   module Js
     def update_javascript_assets

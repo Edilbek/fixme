@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 begin
   # If rubygems is present, keep it out of the way when loading fiddle,
   # otherwise if fiddle is not installed then rubygems will load all

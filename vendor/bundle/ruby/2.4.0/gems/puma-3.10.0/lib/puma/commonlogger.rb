@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Puma
   # Rack::CommonLogger forwards every request to the given +app+, and
   # logs a line in the

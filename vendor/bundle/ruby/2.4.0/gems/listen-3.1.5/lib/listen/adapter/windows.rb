@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Listen
   module Adapter
     # Adapter implementation for Windows `wdm`.

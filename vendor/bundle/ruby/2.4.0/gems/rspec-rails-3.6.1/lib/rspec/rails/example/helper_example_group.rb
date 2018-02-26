@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'rspec/rails/view_assigns'
 
 module RSpec

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "rspec/support/warnings"
 
 module RSpec

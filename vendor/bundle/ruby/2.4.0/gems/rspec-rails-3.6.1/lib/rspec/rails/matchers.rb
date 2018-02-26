@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'rspec/core/warnings'
 require 'rspec/expectations'
 require 'rspec/rails/feature_check'

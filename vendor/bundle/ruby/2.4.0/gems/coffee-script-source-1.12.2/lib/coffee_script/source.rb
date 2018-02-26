@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module CoffeeScript
   module Source
     def self.bundled_path

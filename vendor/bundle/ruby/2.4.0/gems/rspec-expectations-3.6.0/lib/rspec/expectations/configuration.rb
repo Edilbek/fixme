@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 RSpec::Support.require_rspec_expectations "syntax"
 
 module RSpec

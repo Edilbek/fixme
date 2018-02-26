@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'thread'
 require 'concurrent/concern/obligation'
 require 'concurrent/executor/immediate_executor'

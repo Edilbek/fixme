@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'concurrent/future'
 require 'concurrent/atomic/atomic_fixnum'
 

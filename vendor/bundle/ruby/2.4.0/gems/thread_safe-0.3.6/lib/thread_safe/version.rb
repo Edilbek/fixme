@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ThreadSafe
   VERSION = "0.3.6"
 end

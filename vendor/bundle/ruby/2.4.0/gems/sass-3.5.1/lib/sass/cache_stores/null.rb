@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass
   module CacheStores
     # Doesn't store anything, but records what things it should have stored.

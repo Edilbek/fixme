@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'byebug/setting'
 require 'byebug/commands/pry'
 

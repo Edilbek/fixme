@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class MockExpectationError < StandardError; end # :nodoc:
 
 module Minitest # :nodoc:

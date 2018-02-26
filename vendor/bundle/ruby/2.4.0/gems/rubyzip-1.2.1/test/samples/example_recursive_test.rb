@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'test_helper'
 require 'fileutils'
 require_relative '../../samples/example_recursive'

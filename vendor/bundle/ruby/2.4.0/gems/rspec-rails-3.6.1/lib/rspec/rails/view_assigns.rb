@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module RSpec
   module Rails
     # Helpers for making instance variables available to views.

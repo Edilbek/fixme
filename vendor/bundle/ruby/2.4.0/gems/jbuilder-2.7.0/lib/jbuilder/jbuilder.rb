@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Jbuilder = Class.new(begin
   require 'active_support/proxy_object'
   ActiveSupport::ProxyObject

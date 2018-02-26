@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'concurrent/atomic/mutex_atomic_boolean'
 require 'concurrent/synchronization'
 

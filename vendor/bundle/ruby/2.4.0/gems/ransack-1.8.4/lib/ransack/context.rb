@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'ransack/visitor'
 Ransack::Adapters.object_mapper.require_context
 

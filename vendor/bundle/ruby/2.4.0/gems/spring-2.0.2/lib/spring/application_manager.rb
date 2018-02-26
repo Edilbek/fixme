@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Spring
   class ApplicationManager
     attr_reader :pid, :child, :app_env, :spring_env, :status

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module RSpec
   module Core
     # Exposes {ExampleGroup}-level methods to a module, so you can include that

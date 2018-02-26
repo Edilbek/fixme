@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Note.blueprint do
   note
   notable_type { "Article" }

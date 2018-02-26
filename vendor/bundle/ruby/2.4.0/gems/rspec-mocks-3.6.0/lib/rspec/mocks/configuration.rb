@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module RSpec
   module Mocks
     # Provides configuration options for rspec-mocks.

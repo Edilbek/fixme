@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 RSpec::Support.require_rspec_mocks 'verifying_message_expectation'
 RSpec::Support.require_rspec_mocks 'method_reference'
 

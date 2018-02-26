@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ChildProcess
   class AbstractIO
     attr_reader :stderr, :stdout, :stdin

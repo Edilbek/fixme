@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass::Script::Tree
   # The parse tree node for a literal scalar value. This wraps an instance of
   # {Sass::Script::Value::Base}.

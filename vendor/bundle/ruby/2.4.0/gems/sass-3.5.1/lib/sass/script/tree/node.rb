@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass::Script::Tree
   # The abstract superclass for SassScript parse tree nodes.
   #

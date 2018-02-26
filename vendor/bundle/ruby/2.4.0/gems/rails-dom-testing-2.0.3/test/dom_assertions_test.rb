@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'test_helper'
 require 'rails/dom/testing/assertions/dom_assertions'
 

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sprockets
   # Internal: File and path related utilities. Mixed into Environment.
   #

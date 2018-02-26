@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "action_dispatch/routing/polymorphic_routes"
 
 module ActionView

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class ApplicationController < ActionController::Base
   before_action :authenticate_user!, except: [:index, :search, :show, :all_in_progress_problems, :all_resolved_problems]
   before_action :global_search

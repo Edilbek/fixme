@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass::Script::Tree
   # A SassScript parse node representing a variable.
   class Variable < Node

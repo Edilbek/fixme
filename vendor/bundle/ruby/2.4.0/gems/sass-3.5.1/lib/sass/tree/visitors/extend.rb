@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # A visitor for performing selector inheritance on a static CSS tree.
 #
 # Destructively modifies the tree.

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "action_dispatch/testing/assertions/routing"
 
 module RSpec

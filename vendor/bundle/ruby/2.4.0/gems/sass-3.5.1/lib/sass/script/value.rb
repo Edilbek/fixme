@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass::Script::Value; end
 
 require 'sass/script/value/base'

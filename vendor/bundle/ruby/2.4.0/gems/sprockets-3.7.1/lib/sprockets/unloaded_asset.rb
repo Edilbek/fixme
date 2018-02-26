@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'sprockets/uri_utils'
 require 'sprockets/uri_tar'
 

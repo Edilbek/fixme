@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'concurrent/synchronization'
 require 'concurrent/utility/native_integer'
 

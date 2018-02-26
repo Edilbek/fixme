@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'oj'
 require 'multi_json/adapter'
 

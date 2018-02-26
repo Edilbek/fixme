@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'rack/response'
 require 'rack/body_proxy'
 

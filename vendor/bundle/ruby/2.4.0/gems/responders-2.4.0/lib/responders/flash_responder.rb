@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Responders
   # Responder to automatically set flash messages based on I18n API. It checks for
   # message based on the current action, but also allows defaults to be set, using

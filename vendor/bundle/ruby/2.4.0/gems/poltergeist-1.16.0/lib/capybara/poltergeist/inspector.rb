@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Capybara::Poltergeist
   class Inspector
     BROWSERS     = %w(chromium chromium-browser google-chrome open)

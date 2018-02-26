@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'puma/rack/builder'
 require 'puma/plugin'
 require 'puma/const'

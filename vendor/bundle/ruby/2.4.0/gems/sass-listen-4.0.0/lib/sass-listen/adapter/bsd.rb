@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # Listener implementation for BSD's `kqueue`.
 # @see http://www.freebsd.org/cgi/man.cgi?query=kqueue
 # @see https://github.com/mat813/rb-kqueue/blob/master/lib/rb-kqueue/queue.rb

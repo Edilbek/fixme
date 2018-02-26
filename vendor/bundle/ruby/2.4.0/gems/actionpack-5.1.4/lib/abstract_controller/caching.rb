@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module AbstractController
   module Caching
     extend ActiveSupport::Concern

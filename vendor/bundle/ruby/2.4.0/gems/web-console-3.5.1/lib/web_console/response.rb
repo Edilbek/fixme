@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module WebConsole
   # A response object that writes content before the closing </body> tag, if
   # possible.

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'concurrent/executor/immediate_executor'
 require 'concurrent/executor/simple_executor_service'
 

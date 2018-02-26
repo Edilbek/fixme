@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # A visitor for setting options on the Sass tree
 class Sass::Tree::Visitors::SetOptions < Sass::Tree::Visitors::Base
   # @param root [Tree::Node] The root node of the tree to visit.

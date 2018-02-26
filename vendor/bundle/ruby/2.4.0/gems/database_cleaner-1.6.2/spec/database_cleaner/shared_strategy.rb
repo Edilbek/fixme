@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 shared_examples_for "a generic strategy" do
   it { should respond_to(:db)  }
 end

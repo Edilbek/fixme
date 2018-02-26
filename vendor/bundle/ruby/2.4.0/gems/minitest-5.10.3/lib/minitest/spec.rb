@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "minitest/test"
 
 class Module # :nodoc:

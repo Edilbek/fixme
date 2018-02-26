@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'active_support/deprecation/reporting'
 require 'sass'
 require 'sprockets/sass_importer'

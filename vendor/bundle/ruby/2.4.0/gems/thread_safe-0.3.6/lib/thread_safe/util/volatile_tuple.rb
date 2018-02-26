@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ThreadSafe
   module Util
     # A fixed size array with volatile volatile getters/setters.

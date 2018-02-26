@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'active_model/version'
 require 'devise/hooks/activatable'
 require 'devise/hooks/csrf_cleaner'

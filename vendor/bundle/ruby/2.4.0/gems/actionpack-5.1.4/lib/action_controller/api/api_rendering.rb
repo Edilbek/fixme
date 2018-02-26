@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActionController
   module ApiRendering
     extend ActiveSupport::Concern

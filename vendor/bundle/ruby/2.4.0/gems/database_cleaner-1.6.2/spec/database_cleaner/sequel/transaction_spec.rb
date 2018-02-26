@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'spec_helper'
 require 'database_cleaner/sequel/transaction'
 require 'database_cleaner/shared_strategy'

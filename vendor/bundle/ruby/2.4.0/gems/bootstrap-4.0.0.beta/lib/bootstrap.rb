@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'bootstrap/version'
 require 'popper_js'
 

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 #!/usr/bin/env ruby
 # vim: set nosta noet ts=4 sw=4:
 # encoding: utf-8

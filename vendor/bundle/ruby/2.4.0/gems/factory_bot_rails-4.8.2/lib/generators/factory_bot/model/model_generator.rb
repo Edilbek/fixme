@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'generators/factory_bot'
 require 'factory_bot_rails'
 

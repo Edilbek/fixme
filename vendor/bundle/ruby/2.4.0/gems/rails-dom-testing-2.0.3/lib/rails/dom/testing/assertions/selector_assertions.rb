@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'active_support/deprecation'
 require_relative 'selector_assertions/count_describable'
 require_relative 'selector_assertions/html_selector'

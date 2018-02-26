@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'factory_bot/syntax/methods'
 require 'factory_bot/syntax/default'
 

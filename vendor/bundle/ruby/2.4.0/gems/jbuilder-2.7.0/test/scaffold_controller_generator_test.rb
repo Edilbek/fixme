@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'test_helper'
 require 'rails/generators/test_case'
 require 'generators/rails/scaffold_controller_generator'

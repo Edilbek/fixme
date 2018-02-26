@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require File.dirname(__FILE__) + '/../../spec_helper'
 require 'neo4j-core'
 require 'database_cleaner/neo4j/transaction'

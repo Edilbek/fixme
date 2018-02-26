@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "minitest/autorun"
 require "rails-html-sanitizer"
 require "rails/dom/testing/assertions/dom_assertions"

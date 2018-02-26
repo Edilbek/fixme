@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass
   # An exception class that keeps track of
   # the line of the Sass template it was raised on

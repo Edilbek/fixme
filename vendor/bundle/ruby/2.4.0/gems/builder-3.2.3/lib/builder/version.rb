@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Builder
   VERSION_NUMBERS = [
     VERSION_MAJOR = 3,

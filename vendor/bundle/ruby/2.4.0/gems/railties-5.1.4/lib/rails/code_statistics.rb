@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "rails/code_statistics_calculator"
 require "active_support/core_ext/enumerable"
 

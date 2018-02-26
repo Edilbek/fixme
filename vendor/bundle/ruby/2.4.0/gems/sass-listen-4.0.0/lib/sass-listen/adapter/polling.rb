@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module SassListen
   module Adapter
     # Polling Adapter that works cross-platform and

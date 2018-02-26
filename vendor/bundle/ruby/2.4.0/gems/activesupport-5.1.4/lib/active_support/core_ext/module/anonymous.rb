@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Module
   # A module may or may not have a name.
   #

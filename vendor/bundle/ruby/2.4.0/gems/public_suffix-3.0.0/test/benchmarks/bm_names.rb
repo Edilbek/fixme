@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'benchmark/ips'
 
 STRING = "www.subdomain.example.com"

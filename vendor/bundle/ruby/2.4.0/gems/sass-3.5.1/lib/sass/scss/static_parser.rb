@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'sass/script/css_parser'
 
 module Sass

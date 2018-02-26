@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'rails/dom/testing/assertions/selector_assertions'
 
 module Rails::Dom::Testing::Assertions::SelectorAssertions

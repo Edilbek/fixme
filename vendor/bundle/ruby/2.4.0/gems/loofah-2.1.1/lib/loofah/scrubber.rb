@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Loofah
   #
   #  A RuntimeError raised when Loofah could not find an appropriate scrubber.

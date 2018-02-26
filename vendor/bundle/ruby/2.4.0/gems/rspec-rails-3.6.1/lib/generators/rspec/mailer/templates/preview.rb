@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 <% module_namespacing do -%>
 # Preview all emails at http://localhost:3000/rails/mailers/<%= file_path %>
 class <%= class_name %>Preview < ActionMailer::Preview

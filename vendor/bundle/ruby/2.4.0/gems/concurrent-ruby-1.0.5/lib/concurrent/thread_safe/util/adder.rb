@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'concurrent/thread_safe/util'
 require 'concurrent/thread_safe/util/striped64'
 

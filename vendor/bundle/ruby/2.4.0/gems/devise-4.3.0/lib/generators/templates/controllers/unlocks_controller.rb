@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class <%= @scope_prefix %>UnlocksController < Devise::UnlocksController
   # GET /resource/unlock/new
   # def new

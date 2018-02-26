@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveRecord
   class AttributeSet
     # Attempts to do more intelligent YAML dumping of an

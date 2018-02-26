@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # I18n Pluralization are useful when you want your application to
 # customize pluralization rules.
 #

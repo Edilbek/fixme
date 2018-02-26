@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass::Script::Value
   # Provides helper functions for creating sass values from within ruby methods.
   # @since `3.3.0`

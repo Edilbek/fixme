@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # A visitor for converting a Sass tree into a source string.
 class Sass::Tree::Visitors::Convert < Sass::Tree::Visitors::Base
   # Runs the visitor on a tree.

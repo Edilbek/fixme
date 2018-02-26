@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ChildProcess::Unix::Platform
   SIZEOF = {
      :posix_spawn_file_actions_t => 76,

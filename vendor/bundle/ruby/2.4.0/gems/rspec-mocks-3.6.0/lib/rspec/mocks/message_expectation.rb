@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module RSpec
   module Mocks
     # A message expectation that only allows concrete return values to be set

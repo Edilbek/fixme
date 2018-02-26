@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module PolyamorousHelper
   if ActiveRecord::VERSION::STRING >= "4.1"
     def new_join_association(reflection, children, klass)

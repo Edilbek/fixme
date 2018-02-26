@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Rack
   # Rack::Cascade tries a request on several apps, and returns the
   # first response that is not 404 or 405 (or in a list of configurable

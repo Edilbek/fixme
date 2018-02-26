@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Spring
   ORIGINAL_ENV = ENV.to_hash
 end

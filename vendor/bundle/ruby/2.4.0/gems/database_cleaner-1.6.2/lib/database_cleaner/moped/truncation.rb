@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'database_cleaner/moped/truncation_base'
 
 module DatabaseCleaner

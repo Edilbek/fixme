@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # The following code inspired and modified from Rails' `assert_response`:
 #
 #   https://github.com/rails/rails/blob/master/actionpack/lib/action_dispatch/testing/assertions/response.rb#L22-L38

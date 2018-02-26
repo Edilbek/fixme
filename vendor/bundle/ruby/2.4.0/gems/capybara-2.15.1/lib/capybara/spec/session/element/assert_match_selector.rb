@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Capybara::SpecHelper.spec '#assert_matches_selector' do
   before do
     @session.visit('/with_html')

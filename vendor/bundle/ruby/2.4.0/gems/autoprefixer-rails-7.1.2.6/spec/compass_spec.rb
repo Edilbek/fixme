@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require_relative 'spec_helper'
 
 COMPASS_DIR     = Pathname(__FILE__).dirname.join('compass')

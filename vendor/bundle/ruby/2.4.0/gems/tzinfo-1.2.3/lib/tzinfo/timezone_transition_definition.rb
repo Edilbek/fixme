@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module TZInfo
   # A TimezoneTransition defined by as integer timestamp, as a rational to
   # create a DateTime or as both.

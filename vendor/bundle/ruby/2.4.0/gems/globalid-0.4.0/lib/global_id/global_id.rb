@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'active_support'
 require 'active_support/core_ext/string/inflections'  # For #model_class constantize
 require 'active_support/core_ext/array/access'

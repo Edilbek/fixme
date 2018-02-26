@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ThreadSafe
   module Util
     # A xorshift random number (positive +Fixnum+s) generator, provides

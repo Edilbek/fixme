@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 if ENV["COVERALL"]
   require "coveralls"
   Coveralls.wear!

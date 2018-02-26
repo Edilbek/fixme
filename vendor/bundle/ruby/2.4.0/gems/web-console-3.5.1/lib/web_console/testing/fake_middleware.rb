@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'action_view'
 require 'web_console'
 require 'web_console/testing/helper'

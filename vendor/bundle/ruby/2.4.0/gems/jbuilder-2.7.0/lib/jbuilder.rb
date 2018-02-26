@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'jbuilder/jbuilder'
 require 'jbuilder/blank'
 require 'jbuilder/key_formatter'

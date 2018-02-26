@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'set'
 
 # MIME::Types requires a container Hash with a default values for keys

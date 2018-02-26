@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 #!/usr/bin/env ruby
 #
 # A script to wrap ssh and rsync for PostgreSQL WAL files shipping.

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveRecord
   module NullRelation # :nodoc:
     def pluck(*column_names)

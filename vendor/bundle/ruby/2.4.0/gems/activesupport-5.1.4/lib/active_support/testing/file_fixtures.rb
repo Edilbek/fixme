@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveSupport
   module Testing
     # Adds simple access to sample files called file fixtures.

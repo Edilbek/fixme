@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "capybara/poltergeist/errors"
 require "capybara/poltergeist/command"
 require 'json'

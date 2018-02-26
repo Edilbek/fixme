@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # frozen_string_literal: true
 Capybara::SpecHelper.spec '#text' do
   it "should print the text of the page" do

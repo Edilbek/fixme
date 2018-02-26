@@ -1,4 +1,4 @@
-# encoding: utf-8
+# -*- encoding : utf-8 -*-
 require 'core_ext/file'
 
 describe 'File::absolute_path?' do

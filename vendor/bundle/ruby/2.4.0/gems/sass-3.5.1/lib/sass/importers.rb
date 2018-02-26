@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass
   # Sass importers are in charge of taking paths passed to `@import`
   # and finding the appropriate Sass code for those paths.

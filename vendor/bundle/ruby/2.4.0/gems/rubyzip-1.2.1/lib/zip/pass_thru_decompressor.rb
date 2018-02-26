@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Zip
   class PassThruDecompressor < Decompressor  #:nodoc:all
     def initialize(input_stream, chars_to_read)

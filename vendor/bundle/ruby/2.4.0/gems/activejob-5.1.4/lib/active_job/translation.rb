@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveJob
   module Translation #:nodoc:
     extend ActiveSupport::Concern

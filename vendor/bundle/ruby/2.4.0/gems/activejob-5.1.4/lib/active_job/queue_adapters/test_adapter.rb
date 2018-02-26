@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveJob
   module QueueAdapters
     # == Test adapter for Active Job

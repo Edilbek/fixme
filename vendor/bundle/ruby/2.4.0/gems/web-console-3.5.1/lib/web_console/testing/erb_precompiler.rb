@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'web_console/testing/helper'
 require 'web_console/testing/fake_middleware'
 

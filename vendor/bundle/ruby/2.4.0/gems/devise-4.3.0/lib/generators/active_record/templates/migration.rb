@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class DeviseCreate<%= table_name.camelize %> < ActiveRecord::Migration<%= migration_version %>
   def change
     create_table :<%= table_name %> do |t|

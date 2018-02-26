@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActionCable
   module SubscriptionAdapter
     class Inline < Base # :nodoc:

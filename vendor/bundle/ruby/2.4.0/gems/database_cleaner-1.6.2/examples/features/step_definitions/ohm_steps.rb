@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Given /^I have setup database cleaner to clean multiple databases using ohm$/ do
   #DatabaseCleaner
   # require "#{File.dirname(__FILE__)}/../../../lib/ohm_models"

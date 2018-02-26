@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module RSpec
   module Matchers
     # Decorator that wraps a matcher and overrides `description`

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module SassListen
   # @private api
   class Record

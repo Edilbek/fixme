@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class <%= @scope_prefix %>SessionsController < Devise::SessionsController
   # before_action :configure_sign_in_params, only: [:create]
 

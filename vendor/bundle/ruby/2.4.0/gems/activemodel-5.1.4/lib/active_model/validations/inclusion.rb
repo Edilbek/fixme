@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "active_model/validations/clusivity"
 
 module ActiveModel

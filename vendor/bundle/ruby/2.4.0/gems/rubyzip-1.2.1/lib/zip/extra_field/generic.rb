@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Zip
   class ExtraField::Generic
     def self.register_map

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'sprockets/legacy_tilt_processor'
 require 'sprockets/utils'
 

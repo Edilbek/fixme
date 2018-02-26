@@ -1,4 +1,4 @@
-# encoding: utf-8
+# -*- encoding : utf-8 -*-
 require 'test_helper'
 
 class I18nTest < I18n::TestCase

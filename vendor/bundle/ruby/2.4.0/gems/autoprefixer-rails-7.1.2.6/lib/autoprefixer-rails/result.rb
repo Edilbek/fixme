@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module AutoprefixerRails
   # Container of prefixed CSS and source map with changes
   class Result

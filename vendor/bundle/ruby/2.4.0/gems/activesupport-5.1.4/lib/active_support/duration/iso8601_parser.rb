@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "strscan"
 require "active_support/core_ext/regexp"
 

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass::Logger; end
 
 require "sass/logger/log_level"

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 begin
   # Only the minitest 5.x gem includes the minitest.rb and assertions.rb files.
   require 'minitest'

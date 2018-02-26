@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module RSpec
   module Core
     # DSL defines methods to group examples, most notably `describe`,

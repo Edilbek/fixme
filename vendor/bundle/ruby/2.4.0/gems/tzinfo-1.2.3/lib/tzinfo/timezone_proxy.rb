@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module TZInfo
 
   # A proxy class representing a timezone with a given identifier. TimezoneProxy

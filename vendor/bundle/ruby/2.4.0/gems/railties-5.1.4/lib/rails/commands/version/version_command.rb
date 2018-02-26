@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Rails
   module Command
     class VersionCommand < Base # :nodoc:

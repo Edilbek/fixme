@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'sprockets/eco_processor'
 
 module Sprockets

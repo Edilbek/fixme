@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # frozen_string_literal: true
 module Mail
   register_autoload :UnstructuredField, 'mail/fields/unstructured_field'

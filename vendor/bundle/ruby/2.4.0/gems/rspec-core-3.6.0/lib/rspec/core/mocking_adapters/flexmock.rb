@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 #  Created by Jim Weirich on 2007-04-10.
 #  Copyright (c) 2007. All rights reserved.
 

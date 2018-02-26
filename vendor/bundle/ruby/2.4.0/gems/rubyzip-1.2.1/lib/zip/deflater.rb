@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Zip
   class Deflater < Compressor #:nodoc:all
     def initialize(output_stream, level = Zip.default_compression, encrypter = NullEncrypter.new)

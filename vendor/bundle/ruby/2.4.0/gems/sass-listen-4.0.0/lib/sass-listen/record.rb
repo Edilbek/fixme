@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'thread'
 require 'sass-listen/record/entry'
 require 'sass-listen/record/symlink_detector'

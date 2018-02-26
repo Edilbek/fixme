@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 <% module_namespacing do -%>
 class <%= class_name %>Policy < ApplicationPolicy
   class Scope < Scope

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # http://www.ruby-doc.org/stdlib/libdoc/optparse/rdoc/classes/OptionParser.html
 require 'optparse'
 

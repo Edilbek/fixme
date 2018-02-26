@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveRecord::Associations
   module ForeignAssociation # :nodoc:
     def foreign_key_present?

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Zip
   # Info-ZIP Extra for Zip64 size
   class ExtraField::Zip64 < ExtraField::Generic

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "rails/application_controller"
 require "action_dispatch/routing/inspector"
 

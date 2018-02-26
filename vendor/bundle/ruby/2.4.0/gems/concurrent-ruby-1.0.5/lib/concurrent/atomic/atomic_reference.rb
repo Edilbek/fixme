@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'concurrent/synchronization'
 require 'concurrent/utility/engine'
 require 'concurrent/atomic_reference/concurrent_update_error'

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module RSpec
   module Core
     # Provides the main entry point to run a suite of RSpec examples.

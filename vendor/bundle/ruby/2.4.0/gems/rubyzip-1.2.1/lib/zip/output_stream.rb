@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Zip
   # ZipOutputStream is the basic class for writing zip files. It is
   # possible to create a ZipOutputStream object directly, passing

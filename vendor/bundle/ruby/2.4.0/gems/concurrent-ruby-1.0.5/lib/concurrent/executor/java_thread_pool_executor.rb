@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 if Concurrent.on_jruby?
 
   require 'concurrent/executor/java_executor_service'

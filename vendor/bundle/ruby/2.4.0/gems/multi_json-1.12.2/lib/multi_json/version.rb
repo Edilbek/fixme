@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module MultiJson
   class Version
     MAJOR = 1 unless defined? MultiJson::Version::MAJOR

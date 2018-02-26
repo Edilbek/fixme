@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module FactoryBotRails
   module Generators
     class NonRSpecGenerator

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 ##
 # It's where you hide your "assertions".
 #

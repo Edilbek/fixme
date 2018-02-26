@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module RSpec::Core
   # A reporter will send notifications to listeners, usually formatters for the
   # spec suite run.

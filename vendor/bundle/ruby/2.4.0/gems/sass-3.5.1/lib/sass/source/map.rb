@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass::Source
   class Map
     # A mapping from one source range to another. Indicates that `input` was

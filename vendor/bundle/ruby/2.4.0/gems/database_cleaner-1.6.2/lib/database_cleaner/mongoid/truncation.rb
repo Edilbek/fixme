@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'database_cleaner/mongoid/base'
 require 'database_cleaner/generic/truncation'
 require 'database_cleaner/mongo/truncation_mixin'

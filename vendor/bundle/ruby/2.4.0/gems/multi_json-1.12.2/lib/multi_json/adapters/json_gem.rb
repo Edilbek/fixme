@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'json/ext'
 require 'multi_json/adapters/json_common'
 

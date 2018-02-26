@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Capybara::Poltergeist::NetworkTraffic
   class Request
     attr_reader :response_parts, :error

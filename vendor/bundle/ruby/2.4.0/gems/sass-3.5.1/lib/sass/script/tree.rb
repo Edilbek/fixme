@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # The module containing nodes in the SassScript parse tree. These nodes are
 # all subclasses of {Sass::Script::Tree::Node}.
 module Sass::Script::Tree

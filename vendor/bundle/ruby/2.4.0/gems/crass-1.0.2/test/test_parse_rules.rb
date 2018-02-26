@@ -1,4 +1,4 @@
-# encoding: utf-8
+# -*- encoding : utf-8 -*-
 
 require_relative 'support/common'
 require_relative 'shared/parse_rules'

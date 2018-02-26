@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # -*- coding: utf-8 -*-
 module Sass::Script::Value
   # A SassScript object representing a CSS string *or* a CSS identifier.

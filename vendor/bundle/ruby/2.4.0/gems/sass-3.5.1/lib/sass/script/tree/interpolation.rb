@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass::Script::Tree
   # A SassScript object representing `#{}` interpolation outside a string.
   #

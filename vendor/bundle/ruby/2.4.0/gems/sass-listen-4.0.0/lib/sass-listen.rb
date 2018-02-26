@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'logger'
 require 'sass-listen/logger'
 require 'sass-listen/listener'

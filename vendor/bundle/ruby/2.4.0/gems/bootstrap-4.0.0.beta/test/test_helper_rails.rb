@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 ENV['RAILS_ENV'] = ENV['RACK_ENV'] = 'test'
 
 require 'test_helper'

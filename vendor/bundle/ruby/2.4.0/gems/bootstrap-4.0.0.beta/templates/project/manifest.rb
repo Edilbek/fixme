@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 description 'Bootstrap'
 
 # Stylesheet importing bootstrap

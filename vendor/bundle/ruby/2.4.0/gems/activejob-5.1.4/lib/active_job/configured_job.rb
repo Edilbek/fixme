@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveJob
   class ConfiguredJob #:nodoc:
     def initialize(job_class, options = {})

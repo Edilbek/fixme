@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass::Tree
   # A node representing an `@import` rule that's importing plain CSS.
   #

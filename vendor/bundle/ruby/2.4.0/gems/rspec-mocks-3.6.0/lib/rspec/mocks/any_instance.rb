@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 %w[
   any_instance/chain
   any_instance/error_generator

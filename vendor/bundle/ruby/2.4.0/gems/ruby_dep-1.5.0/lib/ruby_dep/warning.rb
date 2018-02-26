@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'ruby_dep/logger'
 require 'ruby_dep/ruby_version'
 

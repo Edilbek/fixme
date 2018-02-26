@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'yajl'
 require 'multi_json/adapter'
 

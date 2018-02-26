@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module WebConsole
   class View < ActionView::Base
     # Execute a block only on error pages.

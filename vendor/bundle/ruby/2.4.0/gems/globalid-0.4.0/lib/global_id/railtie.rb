@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 begin
 require 'rails/railtie'
 rescue LoadError

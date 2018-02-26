@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'minitest/autorun'
 ### WARNING: there be hax in this file.
 

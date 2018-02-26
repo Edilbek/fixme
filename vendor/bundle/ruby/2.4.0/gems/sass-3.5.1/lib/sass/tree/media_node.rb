@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass::Tree
   # A static node representing a `@media` rule.
   # `@media` rules behave differently from other directives

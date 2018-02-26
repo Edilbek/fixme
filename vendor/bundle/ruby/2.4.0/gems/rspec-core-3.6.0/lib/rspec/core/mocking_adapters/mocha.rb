@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # In order to support all versions of mocha, we have to jump through some
 # hoops here.
 #

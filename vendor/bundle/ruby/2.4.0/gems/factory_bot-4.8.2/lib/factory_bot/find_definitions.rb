@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module FactoryBot
   class << self
     # An Array of strings specifying locations that should be searched for

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass
   module Selector
     # A comma-separated sequence of selectors.

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveRecord::Associations::Builder # :nodoc:
   class HasAndBelongsToMany # :nodoc:
     class JoinTableResolver # :nodoc:

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # Visitors are used to traverse the Sass parse tree.
 # Visitors should extend {Visitors::Base},
 # which provides a small amount of scaffolding for traversal.

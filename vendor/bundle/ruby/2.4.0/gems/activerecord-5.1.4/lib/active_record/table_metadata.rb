@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveRecord
   class TableMetadata # :nodoc:
     delegate :foreign_type, :foreign_key, to: :association, prefix: true

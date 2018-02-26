@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "timeout"
 require "capybara/poltergeist/utility"
 require 'cliver'

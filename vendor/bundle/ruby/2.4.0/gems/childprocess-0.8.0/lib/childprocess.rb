@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'childprocess/version'
 require 'childprocess/errors'
 require 'childprocess/abstract_process'

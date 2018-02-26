@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 include ActionDispatch::TestProcess
 
 FactoryBot.define do

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # rubocop:disable Style/GlobalVars
 $_rspec_core_load_started_at = Time.now
 # rubocop:enable Style/GlobalVars

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module FactoryBot
   module Strategy
     class Stub

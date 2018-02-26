@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'sprockets/encoding_utils'
 require 'sprockets/http_utils'
 require 'sprockets/utils'

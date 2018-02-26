@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module AbstractController
   # Includes +url_for+ into the host class (e.g. an abstract controller or mailer). The class
   # has to provide a +RouteSet+ by implementing the <tt>_routes</tt> methods. Otherwise, an

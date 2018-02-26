@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'rspec/matchers'
 # Special matcher for comparing encoded strings so that
 # we don't run any expectation failures through the Differ,

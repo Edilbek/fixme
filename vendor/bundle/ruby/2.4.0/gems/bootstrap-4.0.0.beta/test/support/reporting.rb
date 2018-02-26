@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Kernel
   def silence_stdout_if(cond, &run)
     silence_stream_if(cond, STDOUT, &run)

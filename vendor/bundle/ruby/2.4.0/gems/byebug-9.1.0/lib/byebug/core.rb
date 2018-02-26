@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'byebug/helpers/reflection'
 require 'byebug/byebug'
 require 'byebug/context'

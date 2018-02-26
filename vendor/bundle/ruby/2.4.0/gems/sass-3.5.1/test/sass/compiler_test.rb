@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'minitest/autorun'
 require File.dirname(__FILE__) + '/../test_helper'
 require 'sass/plugin'

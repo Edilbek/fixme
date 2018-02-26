@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Selenium
   module WebDriver
     module Atoms

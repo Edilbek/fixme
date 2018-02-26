@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sprockets
   class Deprecation
     THREAD_LOCAL__SILENCE_KEY = "_sprockets_deprecation_silence".freeze

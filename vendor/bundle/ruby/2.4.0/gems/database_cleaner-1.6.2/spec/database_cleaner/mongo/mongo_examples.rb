@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module MongoTest
   class ThingBase
     def self.collection

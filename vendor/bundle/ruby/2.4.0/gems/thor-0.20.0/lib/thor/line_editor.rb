@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "thor/line_editor/basic"
 require "thor/line_editor/readline"
 

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "active_record/scoping/default"
 require "active_record/scoping/named"
 

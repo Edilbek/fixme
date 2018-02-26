@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Byebug
   #
   # Handles byebug's command line options

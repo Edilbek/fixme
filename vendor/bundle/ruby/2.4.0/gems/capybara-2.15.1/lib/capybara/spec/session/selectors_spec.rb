@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Capybara::SpecHelper.spec Capybara::Selector do
   before do
     @session.visit('/form')

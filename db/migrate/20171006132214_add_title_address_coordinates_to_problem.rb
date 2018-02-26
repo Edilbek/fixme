@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class AddTitleAddressCoordinatesToProblem < ActiveRecord::Migration[5.1]
   def change
     add_column :problems, :title, :string

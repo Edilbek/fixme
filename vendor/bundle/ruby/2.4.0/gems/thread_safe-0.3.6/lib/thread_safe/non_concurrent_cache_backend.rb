@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ThreadSafe
   class NonConcurrentCacheBackend
     # WARNING: all public methods of the class must operate on the @backend

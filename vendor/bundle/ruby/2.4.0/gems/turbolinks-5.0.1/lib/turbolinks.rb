@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'turbolinks/version'
 require 'turbolinks/redirection'
 require 'turbolinks/source'

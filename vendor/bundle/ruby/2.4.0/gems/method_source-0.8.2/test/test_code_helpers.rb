@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 describe MethodSource::CodeHelpers do
   before do
     @tester = Object.new.extend(MethodSource::CodeHelpers)

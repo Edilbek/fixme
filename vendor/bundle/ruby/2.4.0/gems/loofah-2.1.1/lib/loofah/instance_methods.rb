@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Loofah
   #
   #  Mixes +scrub!+ into Document, DocumentFragment, Node and NodeSet.

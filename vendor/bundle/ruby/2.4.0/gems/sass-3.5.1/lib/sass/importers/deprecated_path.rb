@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass
   module Importers
     # This importer emits a deprecation warning the first time it is used to

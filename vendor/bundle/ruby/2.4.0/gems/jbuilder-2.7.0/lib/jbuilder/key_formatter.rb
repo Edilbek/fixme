@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'jbuilder/jbuilder'
 require 'active_support/core_ext/array'
 

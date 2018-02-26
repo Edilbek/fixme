@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module XPath
   class Union
     include Enumerable

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'tmpdir'
 
 RSpec.shared_context "isolated directory" do

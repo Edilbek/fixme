@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 
 # line 1 "/home/bpot/src/gh/bpot/mail/lib/mail/parsers/ragel/ruby/machines/address_lists_machine.rb.rl"
 

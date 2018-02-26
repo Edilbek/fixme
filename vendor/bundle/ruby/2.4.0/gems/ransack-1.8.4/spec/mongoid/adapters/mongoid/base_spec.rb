@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'mongoid_spec_helper'
 
 module Ransack

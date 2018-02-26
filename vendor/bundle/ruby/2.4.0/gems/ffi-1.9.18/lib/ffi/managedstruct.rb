@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # Copyright (C) 2008 Mike Dalessio
 #
 # This file is part of ruby-ffi.

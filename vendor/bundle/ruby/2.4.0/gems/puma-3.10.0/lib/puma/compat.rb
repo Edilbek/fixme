@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # Provides code to work properly on 1.8 and 1.9
 
 class String

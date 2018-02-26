@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ThreadSafe
   module Util
     FIXNUM_BIT_SIZE = (0.size * 8) - 2

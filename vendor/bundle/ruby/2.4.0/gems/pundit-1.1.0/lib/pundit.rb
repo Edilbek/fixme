@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "pundit/version"
 require "pundit/policy_finder"
 require "active_support/concern"

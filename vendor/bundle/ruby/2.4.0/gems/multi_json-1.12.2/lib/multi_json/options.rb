@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module MultiJson
   module Options
     def load_options=(options)

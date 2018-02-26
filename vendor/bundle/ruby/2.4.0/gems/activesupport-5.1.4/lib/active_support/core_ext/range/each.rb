@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveSupport
   module EachTimeWithZone #:nodoc:
     def each(&block)

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActionView
   module CollectionCaching # :nodoc:
     extend ActiveSupport::Concern

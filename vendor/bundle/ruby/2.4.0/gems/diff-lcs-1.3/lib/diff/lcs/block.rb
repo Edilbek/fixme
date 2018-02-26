@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # -*- ruby encoding: utf-8 -*-
 
 # A block is an operation removing, adding, or changing a group of items.

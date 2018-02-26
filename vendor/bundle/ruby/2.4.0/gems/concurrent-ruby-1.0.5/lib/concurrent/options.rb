@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'concurrent/configuration'
 
 module Concurrent

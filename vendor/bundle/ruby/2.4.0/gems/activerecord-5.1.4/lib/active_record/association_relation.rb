@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveRecord
   class AssociationRelation < Relation
     def initialize(klass, table, predicate_builder, association)

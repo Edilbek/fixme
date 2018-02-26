@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ExecJS
   # Encodes strings as UTF-8
   module Encoding

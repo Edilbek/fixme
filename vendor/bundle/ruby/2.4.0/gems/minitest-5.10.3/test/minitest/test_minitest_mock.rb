@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "minitest/autorun"
 
 class TestMinitestMock < Minitest::Test

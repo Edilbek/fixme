@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'listen/adapter'
 require 'listen/adapter/base'
 require 'listen/adapter/config'

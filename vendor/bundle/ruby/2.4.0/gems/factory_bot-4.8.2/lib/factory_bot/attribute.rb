@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'factory_bot/attribute/static'
 require 'factory_bot/attribute/dynamic'
 require 'factory_bot/attribute/association'

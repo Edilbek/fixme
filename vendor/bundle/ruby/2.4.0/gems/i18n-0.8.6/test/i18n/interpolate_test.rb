@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'test_helper'
 
 # thanks to Masao's String extensions, some tests taken from Masao's tests

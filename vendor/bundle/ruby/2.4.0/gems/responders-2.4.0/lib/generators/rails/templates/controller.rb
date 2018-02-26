@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 <% if namespaced? -%>
 require_dependency "<%= namespaced_file_path %>/application_controller"
 

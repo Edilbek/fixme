@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 RSpec::Support.require_rspec_core "bisect/server"
 RSpec::Support.require_rspec_core "bisect/runner"
 RSpec::Support.require_rspec_core "bisect/example_minimizer"

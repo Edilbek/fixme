@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # This is necessary for the terminal to work correctly when we reopen stdin.
 Process.setsid
 

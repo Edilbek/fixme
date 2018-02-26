@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'sprockets/asset'
 require 'sprockets/digest_utils'
 require 'sprockets/engines'

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 shared_examples_for "an adapter with pre-count truncation" do
   describe "#pre_count_truncate_tables" do
     

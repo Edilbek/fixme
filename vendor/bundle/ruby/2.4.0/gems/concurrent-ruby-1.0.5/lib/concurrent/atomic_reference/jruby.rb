@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'concurrent/synchronization'
 
 if defined?(Concurrent::JavaAtomicReference)

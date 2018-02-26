@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "concurrent/map"
 require "action_view/renderer/partial_renderer/collection_caching"
 

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module FactoryBot
   # Raised when a factory is defined that attempts to instantiate itself.
   class AssociationDefinitionError < RuntimeError; end

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Turbolinks
   module Redirection
     extend ActiveSupport::Concern

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'concurrent/atomic_reference/concurrent_update_error'
 
 module Concurrent

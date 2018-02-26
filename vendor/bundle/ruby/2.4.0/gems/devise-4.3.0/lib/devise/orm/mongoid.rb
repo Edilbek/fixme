@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 ActiveSupport.on_load(:mongoid) do
   require 'orm_adapter/adapters/mongoid'
 

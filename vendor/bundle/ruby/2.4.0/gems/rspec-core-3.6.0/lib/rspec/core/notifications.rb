@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 RSpec::Support.require_rspec_core "formatters/console_codes"
 RSpec::Support.require_rspec_core "formatters/exception_presenter"
 RSpec::Support.require_rspec_core "formatters/helpers"

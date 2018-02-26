@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass
   module Tree
     # A dynamic node representing an `@at-root` directive.

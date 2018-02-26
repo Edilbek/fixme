@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass
   # A namespace for nodes in the Sass parse tree.
   #

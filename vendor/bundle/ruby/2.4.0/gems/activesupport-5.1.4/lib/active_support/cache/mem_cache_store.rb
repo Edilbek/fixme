@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 begin
   require "dalli"
 rescue LoadError => e

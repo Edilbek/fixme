@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass::Source
   class Position
     # The one-based line of the document associated with the position.

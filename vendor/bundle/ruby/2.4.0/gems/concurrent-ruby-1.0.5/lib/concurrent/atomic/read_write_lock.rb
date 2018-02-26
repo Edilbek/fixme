@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'thread'
 require 'concurrent/atomic/atomic_fixnum'
 require 'concurrent/errors'

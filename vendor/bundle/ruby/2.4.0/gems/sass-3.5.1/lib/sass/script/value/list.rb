@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass::Script::Value
   # A SassScript object representing a CSS list.
   # This includes both comma-separated lists and space-separated lists.

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveModel
   module Type
     # == Active \Model \Type \Boolean

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'rspec/support/spec/shell_out'
 
 module RSpec

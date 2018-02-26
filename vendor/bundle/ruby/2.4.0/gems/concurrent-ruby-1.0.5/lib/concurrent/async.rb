@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'concurrent/configuration'
 require 'concurrent/ivar'
 require 'concurrent/synchronization/lockable_object'

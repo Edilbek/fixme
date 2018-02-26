@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 RSpec::Support.require_rspec_mocks 'matchers/expectation_customization'
 
 module RSpec

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'multi_json/options'
 require 'multi_json/version'
 require 'multi_json/adapter_error'

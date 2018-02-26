@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass
   module Script
     # This is a subclass of {Lexer} for use in parsing plain CSS properties.

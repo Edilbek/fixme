@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass::Script::Tree
   # A class representing a map literal. When resolved, this returns a
   # {Sass::Script::Node::Map}.

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 begin
   require "bundler/inline"
 rescue LoadError => e

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Thor
   class Command < Struct.new(:name, :description, :long_description, :usage, :options, :ancestor_name)
     FILE_REGEXP = /^#{Regexp.escape(File.dirname(__FILE__))}/

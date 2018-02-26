@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 When /^I create a widget using neo4j$/ do
   Neo4jWidget.create!
 end

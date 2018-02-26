@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Enumerable
   # Enumerable#sum was added in Ruby 2.4 but it only works with Numeric elements
   # when we omit an identity.

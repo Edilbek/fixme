@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'mime/type/columnar'
 
 # MIME::Types::Columnar is used to extend a MIME::Types container to load data

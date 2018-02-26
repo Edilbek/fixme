@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "action_view/helpers/tags/collection_helpers"
 
 module ActionView

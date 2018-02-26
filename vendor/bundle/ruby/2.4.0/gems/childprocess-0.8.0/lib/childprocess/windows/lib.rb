@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ChildProcess
   module Windows
     FORMAT_MESSAGE_FROM_SYSTEM            = 0x00001000

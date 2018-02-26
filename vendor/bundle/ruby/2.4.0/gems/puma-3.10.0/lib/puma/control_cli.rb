@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'optparse'
 require 'puma/state_file'
 require 'puma/const'

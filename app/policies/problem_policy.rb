@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class ProblemPolicy < ApplicationPolicy
   attr_reader :current_user, :problem
 

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 orms_pattern = /(ActiveRecord|DataMapper|Sequel|MongoMapper|Mongoid|CouchPotato|Redis|Ohm|Neo4j)/
 
 Given /^I am using #{orms_pattern}$/ do |orm|

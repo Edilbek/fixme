@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'global_id/global_id'
 
 autoload :SignedGlobalID, 'global_id/signed_global_id'

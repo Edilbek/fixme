@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'active_support/core_ext/array/extract_options'
 require 'action_controller/metal/mime_responds'
 

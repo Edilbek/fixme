@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass::Source
   class Range
     # The starting position of the range in the document (inclusive).

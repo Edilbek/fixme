@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Custom::RegistrationsController < Devise::RegistrationsController
   def new
     super do |resource|

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Given /^I have setup database cleaner to clean multiple databases using activerecord$/ do
   #DatabaseCleaner
   # require "#{File.dirname(__FILE__)}/../../../lib/datamapper_models"

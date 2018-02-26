@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "carrierwave/uploader/configuration"
 require "carrierwave/uploader/callbacks"
 require "carrierwave/uploader/proxy"

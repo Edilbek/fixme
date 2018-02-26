@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "thread"
 require "active_support/core_ext/string/filters"
 require "active_support/deprecation"

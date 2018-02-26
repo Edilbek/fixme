@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class UserPolicy < ApplicationPolicy
   attr_reader :current_user, :model
 

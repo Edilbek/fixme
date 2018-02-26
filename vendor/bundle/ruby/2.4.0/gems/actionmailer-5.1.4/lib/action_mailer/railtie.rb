@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "active_job/railtie"
 require "action_mailer"
 require "rails"

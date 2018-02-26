@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass
   module Tree
     # A static node that is the root node of the Sass document.

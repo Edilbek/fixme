@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'open3'
 require 'rake/file_utils'
 require 'shellwords'

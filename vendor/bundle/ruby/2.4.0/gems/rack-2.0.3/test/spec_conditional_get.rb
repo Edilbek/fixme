@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'minitest/autorun'
 require 'time'
 require 'rack/conditional_get'

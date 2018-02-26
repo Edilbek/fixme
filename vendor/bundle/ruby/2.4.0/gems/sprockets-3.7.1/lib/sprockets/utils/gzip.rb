@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sprockets
   module Utils
     class Gzip

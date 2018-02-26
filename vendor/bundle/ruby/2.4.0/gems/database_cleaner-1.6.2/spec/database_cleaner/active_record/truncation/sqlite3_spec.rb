@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'spec_helper'
 require 'active_record'
 require 'support/active_record/sqlite3_setup'

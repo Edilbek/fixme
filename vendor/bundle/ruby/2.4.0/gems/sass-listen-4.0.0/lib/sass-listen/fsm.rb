@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # Code copied from https://github.com/celluloid/celluloid-fsm
 module SassListen
   module FSM

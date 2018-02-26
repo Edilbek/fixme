@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'rspec/expectations'
 
 Minitest::Test.class_eval do

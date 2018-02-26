@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module RSpec
   module Matchers
     # Provides the necessary plumbing to wrap a matcher with a decorator.

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ThreadSafe
   class MriCacheBackend < NonConcurrentCacheBackend
     # We can get away with a single global write lock (instead of a per-instance

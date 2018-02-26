@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'ransack/nodes/bindable'
 require 'ransack/nodes/node'
 require 'ransack/nodes/attribute'

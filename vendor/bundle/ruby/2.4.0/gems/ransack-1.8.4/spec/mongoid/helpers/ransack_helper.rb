@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module RansackHelper
   def quote_table_name(table)
     # ActiveRecord::Base.connection.quote_table_name(table)

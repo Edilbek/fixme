@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Capybara::Poltergeist
   class Server
     attr_reader :socket, :fixed_port, :timeout, :custom_host

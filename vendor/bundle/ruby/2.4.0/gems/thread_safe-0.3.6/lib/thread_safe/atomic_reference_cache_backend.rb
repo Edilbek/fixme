@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ThreadSafe
   # A Ruby port of the Doug Lea's jsr166e.ConcurrentHashMapV8 class version 1.59
   # available in public domain.

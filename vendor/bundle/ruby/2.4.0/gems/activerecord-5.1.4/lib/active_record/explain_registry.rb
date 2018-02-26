@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "active_support/per_thread_registry"
 
 module ActiveRecord

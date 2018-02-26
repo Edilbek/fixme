@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'byebug/frame'
 require 'byebug/helpers/path'
 require 'byebug/helpers/file'

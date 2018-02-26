@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Zip
   module NullDecompressor #:nodoc:all
     module_function

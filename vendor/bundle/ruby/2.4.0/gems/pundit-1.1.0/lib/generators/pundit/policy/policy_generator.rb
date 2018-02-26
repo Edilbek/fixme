@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Pundit
   module Generators
     class PolicyGenerator < ::Rails::Generators::NamedBase

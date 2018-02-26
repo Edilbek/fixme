@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'concurrent/utility/engine'
 require 'concurrent/executor/thread_pool_executor'
 

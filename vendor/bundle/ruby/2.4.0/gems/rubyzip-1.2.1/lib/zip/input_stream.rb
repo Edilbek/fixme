@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Zip
   # InputStream is the basic class for reading zip entries in a
   # zip file. It is possible to create a InputStream object directly,

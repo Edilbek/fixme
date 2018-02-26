@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Zip
   module NullEncryption
     def header_bytesize

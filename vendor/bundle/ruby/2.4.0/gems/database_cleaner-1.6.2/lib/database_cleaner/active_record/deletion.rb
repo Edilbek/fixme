@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'active_record/base'
 require 'active_record/connection_adapters/abstract_adapter'
 require "database_cleaner/generic/truncation"

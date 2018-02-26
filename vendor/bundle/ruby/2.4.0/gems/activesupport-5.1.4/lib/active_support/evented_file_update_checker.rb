@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "set"
 require "pathname"
 require "concurrent/atomic/atomic_boolean"

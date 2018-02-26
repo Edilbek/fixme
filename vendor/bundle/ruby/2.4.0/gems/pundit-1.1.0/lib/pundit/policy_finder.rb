@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Pundit
   # Finds policy and scope classes for given object.
   # @api public

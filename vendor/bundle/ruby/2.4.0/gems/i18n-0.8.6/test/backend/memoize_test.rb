@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'test_helper'
 # TODO: change back to "require 'backend/simple'" when dropping support to Ruby 1.8.7.
 require File.expand_path('../simple_test', __FILE__)

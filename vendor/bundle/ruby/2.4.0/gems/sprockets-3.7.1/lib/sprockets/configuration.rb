@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'sprockets/compressing'
 require 'sprockets/dependencies'
 require 'sprockets/engines'

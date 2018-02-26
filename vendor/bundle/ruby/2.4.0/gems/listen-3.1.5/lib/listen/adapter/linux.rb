@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Listen
   module Adapter
     # @see https://github.com/nex3/rb-inotify

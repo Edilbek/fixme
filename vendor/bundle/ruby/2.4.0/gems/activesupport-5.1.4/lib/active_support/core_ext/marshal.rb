@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveSupport
   module MarshalWithAutoloading # :nodoc:
     def load(source, proc = nil)

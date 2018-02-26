@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveJob
   module QueuePriority
     extend ActiveSupport::Concern

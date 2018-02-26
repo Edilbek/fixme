@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "active_support/rescuable"
 require "active_job/arguments"
 

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "rails/html/sanitizer/version"
 require "loofah"
 require "rails/html/scrubbers"

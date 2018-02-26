@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "sass/css"
 require "rails/generators/named_base"
 

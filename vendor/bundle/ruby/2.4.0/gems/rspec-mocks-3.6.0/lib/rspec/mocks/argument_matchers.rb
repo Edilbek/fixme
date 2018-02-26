@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # This cannot take advantage of our relative requires, since this file is a
 # dependency of `rspec/mocks/argument_list_matcher.rb`. See comment there for
 # details.

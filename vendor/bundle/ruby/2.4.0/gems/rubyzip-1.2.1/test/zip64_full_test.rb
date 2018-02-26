@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 if ENV['FULL_ZIP64_TEST']
   require 'minitest/autorun'
   require 'minitest/unit'

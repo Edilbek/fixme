@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActionMailer
   # Provides the option to parameterize mailers in order to share instance variable
   # setup, processing, and common headers.

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module SassListen
   class Options
     def initialize(opts, defaults)

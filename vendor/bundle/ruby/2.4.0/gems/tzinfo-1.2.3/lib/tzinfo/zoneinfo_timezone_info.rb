@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module TZInfo
   # An InvalidZoneinfoFile exception is raised if an attempt is made to load an
   # invalid zoneinfo file.

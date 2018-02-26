@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass::Script::Value
   # A SassScript object representing a map from keys to values. Both keys and
   # values can be any SassScript object.

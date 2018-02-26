@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass
   module Tree
     # A static node that wraps the {Sass::Tree} for an `@import`ed file.

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 RSpec::Support.require_rspec_support 'encoded_string'
 RSpec::Support.require_rspec_support 'ruby_features'
 

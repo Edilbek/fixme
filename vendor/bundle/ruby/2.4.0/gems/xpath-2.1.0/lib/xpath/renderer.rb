@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module XPath
   class Renderer
     def self.render(node, type)

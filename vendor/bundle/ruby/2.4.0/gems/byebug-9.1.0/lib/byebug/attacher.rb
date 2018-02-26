@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 #
 # Main Container for all of Byebug's code
 #

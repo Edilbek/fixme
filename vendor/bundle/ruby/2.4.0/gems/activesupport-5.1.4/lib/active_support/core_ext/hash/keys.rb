@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Hash
   # Returns a new hash with all keys converted using the +block+ operation.
   #

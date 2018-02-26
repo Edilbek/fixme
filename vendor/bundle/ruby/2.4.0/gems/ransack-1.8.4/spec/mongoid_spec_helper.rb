@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'machinist/object'
 require 'sham'
 require 'faker'

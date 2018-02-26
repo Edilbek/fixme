@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # frozen_string_literal: true
 Capybara::SpecHelper.spec Capybara::Window, requires: [:windows] do
   before(:each) do

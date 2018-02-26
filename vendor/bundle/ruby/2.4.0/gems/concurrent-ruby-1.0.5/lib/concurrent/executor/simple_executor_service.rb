@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'concurrent/atomics'
 require 'concurrent/executor/executor_service'
 

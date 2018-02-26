@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ChildProcess
   module Unix
     class IO < AbstractIO

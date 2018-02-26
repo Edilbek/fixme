@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module RSpec
   module Mocks
     # Support for `patch_marshal_to_support_partial_doubles` configuration.

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module MopedTest
   class ThingBase
     def self.collection

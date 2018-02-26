@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module MultiJson
   module OptionsCache
     extend self

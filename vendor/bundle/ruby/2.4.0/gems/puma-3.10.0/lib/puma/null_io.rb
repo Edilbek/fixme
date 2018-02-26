@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Puma
   # Provides an IO-like object that always appears to contain no data.
   # Used as the value for rack.input when the request has no body.

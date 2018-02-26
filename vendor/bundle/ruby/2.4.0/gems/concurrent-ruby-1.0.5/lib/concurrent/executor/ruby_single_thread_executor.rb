@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'concurrent/executor/ruby_thread_pool_executor'
 
 module Concurrent

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'yaml'
 
 require 'ruby_dep/travis/ruby_version'

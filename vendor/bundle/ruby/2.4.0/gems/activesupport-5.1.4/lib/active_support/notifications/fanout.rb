@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "mutex_m"
 require "concurrent/map"
 

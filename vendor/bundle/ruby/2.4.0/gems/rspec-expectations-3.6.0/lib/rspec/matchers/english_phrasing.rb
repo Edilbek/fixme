@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module RSpec
   module Matchers
     # Facilitates converting ruby objects to English phrases.

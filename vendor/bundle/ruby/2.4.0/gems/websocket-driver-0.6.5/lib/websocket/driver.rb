@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # Protocol references:
 #
 # * http://tools.ietf.org/html/draft-hixie-thewebsocketprotocol-75

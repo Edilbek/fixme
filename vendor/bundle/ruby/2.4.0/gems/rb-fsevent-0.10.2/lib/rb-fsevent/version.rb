@@ -1,4 +1,4 @@
-# -*- encoding: utf-8 -*-
+# -*- encoding : utf-8 -*-
 
 class FSEvent
   VERSION = '0.10.2'

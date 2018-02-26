@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # :stopdoc:
 ENV['RC_ARCHS'] = '' if RUBY_PLATFORM =~ /darwin/
 

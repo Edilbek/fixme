@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 if !defined?(RUBY_ENGINE) || RUBY_ENGINE == 'ruby' || RUBY_ENGINE == 'rbx'
   Object.send(:remove_const, :FFI) if defined?(::FFI)
   begin

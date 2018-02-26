@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Zip
   module TraditionalEncryption
     def initialize(password)

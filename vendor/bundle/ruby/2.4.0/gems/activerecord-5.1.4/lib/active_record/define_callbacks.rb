@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveRecord
   # This module exists because `ActiveRecord::AttributeMethods::Dirty` needs to
   # define callbacks, but continue to have its version of `save` be the super

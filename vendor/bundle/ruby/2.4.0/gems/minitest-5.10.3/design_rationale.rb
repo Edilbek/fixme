@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # Specs:                               # Equivalent Unit Tests:
 ###############################################################################
 describe Thingy do                     # class TestThingy < Minitest::Test

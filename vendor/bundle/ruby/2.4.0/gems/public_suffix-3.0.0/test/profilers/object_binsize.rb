@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'tempfile'
 
 # A very simple memory profiles that checks the full size of a variable

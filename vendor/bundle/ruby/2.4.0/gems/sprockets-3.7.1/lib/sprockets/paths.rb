@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'sprockets/path_utils'
 require 'sprockets/utils'
 

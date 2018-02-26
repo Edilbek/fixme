@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass
   # A lightweight infrastructure for defining and running callbacks.
   # Callbacks are defined using \{#define\_callback\} at the class level,

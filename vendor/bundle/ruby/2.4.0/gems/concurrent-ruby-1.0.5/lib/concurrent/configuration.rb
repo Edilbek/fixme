@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'thread'
 require 'concurrent/delay'
 require 'concurrent/errors'

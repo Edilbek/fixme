@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 #
 # Copyright (C) 2008, 2009 Wayne Meissner
 # Copyright (C) 2009 Luc Heinrich

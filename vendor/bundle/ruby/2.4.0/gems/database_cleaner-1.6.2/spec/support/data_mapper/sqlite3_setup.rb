@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'support/active_record/database_setup'
 require 'support/data_mapper/schema_setup'
 

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Users::ReplyToMailer < Devise::Mailer
   default from: 'custom@example.com'
   default reply_to: 'custom_reply_to@example.com'

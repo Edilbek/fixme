@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # frozen_string_literal: true
 Capybara::SpecHelper.spec '#save_screenshot', requires: [:screenshot] do
   let(:alternative_path) { File.join(Dir.pwd, "save_screenshot_tmp") }

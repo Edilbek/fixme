@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'zip'
 
 # This is a simple example which uses rubyzip to

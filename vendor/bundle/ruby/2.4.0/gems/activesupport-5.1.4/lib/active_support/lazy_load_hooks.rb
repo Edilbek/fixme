@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveSupport
   # lazy_load_hooks allows Rails to lazily load a lot of components and thus
   # making the app boot faster. Because of this feature now there is no need to

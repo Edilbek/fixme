@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sprockets
   class Cache
     # Public: A compatible cache store that doesn't store anything. Used by

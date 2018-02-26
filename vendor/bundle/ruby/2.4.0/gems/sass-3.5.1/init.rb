@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 begin
   require File.join(File.dirname(__FILE__), 'lib', 'sass') # From here
 rescue LoadError

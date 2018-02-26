@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass::Tree
   # A static node representing an unprocessed Sass `@`-directive.
   # Directives known to Sass, like `@for` and `@debug`,

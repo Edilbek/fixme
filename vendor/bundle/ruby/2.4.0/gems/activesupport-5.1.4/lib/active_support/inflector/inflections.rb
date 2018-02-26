@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "concurrent/map"
 require "active_support/core_ext/array/prepend_and_append"
 require "active_support/core_ext/regexp"

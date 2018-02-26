@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 def active_record_load_schema
   ActiveRecord::Schema.define do
     create_table :users, :force => true do |t|

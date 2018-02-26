@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass
   module CacheStores
     # An abstract base class for backends for the Sass cache.

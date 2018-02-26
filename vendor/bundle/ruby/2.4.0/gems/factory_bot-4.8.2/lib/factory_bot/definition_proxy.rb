@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module FactoryBot
   class DefinitionProxy
     UNPROXIED_METHODS = %w(__send__ __id__ nil? send object_id extend instance_eval initialize block_given? raise caller method)

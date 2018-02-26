@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'rspec/support'
 RSpec::Support.require_rspec_support "caller_filter"
 

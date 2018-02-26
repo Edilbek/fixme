@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 #
 # Copyright (C) 2009 Andrea Fazzi <andrea.fazzi@alcacoop.it>
 #

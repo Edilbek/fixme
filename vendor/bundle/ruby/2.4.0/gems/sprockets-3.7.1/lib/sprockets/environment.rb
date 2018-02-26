@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'sprockets/base'
 require 'sprockets/cache/memory_store'
 require 'sprockets/cached_environment'

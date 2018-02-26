@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # active_record_3_and_4.0_ruby_1.9/join_association.rb
 module Polyamorous
   module JoinAssociationExtensions

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Puma
   IS_JRUBY = defined?(JRUBY_VERSION)
 

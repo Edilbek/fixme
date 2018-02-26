@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'minitest/autorun'
 require 'rack/common_logger'
 require 'rack/lint'

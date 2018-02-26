@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module SassListen
   module Adapter
     # Adapter implementation for Windows `wdm`.

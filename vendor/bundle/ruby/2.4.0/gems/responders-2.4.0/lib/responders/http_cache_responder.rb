@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Responders
   # Set HTTP Last-Modified headers based on the given resource. It's used only
   # on API behavior (to_format) and is useful for a client to check in the server

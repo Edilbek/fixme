@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'puma/runner'
 require 'puma/detect'
 require 'puma/plugin'

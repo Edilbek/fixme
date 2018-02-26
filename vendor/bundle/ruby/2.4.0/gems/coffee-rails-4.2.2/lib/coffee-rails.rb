@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'coffee-script'
 require 'coffee/rails/engine'
 require 'coffee/rails/template_handler'

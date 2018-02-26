@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Byebug
   #
   # Custom exception exception to signal "command not found" errors

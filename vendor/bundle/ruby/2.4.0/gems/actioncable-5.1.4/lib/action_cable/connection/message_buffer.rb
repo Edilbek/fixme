@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActionCable
   module Connection
     # Allows us to buffer messages received from the WebSocket before the Connection has been fully initialized, and is ready to receive them.

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module MultiJson
   class AdapterError < ArgumentError
     attr_reader :cause

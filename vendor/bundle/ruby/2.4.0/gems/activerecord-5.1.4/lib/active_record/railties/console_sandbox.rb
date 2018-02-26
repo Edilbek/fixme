@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 ActiveRecord::Base.connection.begin_transaction(joinable: false)
 
 at_exit do

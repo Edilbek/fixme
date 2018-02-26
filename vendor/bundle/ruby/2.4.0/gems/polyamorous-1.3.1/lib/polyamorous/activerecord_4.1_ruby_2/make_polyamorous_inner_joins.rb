@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Polyamorous
   module JoinDependencyExtensions
     # Replaces ActiveRecord::Associations::JoinDependency#make_inner_joins

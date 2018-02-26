@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'delegate'
 require 'concurrent/executor/serial_executor_service'
 require 'concurrent/executor/serialized_execution'

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActionMailer #:nodoc:
   # Provides `rescue_from` for mailers. Wraps mailer action processing,
   # mail job processing, and mail delivery.

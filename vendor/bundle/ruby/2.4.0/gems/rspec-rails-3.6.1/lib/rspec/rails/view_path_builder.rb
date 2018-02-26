@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module RSpec
   module Rails
     # Builds paths for view specs using a particular route set.

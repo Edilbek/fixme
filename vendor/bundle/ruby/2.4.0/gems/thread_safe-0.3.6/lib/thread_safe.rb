@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'thread_safe/version'
 require 'thread_safe/synchronized_delegator'
 

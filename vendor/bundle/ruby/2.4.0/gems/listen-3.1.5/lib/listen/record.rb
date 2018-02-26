@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'thread'
 require 'listen/record/entry'
 require 'listen/record/symlink_detector'

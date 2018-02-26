@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActionDispatch
   class RequestEncoder # :nodoc:
     class IdentityEncoder

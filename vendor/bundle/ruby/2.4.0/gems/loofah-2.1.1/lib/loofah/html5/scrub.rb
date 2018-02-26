@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 #encoding: US-ASCII
 
 require 'cgi'

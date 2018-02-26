@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "action_view/rendering"
 require "active_support/core_ext/module/remove_method"
 

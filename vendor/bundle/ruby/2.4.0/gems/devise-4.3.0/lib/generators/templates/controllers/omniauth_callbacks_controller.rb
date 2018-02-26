@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class <%= @scope_prefix %>OmniauthCallbacksController < Devise::OmniauthCallbacksController
   # You should configure your model like this:
   # devise :omniauthable, omniauth_providers: [:twitter]

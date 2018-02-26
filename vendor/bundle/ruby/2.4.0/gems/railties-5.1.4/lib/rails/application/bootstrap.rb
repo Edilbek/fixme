@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "fileutils"
 require "active_support/notifications"
 require "active_support/dependencies"

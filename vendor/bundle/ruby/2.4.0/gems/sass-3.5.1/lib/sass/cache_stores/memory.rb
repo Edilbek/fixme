@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass
   module CacheStores
     # A backend for the Sass cache using in-process memory.

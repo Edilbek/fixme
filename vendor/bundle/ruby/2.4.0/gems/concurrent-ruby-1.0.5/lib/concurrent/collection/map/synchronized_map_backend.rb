@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'concurrent/collection/map/non_concurrent_map_backend'
 
 module Concurrent

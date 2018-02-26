@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Spring
   # Yes, I know this reimplements a bunch of stuff in Active Support, but
   # I don't want the spring client to depend on AS, in order to keep its

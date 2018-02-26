@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "active_record/associations/join_dependency/join_part"
 
 module ActiveRecord

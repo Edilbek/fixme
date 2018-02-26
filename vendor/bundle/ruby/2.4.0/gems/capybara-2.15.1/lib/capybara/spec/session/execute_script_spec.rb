@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # frozen_string_literal: true
 Capybara::SpecHelper.spec "#execute_script", requires: [:js] do
   it "should execute the given script and return nothing" do

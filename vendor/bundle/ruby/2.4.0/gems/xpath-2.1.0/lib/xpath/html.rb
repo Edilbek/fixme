@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module XPath
   module HTML
     include XPath::DSL

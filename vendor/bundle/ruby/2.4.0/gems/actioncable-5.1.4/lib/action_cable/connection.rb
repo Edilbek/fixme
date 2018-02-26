@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActionCable
   module Connection
     extend ActiveSupport::Autoload

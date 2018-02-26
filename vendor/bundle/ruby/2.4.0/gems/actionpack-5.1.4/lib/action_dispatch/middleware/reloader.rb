@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActionDispatch
   # ActionDispatch::Reloader wraps the request with callbacks provided by ActiveSupport::Reloader
   # callbacks, intended to assist with code reloading during development.

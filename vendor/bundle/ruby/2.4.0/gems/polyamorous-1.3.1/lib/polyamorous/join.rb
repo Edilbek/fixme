@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Polyamorous
   class Join
     include TreeNode

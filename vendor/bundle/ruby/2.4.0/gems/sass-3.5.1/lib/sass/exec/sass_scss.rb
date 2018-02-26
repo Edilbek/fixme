@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass::Exec
   # The `sass` and `scss` executables.
   class SassScss < Base

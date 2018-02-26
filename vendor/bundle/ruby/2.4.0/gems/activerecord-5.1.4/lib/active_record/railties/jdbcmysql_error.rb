@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 #FIXME Remove if ArJdbcMysql will give.
 module ArJdbcMySQL #:nodoc:
   class Error < StandardError #:nodoc:

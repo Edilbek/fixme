@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActionCable
   module Server
     # Collection class for all the connections that have been established on this specific server. Remember, usually you'll run many Action Cable servers, so

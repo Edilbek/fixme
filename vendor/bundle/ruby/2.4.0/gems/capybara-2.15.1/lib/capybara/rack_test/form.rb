@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # frozen_string_literal: true
 class Capybara::RackTest::Form < Capybara::RackTest::Node
   # This only needs to inherit from Rack::Test::UploadedFile because Rack::Test checks for

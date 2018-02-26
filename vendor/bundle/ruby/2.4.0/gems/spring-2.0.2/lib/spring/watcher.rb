@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "spring/watcher/abstract"
 require "spring/configuration"
 

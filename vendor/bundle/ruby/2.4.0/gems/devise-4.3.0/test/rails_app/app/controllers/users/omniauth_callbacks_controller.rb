@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
   def facebook
     data = request.respond_to?(:get_header) ? request.get_header("omniauth.auth") : request.env["omniauth.auth"]

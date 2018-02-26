@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'ohm'
 
 Ohm.connect :url => ENV['REDIS_URL']

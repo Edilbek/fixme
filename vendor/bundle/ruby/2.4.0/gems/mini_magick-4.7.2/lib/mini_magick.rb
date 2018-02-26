@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'mini_magick/version'
 require 'mini_magick/configuration'
 

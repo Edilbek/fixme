@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActionView
   module ViewPaths
     extend ActiveSupport::Concern

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "concurrent/map"
 require "action_view/path_set"
 

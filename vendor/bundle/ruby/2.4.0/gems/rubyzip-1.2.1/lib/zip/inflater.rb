@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Zip
   class Inflater < Decompressor #:nodoc:all
     def initialize(input_stream, decrypter = NullDecrypter.new)

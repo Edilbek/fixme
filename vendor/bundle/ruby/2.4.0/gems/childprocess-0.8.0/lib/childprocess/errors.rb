@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ChildProcess
   class Error < StandardError
   end

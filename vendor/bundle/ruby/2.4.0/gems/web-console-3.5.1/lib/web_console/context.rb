@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module WebConsole
   # A context lets you get object names related to the current session binding.
   class Context

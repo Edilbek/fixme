@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Devise::OmniauthCallbacksController < DeviseController
   prepend_before_action { request.env["devise.skip_timeout"] = true }
 

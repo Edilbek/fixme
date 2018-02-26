@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Thor
   class Arguments #:nodoc: # rubocop:disable ClassLength
     NUMERIC = /[-+]?(\d*\.\d+|\d+)/

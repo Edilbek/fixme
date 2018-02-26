@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Capybara::SpecHelper.spec '#match_xpath?' do
   before do
     @session.visit('/with_html')

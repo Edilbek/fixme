@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'rails'
 require 'rails/railtie'
 require 'action_controller/railtie'

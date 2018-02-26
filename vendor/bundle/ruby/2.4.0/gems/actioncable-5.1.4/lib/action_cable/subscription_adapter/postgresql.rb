@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 gem "pg", "~> 0.18"
 require "pg"
 require "thread"

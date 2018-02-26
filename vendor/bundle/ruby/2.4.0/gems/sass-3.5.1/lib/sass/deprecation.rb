@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass
   # A deprecation warning that should only be printed once for a given line in a
   # given file.

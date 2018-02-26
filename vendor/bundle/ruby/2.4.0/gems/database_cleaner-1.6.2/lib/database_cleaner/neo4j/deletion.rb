@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'database_cleaner/neo4j/base'
 require 'neo4j-core'
 

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass
   module Importers
     # The abstract base class for Sass importers.

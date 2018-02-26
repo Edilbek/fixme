@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'memory_profiler'
 require 'benchmark/ips'
 

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Thor
   module Shell
     class Basic

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "execjs/module"
 require "execjs/disabled_runtime"
 require "execjs/duktape_runtime"

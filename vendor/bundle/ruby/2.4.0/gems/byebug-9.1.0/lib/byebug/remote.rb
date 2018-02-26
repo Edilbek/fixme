@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'socket'
 require 'byebug/processors/control_processor'
 

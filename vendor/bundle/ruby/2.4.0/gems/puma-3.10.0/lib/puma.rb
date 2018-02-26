@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # Standard libraries
 require 'socket'
 require 'tempfile'

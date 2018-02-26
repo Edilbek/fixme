@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module INotify
   module Native
     # A module containing all the inotify flags

@@ -1,4 +1,4 @@
-# coding: utf-8
+# -*- encoding : utf-8 -*-
 # Copyright (C) Bob Aman
 #
 #    Licensed under the Apache License, Version 2.0 (the "License");

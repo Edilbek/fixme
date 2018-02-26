@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Widget
   include ::MongoMapper::Document
   key :name, String

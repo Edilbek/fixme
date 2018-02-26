@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "application_system_test_case"
 
 class <%= class_name.pluralize %>Test < ApplicationSystemTestCase

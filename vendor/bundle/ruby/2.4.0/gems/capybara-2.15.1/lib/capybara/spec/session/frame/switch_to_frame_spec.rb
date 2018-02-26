@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # frozen_string_literal: true
 Capybara::SpecHelper.spec '#switch_to_frame', requires: [:frames] do
   before(:each) do

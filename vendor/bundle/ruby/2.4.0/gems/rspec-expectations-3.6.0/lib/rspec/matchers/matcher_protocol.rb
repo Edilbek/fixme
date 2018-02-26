@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module RSpec
   module Matchers
     # rspec-expectations can work with any matcher object that implements this protocol.

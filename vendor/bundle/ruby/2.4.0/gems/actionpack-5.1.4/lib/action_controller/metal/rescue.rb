@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActionController #:nodoc:
   # This module is responsible for providing `rescue_from` helpers
   # to controllers and configuring when detailed exceptions must be

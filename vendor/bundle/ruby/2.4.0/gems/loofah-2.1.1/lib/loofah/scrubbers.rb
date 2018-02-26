@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Loofah
   #
   #  Loofah provides some built-in scrubbers for sanitizing with

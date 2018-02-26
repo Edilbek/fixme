@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Bindex
   module Rubinius
     # Filters internal Rubinius locations.

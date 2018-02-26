@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module WebSocket
   class Driver
     class Hybi

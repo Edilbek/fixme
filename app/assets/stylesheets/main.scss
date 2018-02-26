@@ -72,3 +72,10 @@ body {
 .pagination {
   margin-bottom: 30px;
 }
+
+
+@media (min-width: 992px) {
+  .in_progress .resolved {
+    text-align: center;
+  }
+}

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # We intentionally do not use the `RSpec::Support.require...` methods
 # here so that this file can be loaded individually, as documented
 # below.

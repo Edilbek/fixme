@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module RSpec
   module Rails
     # Fake class to document RSpec ActiveRecord configuration options. In practice,

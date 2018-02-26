@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'ransack/adapters/mongoid/base'
 ::Mongoid::Document.send :include, Ransack::Adapters::Mongoid::Base
 

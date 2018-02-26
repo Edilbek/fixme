@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class CodeStatisticsCalculator #:nodoc:
   attr_reader :lines, :code_lines, :classes, :methods
 

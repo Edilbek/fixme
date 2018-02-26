@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "mini_magick/tool/mogrify"
 
 module MiniMagick

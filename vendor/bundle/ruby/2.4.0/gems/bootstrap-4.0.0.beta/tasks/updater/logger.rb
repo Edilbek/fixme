@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Updater
   class Logger
     include Term::ANSIColor

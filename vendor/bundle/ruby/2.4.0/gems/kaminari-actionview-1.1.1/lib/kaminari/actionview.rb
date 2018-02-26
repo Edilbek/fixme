@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # frozen_string_literal: true
 require "kaminari/actionview/version"
 require 'active_support/lazy_load_hooks'

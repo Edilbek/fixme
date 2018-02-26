@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module WebConsole
   # Simple Ruby code evaluator.
   #

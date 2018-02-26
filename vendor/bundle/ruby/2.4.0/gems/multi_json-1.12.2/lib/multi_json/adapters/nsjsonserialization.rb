@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 framework 'Foundation'
 require 'multi_json/adapters/ok_json'
 

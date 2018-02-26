@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'sprockets/engines'
 require 'sprockets/file_reader'
 require 'sprockets/legacy_proc_processor'

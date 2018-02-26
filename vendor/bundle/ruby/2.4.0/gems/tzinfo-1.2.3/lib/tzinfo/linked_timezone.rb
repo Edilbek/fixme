@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module TZInfo
 
   # A Timezone based on a LinkedTimezoneInfo.

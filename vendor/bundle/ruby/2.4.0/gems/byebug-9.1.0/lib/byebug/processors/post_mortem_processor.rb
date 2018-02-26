@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'byebug/processors/command_processor'
 
 module Byebug

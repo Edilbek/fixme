@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # This is borrowed (slightly modified) from Scott Taylor's
 # project_path project:
 #   http://github.com/smtlaissezfaire/project_path

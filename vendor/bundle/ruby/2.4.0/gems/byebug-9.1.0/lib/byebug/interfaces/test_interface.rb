@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Byebug
   #
   # Custom interface for easier assertions

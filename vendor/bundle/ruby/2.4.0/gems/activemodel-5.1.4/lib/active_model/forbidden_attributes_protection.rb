@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveModel
   # Raised when forbidden attributes are used for mass assignment.
   #

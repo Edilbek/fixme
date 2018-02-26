@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'database_cleaner/data_mapper/truncation'
 require 'database_cleaner/shared_strategy'
 

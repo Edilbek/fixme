@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'set'
 require 'digest/sha1'
 require 'sass/cache_stores'

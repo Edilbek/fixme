@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass::Script::Value
   # The abstract superclass for SassScript objects.
   #

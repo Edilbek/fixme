@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveRecord::Associations::Builder # :nodoc:
   class HasOne < SingularAssociation #:nodoc:
     def self.macro

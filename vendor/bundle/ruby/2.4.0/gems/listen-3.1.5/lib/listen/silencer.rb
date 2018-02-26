@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Listen
   class Silencer
     # The default list of directories that get ignored.

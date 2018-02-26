@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'ransack/nodes'
 require 'ransack/context'
 Ransack::Adapters.object_mapper.require_search

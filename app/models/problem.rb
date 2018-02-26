@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Problem < ApplicationRecord
   enum status: {
     unresolved: 0,

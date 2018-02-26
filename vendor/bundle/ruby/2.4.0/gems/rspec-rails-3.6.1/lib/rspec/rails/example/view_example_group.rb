@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'rspec/rails/view_assigns'
 require 'rspec/rails/view_spec_methods'
 require 'rspec/rails/view_path_builder'

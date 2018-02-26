@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module INotify
   # Notifier wraps a single instance of inotify.
   # It's possible to have more than one instance,

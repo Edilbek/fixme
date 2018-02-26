@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'database_cleaner/sequel/base'
 require 'database_cleaner/generic/truncation'
 require 'database_cleaner/sequel/truncation'

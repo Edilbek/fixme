@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module RSpecHelpers
   def expect_no_deprecation
     expect(RSpec.configuration.reporter).not_to receive(:deprecation)

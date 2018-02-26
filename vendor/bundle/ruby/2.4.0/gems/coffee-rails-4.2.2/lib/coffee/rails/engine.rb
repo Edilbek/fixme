@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'rails/engine'
 require 'rails/generators'
 require 'coffee/rails/js_hook'

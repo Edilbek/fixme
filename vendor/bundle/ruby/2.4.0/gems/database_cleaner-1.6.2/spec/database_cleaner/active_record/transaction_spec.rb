@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require File.dirname(__FILE__) + '/../../spec_helper'
 require 'database_cleaner/active_record/transaction'
 require 'active_record'

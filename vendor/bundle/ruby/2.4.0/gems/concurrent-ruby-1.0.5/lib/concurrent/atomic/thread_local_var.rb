@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'concurrent/atomic/ruby_thread_local_var'
 require 'concurrent/atomic/java_thread_local_var'
 require 'concurrent/utility/engine'

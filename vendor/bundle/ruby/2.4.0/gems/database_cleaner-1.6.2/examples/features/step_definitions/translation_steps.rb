@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 When /^I create a widget$/ do
   step "I create a widget using #{ENV['ORM'].downcase}"
 end

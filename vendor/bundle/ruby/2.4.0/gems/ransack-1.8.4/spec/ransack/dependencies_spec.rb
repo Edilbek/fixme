@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 =begin
 rails = ::ActiveRecord::VERSION::STRING.first(3)
 

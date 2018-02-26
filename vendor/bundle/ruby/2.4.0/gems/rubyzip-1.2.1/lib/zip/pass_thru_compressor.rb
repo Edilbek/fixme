@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Zip
   class PassThruCompressor < Compressor #:nodoc:all
     def initialize(outputStream)

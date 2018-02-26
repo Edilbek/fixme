@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass::Tree
   class KeyframeRuleNode < Node
     # The text of the directive after any interpolated SassScript has been resolved.

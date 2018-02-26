@@ -1,4 +1,4 @@
-# encoding: utf-8
+# -*- encoding : utf-8 -*-
 require_relative 'crass/parser'
 
 # A CSS parser based on the CSS Syntax Module Level 3 spec.

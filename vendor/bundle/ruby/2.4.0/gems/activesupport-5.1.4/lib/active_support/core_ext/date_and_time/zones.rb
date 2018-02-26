@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module DateAndTime
   module Zones
     # Returns the simultaneous time in <tt>Time.zone</tt> if a zone is given or

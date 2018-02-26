@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class ReraisedFixture
   def call
     reraise_an_error

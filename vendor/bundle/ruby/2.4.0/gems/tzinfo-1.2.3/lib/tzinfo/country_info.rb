@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module TZInfo  
   # Represents a country and references to its timezones as returned by a
   # DataSource.

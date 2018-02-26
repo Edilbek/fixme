@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'listen/options'
 require 'listen/record'
 require 'listen/change'

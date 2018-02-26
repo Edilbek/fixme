@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module MethodSource
   module ReeSourceLocation
     # Ruby enterprise edition provides all the information that's

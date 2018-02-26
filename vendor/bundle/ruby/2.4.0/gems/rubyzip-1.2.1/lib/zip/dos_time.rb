@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Zip
   class DOSTime < Time #:nodoc:all
     # MS-DOS File Date and Time format as used in Interrupt 21H Function 57H:

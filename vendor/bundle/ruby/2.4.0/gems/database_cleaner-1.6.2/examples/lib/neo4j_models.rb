@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'neo4j-core'
 
 class Neo4jWidget < Neo4j::Node

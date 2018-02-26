@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Byebug
   #
   # Interface class for command execution from script files.

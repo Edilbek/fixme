@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Thor
   module Actions
     # Creates an empty directory.

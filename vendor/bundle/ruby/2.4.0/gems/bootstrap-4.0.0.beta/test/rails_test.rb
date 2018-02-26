@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'test_helper_rails'
 
 class RailsTest < ActionDispatch::IntegrationTest

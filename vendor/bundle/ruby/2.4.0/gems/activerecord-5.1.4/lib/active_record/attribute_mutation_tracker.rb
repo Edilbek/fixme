@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveRecord
   class AttributeMutationTracker # :nodoc:
     OPTION_NOT_GIVEN = Object.new

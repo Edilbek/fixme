@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "active_record/relation/batches/batch_enumerator"
 
 module ActiveRecord

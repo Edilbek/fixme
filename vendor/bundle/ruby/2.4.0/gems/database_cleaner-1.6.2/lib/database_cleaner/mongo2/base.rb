@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module DatabaseCleaner
   module Mongo2
     def self.available_strategies

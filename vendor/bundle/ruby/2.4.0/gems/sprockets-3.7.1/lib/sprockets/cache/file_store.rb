@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'fileutils'
 require 'logger'
 require 'sprockets/encoding_utils'

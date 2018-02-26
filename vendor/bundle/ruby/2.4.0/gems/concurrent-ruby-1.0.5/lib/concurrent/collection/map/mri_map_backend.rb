@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'thread'
 require 'concurrent/collection/map/non_concurrent_map_backend'
 

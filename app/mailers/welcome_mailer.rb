@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class WelcomeMailer < ApplicationMailer
 
   # Subject can be set in your I18n file at config/locales/en.yml

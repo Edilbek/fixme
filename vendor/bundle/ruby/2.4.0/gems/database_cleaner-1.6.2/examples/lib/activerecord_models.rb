@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'active_record'
 databases_config = {
   "one" => {"adapter" => "#{"jdbc" if defined?(JRUBY_VERSION)}sqlite3", "database" => "#{DB_DIR}/activerecord_one.db"},

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 if defined? Concurrent::CAtomicReference
   require 'concurrent/synchronization'
   require 'concurrent/atomic_reference/direct_update'

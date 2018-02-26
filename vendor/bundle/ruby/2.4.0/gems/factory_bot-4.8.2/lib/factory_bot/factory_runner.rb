@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module FactoryBot
   class FactoryRunner
     def initialize(name, strategy, traits_and_overrides)

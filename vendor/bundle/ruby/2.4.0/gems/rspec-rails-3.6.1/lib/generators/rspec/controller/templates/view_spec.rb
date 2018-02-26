@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'rails_helper'
 
 RSpec.describe "<%= file_name %>/<%= @action %>.html.<%= options[:template_engine] %>", <%= type_metatag(:view) %> do

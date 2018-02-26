@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass
   module Tree
     # A node representing the placement within a mixin of the include statement's content.

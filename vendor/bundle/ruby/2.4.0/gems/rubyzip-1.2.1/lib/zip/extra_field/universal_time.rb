@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Zip
   # Info-ZIP Additional timestamp field
   class ExtraField::UniversalTime < ExtraField::Generic

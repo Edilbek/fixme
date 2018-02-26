@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "thread"
 
 gem "em-hiredis", "~> 0.3.0"

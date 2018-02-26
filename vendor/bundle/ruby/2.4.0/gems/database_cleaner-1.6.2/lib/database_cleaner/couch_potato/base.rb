@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module DatabaseCleaner
   module CouchPotato
     def self.available_strategies

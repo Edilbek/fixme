@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'sass/logger/log_level'
 
 class Sass::Logger::Base

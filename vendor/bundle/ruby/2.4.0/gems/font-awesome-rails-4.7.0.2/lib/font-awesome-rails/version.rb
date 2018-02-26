@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module FontAwesome
   module Rails
     FA_VERSION = "4.7.0"

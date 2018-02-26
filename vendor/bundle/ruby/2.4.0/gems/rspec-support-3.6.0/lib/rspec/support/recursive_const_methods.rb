@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module RSpec
   module Support
     # Provides recursive constant lookup methods useful for

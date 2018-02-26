@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module MultiJson
   class ParseError < StandardError
     attr_reader :data, :cause

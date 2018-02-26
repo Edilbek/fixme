@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module WebConsole
   # Web Console tailored request object.
   class Request < ActionDispatch::Request

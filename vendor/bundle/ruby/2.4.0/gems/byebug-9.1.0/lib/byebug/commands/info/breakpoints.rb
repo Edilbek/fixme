@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Byebug
   #
   # Reopens the +info+ command to define the +breakpoints+ subcommand

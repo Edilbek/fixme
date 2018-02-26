@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'sass'
 require 'sass/rails/cache_store'
 require 'sass/rails/helpers'

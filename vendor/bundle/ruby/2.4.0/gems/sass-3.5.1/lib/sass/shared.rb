@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass
   # This module contains functionality that's shared between Haml and Sass.
   module Shared

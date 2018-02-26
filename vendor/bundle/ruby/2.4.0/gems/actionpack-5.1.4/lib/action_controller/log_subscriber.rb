@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActionController
   class LogSubscriber < ActiveSupport::LogSubscriber
     INTERNAL_PARAMS = %w(controller action format _method only_path)

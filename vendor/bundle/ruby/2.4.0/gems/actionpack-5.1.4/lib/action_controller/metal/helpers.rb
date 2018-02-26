@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActionController
   # The \Rails framework provides a large number of helpers for working with assets, dates, forms,
   # numbers and model objects, to name a few. These helpers are available to all templates

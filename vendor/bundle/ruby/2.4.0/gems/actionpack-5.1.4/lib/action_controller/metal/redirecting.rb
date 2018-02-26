@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActionController
   module Redirecting
     extend ActiveSupport::Concern

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'couch_potato'
 require 'json/pure' unless defined? ::JSON
 ::CouchPotato::Config.database_name = 'couch_potato_test'

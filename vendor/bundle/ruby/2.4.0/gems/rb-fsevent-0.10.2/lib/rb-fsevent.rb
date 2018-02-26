@@ -1,3 +1,3 @@
-# -*- encoding: utf-8 -*-
+# -*- encoding : utf-8 -*-
 require 'rb-fsevent/fsevent'
 require 'rb-fsevent/version'

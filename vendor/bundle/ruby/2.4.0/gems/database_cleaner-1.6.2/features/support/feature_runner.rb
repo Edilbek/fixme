@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class FeatureRunner
   attr_accessor :orm
   attr_accessor :another_orm

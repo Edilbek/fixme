@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 #
 # Copyright (C) 2008, 2009 Wayne Meissner
 # Copyright (c) 2007, 2008 Evan Phoenix

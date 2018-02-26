@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'spec_helper'
 require 'active_record'
 require 'database_cleaner/active_record/base'

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'jbuilder/jbuilder'
 
 dependency_tracker = false

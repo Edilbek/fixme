@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'gson'
 require 'stringio'
 require 'multi_json/adapter'

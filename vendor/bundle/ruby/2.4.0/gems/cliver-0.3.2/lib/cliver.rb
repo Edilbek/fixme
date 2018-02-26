@@ -1,4 +1,4 @@
-# encoding: utf-8
+# -*- encoding : utf-8 -*-
 
 require File.expand_path('../core_ext/file', __FILE__)
 

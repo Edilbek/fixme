@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Admin::ProblemsController < ApplicationAdminController
   before_action :find_problem, only: [:show, :edit, :update]
 

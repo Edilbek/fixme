@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Concurrent
 
   # A submodule for unstable, highly experimental features that are likely to

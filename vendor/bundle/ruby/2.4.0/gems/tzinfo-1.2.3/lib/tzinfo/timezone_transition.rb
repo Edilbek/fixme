@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module TZInfo
   # Represents a transition from one timezone offset to another at a particular
   # date and time.

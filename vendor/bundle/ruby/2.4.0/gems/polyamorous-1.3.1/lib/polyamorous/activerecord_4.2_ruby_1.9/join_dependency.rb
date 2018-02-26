@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # active_record_4.2_ruby_1.9/join_dependency.rb
 require 'polyamorous/activerecord_4.2_ruby_2/join_dependency'
 

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "active_support/core_ext/array/extract_options"
 require "active_support/core_ext/hash/keys"
 require "action_view/helpers/asset_url_helper"

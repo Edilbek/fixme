@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Byebug
   #
   # Reopens the +var+ command to define the +global+ subcommand

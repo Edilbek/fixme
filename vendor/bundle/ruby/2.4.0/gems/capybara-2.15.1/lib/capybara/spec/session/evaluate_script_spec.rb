@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # frozen_string_literal: true
 Capybara::SpecHelper.spec "#evaluate_script", requires: [:js] do
   it "should evaluate the given script and return whatever it produces" do

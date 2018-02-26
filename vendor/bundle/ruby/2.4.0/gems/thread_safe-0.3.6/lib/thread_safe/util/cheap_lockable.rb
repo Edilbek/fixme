@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ThreadSafe
   module Util
     # Provides a cheapest possible (mainly in terms of memory usage) +Mutex+

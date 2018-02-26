@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module RSpec
   module Support
     # Provides a means to fuzzy-match between two arbitrary objects.

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass::Script::Tree
   # A parse tree node representing a list literal. When resolved, this returns a
   # {Sass::Tree::Value::List}.

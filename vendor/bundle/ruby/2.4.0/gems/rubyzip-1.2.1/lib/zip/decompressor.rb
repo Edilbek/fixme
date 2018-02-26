@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Zip
   class Decompressor  #:nodoc:all
     CHUNK_SIZE = 32_768

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Listen
   class Options
     def initialize(opts, defaults)

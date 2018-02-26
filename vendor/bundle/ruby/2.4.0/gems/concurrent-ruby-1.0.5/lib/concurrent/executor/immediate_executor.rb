@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'concurrent/atomic/event'
 require 'concurrent/executor/abstract_executor_service'
 require 'concurrent/executor/serial_executor_service'

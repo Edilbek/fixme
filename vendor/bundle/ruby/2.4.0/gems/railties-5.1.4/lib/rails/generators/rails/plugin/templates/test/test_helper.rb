@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require File.expand_path("../../<%= options[:dummy_path] -%>/config/environment.rb", __FILE__)
 <% unless options[:skip_active_record] -%>
 ActiveRecord::Migrator.migrations_paths = [File.expand_path("../../<%= options[:dummy_path] -%>/db/migrate", __FILE__)]

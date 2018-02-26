@@ -1,4 +1,4 @@
-# encoding: utf-8
+# -*- encoding : utf-8 -*-
 
 module Cliver
   # Cliver follows {http://semver.org SemVer}

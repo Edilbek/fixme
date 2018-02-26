@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'rspec/support'
 RSpec::Support.require_rspec_support "ruby_features"
 RSpec::Support.require_rspec_support "matcher_definition"

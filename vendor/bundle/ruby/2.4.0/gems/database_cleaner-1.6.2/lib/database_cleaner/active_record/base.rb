@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'database_cleaner/generic/base'
 require 'active_record'
 require 'erb'

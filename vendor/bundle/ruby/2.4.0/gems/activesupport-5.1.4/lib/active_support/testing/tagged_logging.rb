@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActiveSupport
   module Testing
     # Logs a "PostsControllerTest: test name" heading before each test to

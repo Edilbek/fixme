@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'sass-listen/options'
 require 'sass-listen/record'
 require 'sass-listen/change'

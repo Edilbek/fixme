@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'mongo_mapper'
 
 ::MongoMapper.connection = Mongo::Connection.new('127.0.0.1')

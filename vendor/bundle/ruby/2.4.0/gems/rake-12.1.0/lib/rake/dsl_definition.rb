@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # frozen_string_literal: true
 # Rake DSL functions.
 require "rake/file_utils_ext"

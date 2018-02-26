@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Process
 
   # This overrides the default version because it is broken if it

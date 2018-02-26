@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'concurrent/synchronization'
 require 'concurrent/atomic_reference/direct_update'
 require 'concurrent/atomic_reference/numeric_cas_wrapper'

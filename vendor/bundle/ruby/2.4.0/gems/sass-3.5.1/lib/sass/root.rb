@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass
   # The root directory of the Sass source tree.
   # This may be overridden by the package manager

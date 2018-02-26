@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module WebConsole
   # A session lets you persist an +Evaluator+ instance in memory associated
   # with multiple bindings.

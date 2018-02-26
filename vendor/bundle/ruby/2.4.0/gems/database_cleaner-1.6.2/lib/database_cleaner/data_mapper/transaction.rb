@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'database_cleaner/data_mapper/base'
 require 'database_cleaner/generic/transaction'
 

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Spring
   module Test
     class ApplicationGenerator

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Polyamorous
   module SwappingReflectionClass
     def swapping_reflection_klass(reflection, klass)

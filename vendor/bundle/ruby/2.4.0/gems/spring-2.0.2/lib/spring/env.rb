@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "pathname"
 require "fileutils"
 require "digest/md5"

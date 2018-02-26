@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Capybara
   module Queries
     class MatchQuery < Capybara::Queries::SelectorQuery

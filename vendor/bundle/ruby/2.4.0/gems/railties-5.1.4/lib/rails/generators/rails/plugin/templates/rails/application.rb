@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require_relative 'boot'
 
 <% if include_all_railties? -%>

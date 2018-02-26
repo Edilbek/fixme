@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Zip
   # Olf Info-ZIP Extra for UNIX uid/gid and file timestampes
   class ExtraField::OldUnix < ExtraField::Generic

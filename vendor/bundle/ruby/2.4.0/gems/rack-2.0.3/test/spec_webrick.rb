@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'minitest/autorun'
 require 'rack/mock'
 require 'concurrent/utility/native_integer'

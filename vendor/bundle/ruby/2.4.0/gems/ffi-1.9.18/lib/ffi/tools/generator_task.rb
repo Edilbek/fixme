@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 begin
   require 'ffi/struct_generator'
   require 'ffi/const_generator'

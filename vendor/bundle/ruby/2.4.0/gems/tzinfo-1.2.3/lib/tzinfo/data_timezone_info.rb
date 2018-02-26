@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module TZInfo
   # Represents a defined timezone containing transition data.
   class DataTimezoneInfo < TimezoneInfo  

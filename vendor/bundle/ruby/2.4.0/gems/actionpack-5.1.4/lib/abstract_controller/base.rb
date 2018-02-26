@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "abstract_controller/error"
 require "active_support/configurable"
 require "active_support/descendants_tracker"

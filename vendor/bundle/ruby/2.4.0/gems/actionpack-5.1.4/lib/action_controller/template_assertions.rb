@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActionController
   module TemplateAssertions
     def assert_template(options = {}, message = nil)

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # Copyright, 2012, by Natalie Weizenbaum.
 # Copyright, 2017, by Samuel G. D. Williams. <http://www.codeotaku.com>
 #

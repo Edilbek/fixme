@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 RSpec::Support.require_rspec_matchers "built_in/base_matcher"
 
 module RSpec

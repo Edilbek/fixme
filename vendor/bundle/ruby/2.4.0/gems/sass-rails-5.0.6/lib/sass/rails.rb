@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass
   module Rails
     autoload :Logger, 'sass/rails/logger'

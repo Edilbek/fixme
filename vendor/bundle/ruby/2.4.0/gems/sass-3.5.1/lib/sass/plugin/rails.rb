@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 unless defined?(Sass::RAILS_LOADED)
   Sass::RAILS_LOADED = true
 

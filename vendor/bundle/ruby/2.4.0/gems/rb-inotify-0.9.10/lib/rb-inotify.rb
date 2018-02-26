@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'rb-inotify/version'
 require 'rb-inotify/native'
 require 'rb-inotify/native/flags'

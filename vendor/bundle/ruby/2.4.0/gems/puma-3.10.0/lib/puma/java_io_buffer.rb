@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'java'
 
 # Conservative native JRuby/Java implementation of IOBuffer

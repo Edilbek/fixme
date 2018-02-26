@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 unless defined?(Sass::MERB_LOADED)
   Sass::MERB_LOADED = true
 

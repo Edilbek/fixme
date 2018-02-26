@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 <% if engine? -%>
 require "<%= namespaced_name %>/engine"
 

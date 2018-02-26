@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "active_support/notifications"
 require "active_record/explain_registry"
 

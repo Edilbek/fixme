@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActionController
   # When you're using the flash, it's generally used as a conditional on the view.
   # This means the content of the view depends on the flash. Which in turn means

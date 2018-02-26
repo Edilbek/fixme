@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'database_cleaner/null_strategy'
 module DatabaseCleaner
   class Base

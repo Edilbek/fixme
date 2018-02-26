@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'sass-listen/adapter'
 require 'sass-listen/adapter/base'
 require 'sass-listen/adapter/config'

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # UGLY, UGLY MONKEY PATCHES FOR BACKWARDS COMPAT!!! AVERT YOUR EYES!!
 if Arel::Nodes::And < Arel::Nodes::Binary
   class Ransack::Visitor

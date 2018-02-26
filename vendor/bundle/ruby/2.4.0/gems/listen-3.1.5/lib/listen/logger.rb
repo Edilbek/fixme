@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Listen
   def self.logger
     @logger ||= nil

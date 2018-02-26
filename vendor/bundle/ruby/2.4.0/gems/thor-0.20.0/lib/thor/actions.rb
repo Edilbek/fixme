@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "uri"
 require "thor/core_ext/io_binary_read"
 require "thor/actions/create_file"

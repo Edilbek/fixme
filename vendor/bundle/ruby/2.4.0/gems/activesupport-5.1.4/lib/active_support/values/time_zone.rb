@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "tzinfo"
 require "concurrent/map"
 require "active_support/core_ext/object/blank"

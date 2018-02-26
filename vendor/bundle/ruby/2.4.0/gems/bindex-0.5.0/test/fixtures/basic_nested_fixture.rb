@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class BasicNestedFixture
   def call
     raise_an_error

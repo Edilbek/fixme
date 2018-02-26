@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 RSpec::Support.require_rspec_support 'recursive_const_methods'
 
 module RSpec

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'concurrent/scheduled_task'
 require 'concurrent/atomic/event'
 require 'concurrent/collection/non_concurrent_priority_queue'

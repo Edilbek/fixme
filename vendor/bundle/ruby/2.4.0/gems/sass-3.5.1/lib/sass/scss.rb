@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'sass/scss/rx'
 require 'sass/scss/parser'
 require 'sass/scss/static_parser'

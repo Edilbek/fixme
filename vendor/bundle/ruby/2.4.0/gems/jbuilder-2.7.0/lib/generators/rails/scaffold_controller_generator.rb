@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'rails/generators'
 require 'rails/generators/rails/scaffold_controller/scaffold_controller_generator'
 

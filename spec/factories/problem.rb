@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 FactoryBot.define do
   factory :problem do
     title {Faker::Internet.title}

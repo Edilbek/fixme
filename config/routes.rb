@@ -1,8 +1,9 @@
+# -*- encoding : utf-8 -*-
 Rails.application.routes.draw do
   devise_for :admin, controllers: {
     sessions: 'admin/sessions'
   }
-  
+
   resources :problems do
     collection do
       match 'search' => 'problems#search', via: [:get, :post], as: :search
@@ -27,4 +28,11 @@ Rails.application.routes.draw do
     resources :problems
     resources :users
   end
+
+  # namespace :api do
+  #   namespace :v1 do
+  #     resources :problems
+  #     get 'all_problems', to: :all_problems, controller: 'problems'
+  #   end
+  # end
 end

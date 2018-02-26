@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ThreadSafe
   module Util
     # A Ruby port of the Doug Lea's jsr166e.Striped64 class version 1.6

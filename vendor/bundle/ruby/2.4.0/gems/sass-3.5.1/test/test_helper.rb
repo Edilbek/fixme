@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 lib_dir = File.dirname(__FILE__) + '/../lib'
 
 require 'minitest/autorun'

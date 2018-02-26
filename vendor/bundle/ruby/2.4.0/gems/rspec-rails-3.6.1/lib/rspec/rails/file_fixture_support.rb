@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 if ::Rails::VERSION::STRING > '5'
   require 'active_support/testing/file_fixtures'
 

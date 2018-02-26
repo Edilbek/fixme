@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "action_dispatch/journey/scanner"
 require "action_dispatch/journey/nodes/node"
 

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Concurrent
 
   # Special "compare and set" handling of numeric values.

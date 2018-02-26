@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 When /^I create a widget using mongoid$/ do
   MongoidWidget.create!( :id => rand(1000)+1000)
 end

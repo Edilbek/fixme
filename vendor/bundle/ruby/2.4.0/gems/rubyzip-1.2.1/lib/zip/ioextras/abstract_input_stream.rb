@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Zip
   module IOExtras
     # Implements many of the convenience methods of IO

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'sass/tree/node'
 
 module Sass::Tree

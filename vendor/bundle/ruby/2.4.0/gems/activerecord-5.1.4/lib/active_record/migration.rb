@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "set"
 require "zlib"
 require "active_support/core_ext/module/attribute_accessors"

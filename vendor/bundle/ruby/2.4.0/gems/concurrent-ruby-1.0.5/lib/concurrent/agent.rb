@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'concurrent/configuration'
 require 'concurrent/atomic/atomic_reference'
 require 'concurrent/atomic/thread_local_var'

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # A visitor for converting a Sass tree into CSS.
 class Sass::Tree::Visitors::ToCss < Sass::Tree::Visitors::Base
   # The source mapping for the generated CSS file. This is only set if

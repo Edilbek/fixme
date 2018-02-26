@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'jrjackson' unless defined?(::JrJackson)
 require 'multi_json/adapter'
 

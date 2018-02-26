@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "action_dispatch/middleware/cookies"
 require "action_dispatch/middleware/flash"
 

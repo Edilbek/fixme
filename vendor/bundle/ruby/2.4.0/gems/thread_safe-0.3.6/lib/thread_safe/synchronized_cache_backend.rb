@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ThreadSafe
   class SynchronizedCacheBackend < NonConcurrentCacheBackend
     require 'mutex_m'

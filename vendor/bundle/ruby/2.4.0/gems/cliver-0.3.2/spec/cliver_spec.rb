@@ -1,4 +1,4 @@
-# encoding: utf-8
+# -*- encoding : utf-8 -*-
 require 'cliver'
 require 'spec_helper'
 require File.expand_path('../support/executable_mock', __FILE__)

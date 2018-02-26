@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class UsersController < ApplicationController
   prepend_before_action :current_user, only: :exhibit
   before_action :authenticate_user!, except: [:accept, :exhibit]

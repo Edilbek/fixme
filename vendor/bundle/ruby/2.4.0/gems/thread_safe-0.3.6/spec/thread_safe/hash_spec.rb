@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ThreadSafe
   describe Hash do 
     let!(:hsh) { described_class.new }

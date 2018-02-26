@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 gem "erubis"
 require "erubis"
 

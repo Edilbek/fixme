@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'mkmf'
 
 dir_config("puma_http11")

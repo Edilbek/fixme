@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module BCrypt
   # A password management class which allows you to safely store users' passwords and compare them.
   #

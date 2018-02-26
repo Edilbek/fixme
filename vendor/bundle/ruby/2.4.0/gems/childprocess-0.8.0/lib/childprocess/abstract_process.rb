@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ChildProcess
   class AbstractProcess
     POLL_INTERVAL = 0.1

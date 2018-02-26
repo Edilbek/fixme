@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Zip
   module NullInputStream #:nodoc:all
     include ::Zip::NullDecompressor

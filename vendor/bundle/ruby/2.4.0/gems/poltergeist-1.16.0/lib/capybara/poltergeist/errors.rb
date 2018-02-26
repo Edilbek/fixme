@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Capybara
   module Poltergeist
     class Error < StandardError; end

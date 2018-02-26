@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass
   module Selector
     # The abstract parent class of the various selector sequence classes.

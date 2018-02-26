@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # The reason some options are declared here rather than in sass/plugin/configuration.rb
 # is that otherwise they'd clobber the Rails-specific options.
 # Since Rails' options are lazy-loaded in Rails 3,

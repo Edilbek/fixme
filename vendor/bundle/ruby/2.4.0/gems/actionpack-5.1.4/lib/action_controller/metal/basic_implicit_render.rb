@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActionController
   module BasicImplicitRender # :nodoc:
     def send_action(method, *args)

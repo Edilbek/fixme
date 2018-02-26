@@ -1,4 +1,4 @@
-# -*- encoding: utf-8 -*-
+# -*- encoding : utf-8 -*-
 require 'rubygems' unless defined?(Gem)
 require 'pathname'
 require 'date'

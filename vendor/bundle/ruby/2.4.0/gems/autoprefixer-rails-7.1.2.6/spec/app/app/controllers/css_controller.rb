@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class CssController < ApplicationController
   def test
     file = params[:exact_file] || params[:file] + '.css'

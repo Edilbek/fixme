@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'sass/logger/log_level'
 
 # A logger that delays messages until they're explicitly flushed to an inner

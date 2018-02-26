@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # Copyright (c) 2011 Konstantin Haase
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy

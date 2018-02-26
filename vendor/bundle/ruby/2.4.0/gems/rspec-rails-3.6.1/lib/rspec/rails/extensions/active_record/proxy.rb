@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 RSpec.configure do |rspec|
   # Delay this in order to give users a chance to configure `expect_with`...
   rspec.before(:suite) do

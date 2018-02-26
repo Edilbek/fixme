@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Thread.abort_on_exception = true
 
 module ThreadSafe

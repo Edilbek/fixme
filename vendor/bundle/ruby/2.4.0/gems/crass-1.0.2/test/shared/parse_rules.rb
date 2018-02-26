@@ -1,4 +1,4 @@
-# encoding: utf-8
+# -*- encoding : utf-8 -*-
 
 # Includes tests based on Simon Sapin's CSS parsing tests:
 # https://github.com/SimonSapin/css-parsing-tests/

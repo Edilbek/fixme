@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Puma
   module Delegation
     def forward(what, who)

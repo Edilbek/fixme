@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'generators/rspec/integration/integration_generator'
 
 module Rspec

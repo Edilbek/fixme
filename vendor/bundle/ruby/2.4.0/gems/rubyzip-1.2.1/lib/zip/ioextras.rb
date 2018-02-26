@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Zip
   module IOExtras #:nodoc:
     CHUNK_SIZE = 131_072

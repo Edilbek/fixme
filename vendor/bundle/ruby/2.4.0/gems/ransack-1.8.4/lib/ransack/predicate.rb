@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Ransack
   class Predicate
     attr_reader :name, :arel_predicate, :type, :formatter, :validator,

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Responders
   module LocationResponder
     def self.included(_base)

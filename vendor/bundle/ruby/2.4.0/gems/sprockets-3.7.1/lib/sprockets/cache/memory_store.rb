@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sprockets
   class Cache
     # Public: Basic in memory LRU cache.

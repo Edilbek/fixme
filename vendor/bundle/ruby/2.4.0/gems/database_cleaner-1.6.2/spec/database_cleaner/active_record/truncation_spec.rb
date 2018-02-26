@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require File.dirname(__FILE__) + '/../../spec_helper'
 require 'active_record'
 require 'active_record/connection_adapters/mysql_adapter'

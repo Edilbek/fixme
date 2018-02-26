@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # -*- frozen-string-literal: true -*-
 
 require "singleton"

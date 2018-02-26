@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass::Script::Value
   # A SassScript object representing a number.
   # SassScript numbers can have decimal values,

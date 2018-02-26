@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # issue#560
 
 require 'helper'

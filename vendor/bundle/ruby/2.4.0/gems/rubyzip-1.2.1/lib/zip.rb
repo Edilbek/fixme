@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'delegate'
 require 'singleton'
 require 'tempfile'

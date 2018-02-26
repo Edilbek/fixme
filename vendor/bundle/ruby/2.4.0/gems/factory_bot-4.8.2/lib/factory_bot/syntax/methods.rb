@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module FactoryBot
   module Syntax
     ## This module is a container for all strategy methods provided by

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Listen
   module Adapter
     # Polling Adapter that works cross-platform and

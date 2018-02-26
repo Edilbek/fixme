@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module INotify
   # An event caused by a change on the filesystem.
   # Each {Watcher} can fire many events,

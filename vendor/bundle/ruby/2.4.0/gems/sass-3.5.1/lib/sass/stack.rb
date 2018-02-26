@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass
   # A class representing the stack when compiling a Sass file.
   class Stack

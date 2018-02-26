@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass::Script::Value
   # A SassScript object representing a function.
   class Function < Callable

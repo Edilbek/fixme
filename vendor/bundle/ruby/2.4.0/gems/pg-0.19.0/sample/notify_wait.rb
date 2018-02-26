@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 #!/usr/bin/env ruby
 #
 # Test script, demonstrating a non-poll notification for a table event.

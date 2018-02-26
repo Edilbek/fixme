@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # This file is auto-generated from the current state of the database. Instead
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
@@ -32,15 +33,6 @@ ActiveRecord::Schema.define(version: 20171127103843) do
     t.index ["reset_password_token"], name: "index_admins_on_reset_password_token", unique: true
   end
 
-  create_table "assignments", force: :cascade do |t|
-    t.bigint "user_id"
-    t.bigint "role_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["role_id"], name: "index_assignments_on_role_id"
-    t.index ["user_id"], name: "index_assignments_on_user_id"
-  end
-
   create_table "comments", force: :cascade do |t|
     t.text "content"
     t.bigint "problem_id"
@@ -65,12 +57,6 @@ ActiveRecord::Schema.define(version: 20171127103843) do
     t.index ["user_id"], name: "index_problems_on_user_id"
   end
 
-  create_table "roles", force: :cascade do |t|
-    t.string "name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
     t.string "encrypted_password", default: "", null: false
@@ -89,8 +75,6 @@ ActiveRecord::Schema.define(version: 20171127103843) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
-  add_foreign_key "assignments", "roles"
-  add_foreign_key "assignments", "users"
   add_foreign_key "comments", "problems"
   add_foreign_key "comments", "users"
 end

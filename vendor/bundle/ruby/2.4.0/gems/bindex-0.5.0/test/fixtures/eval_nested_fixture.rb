@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class EvalNestedFixture
   def call
     tap { raise_an_error_in_eval }

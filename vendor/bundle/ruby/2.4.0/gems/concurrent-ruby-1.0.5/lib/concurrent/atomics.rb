@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # @!macro [new] atomic_reference
 #
 #   An object reference that may be updated atomically. All read and write

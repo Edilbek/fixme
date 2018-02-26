@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'mkmf'
 extension_name = 'websocket_mask'
 dir_config(extension_name)

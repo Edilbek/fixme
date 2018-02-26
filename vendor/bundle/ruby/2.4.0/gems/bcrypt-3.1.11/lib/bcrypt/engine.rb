@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module BCrypt
   # A Ruby wrapper for the bcrypt() C extension calls and the Java calls.
   class Engine

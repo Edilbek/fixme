@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # A namespace for the `@supports` condition parse tree.
 module Sass::Supports
   # The abstract superclass of all Supports conditions.

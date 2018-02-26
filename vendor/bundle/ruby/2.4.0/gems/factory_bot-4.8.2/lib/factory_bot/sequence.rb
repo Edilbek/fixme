@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module FactoryBot
 
   # Sequences are defined using sequence within a FactoryBot.define block.

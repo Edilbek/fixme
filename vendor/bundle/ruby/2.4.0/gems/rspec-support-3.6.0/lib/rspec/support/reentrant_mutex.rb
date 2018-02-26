@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module RSpec
   module Support
     # Allows a thread to lock out other threads from a critical section of code,

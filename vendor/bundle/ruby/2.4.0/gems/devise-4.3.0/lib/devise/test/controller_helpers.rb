@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Devise
   module Test
     # `Devise::Test::ControllerHelpers` provides a facility to test controllers

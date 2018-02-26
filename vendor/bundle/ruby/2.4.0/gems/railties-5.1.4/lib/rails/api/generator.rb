@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "sdoc"
 
 class RDoc::Generator::API < RDoc::Generator::SDoc # :nodoc:

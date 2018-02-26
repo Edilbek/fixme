@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # Ruby integration with Autoprefixer JS library, which parse CSS and adds
 # only actual prefixed
 module AutoprefixerRails

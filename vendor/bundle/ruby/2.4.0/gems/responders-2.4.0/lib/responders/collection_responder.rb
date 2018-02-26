@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Responders
   # This responder modifies your current responder to redirect
   # to the collection page on POST/PUT/DELETE.

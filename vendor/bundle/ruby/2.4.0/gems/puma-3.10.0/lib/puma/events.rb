@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'puma/const'
 require "puma/null_io"
 require 'stringio'

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'global_id'
 require 'active_support/message_verifier'
 require 'time'

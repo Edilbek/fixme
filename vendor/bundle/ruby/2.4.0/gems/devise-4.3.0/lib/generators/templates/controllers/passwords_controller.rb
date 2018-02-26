@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class <%= @scope_prefix %>PasswordsController < Devise::PasswordsController
   # GET /resource/password/new
   # def new

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module WebConsole
   # The base class for every Web Console related error.
   Error = Class.new(StandardError)

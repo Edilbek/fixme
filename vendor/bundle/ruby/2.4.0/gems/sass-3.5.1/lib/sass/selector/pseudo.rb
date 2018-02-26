@@ -1,4 +1,4 @@
-# coding: utf-8
+# -*- encoding : utf-8 -*-
 module Sass
   module Selector
     # A pseudoclass (e.g. `:visited`) or pseudoelement (e.g. `::first-line`)

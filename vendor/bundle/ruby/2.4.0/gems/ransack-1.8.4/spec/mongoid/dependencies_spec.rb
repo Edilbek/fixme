@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 unless ::ActiveSupport::VERSION::STRING >= '4'
   describe 'Ransack' do
     it 'can be required without errors' do

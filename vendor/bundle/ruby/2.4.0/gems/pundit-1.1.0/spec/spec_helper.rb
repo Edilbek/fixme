@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "pundit"
 require "pundit/rspec"
 

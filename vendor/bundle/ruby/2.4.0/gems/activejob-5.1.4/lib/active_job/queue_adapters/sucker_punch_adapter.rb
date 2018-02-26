@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "sucker_punch"
 
 module ActiveJob

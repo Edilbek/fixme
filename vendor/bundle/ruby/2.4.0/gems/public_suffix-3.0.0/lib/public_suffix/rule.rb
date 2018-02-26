@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # = Public Suffix
 #
 # Domain name parser based on the Public Suffix List.

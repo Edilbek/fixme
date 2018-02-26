@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Zip
   class NullCompressor < Compressor #:nodoc:all
     include Singleton

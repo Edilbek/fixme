@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActionView
   class Template
     module Handlers

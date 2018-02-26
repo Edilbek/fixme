@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module ActionController
   # Specify binary encoding for parameters for a given action.
   module ParameterEncoding

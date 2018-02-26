@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'concurrent/errors'
 require 'concurrent/executor/executor_service'
 require 'concurrent/synchronization'

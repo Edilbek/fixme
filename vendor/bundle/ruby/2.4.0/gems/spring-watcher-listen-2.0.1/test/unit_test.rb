@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require "helper"
 require "spring/test/watcher_test"
 require "spring/watcher/listen"

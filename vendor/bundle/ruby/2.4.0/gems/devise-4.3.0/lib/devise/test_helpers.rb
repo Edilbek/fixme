@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Devise
   module TestHelpers
     def self.included(base)

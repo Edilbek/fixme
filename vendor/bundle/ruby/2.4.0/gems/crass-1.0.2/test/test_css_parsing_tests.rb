@@ -1,4 +1,4 @@
-# encoding: utf-8
+# -*- encoding : utf-8 -*-
 
 # This file loads and runs Simon Sapin's CSS parsing tests, which live under the
 # test/css-parsing-tests directory. The original test repo can be found at:

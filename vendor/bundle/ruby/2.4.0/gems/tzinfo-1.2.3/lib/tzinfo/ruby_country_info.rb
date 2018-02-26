@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module TZInfo  
   # Represents information about a country returned by RubyDataSource.
   #

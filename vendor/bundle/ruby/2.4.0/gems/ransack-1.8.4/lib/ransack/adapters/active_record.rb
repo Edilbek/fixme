@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'ransack/adapters/active_record/base'
 
 ActiveSupport.on_load(:active_record) do

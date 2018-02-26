@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # A Ruby library implementing OpenBSD's bcrypt()/crypt_blowfish algorithm for
 # hashing passwords.
 module BCrypt

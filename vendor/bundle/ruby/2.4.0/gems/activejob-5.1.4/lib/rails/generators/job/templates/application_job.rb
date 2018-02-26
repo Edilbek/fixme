@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 <% module_namespacing do -%>
 class ApplicationJob < ActiveJob::Base
   # Automatically retry jobs that encountered a deadlock

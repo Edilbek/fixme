@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'concurrent/synchronization/abstract_struct'
 require 'concurrent/synchronization'
 

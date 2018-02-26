@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 case RUBY_ENGINE
 when 'rbx'
   require 'bindex/rubinius'

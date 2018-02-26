@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class MockImporter < Sass::Importers::Base
   def initialize(name = "mock")
     @name = name

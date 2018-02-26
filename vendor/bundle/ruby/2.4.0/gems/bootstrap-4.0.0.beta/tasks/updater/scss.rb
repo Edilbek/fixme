@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Updater
   module Scss
     def update_scss_assets

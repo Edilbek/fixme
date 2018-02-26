@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module RSpec
   module Mocks
     # Implements the methods needed for a pure test double.  RSpec::Mocks::Double

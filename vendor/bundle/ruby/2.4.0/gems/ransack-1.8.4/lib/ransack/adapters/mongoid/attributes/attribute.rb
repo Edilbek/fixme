@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'ransack/adapters/mongoid/attributes/predications'
 require 'ransack/adapters/mongoid/attributes/order_predications'
 

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Rack
   class QueryParser
     DEFAULT_SEP = /[&;] */n

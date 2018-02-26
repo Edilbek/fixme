@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 def data_mapper_load_schema
   require 'dm-migrations'
 

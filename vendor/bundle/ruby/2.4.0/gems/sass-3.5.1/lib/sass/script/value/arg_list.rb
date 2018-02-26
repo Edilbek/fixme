@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass::Script::Value
   # A SassScript object representing a variable argument list. This works just
   # like a normal list, but can also contain keyword arguments.

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Devise
   # Devise::Test::IntegrationHelpers is a helper module for facilitating
   # authentication on Rails integration tests to bypass the required steps for

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'ejs'
 
 module Sprockets

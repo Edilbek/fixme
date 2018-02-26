@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 RSpec::Support.require_rspec_core "formatters/base_text_formatter"
 RSpec::Support.require_rspec_core "formatters/html_printer"
 

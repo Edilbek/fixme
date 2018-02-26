@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Sass::Script::Tree
   # A SassScript node that will resolve to the current selector.
   class Selector < Node

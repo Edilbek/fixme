@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'concurrent/collection/java_non_concurrent_priority_queue'
 require 'concurrent/collection/ruby_non_concurrent_priority_queue'
 require 'concurrent/utility/engine'
