@@ -7,6 +7,7 @@ require "tmpdir"
 require "spring/version"
 require "spring/sid"
 require "spring/configuration"
+require 'capybara-screenshot/cucumber'
 
 module Spring
   IGNORE_SIGNALS = %w(INT QUIT)

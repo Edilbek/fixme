@@ -23,12 +23,41 @@ RSpec.feature 'Problems', type: :feature do
     find('.create').trigger('click')
     expect(page).to have_content("Создать проблему")
 
-    fill_in 'Title...', with: 'terrible road'
-    fill_in 'Description...', with: 'fuuuu'
+    fill_in 'Название...', with: 'terrible road'
+    fill_in 'Описание...', with: 'fuuuu'
+    first('input#problem-lat', visible: false).set("42.874")
+    first('input#problem-lng', visible: false).set("74.567")
+    page.attach_file("problem[images][]", Rails.root + 'app/assets/images/logo.png', :visible => false)
+
+    find('.btn-primary').trigger('click')
+
+    expect(page).to have_content("Название")
 
     find('.btn-primary').trigger('click')
 
     expect(page).to have_content("Название")
   end
 
+  scenario "Registered user successfully places an problem" do
+    sign_in user
+
+    visit root_path
+
+    find('.create').trigger('click')
+    expect(page).to have_content("Создать проблему")
+
+    fill_in 'Название...', with: 'terrible road'
+    fill_in 'Описание...', with: 'fuuuu'
+    first('input#problem-lat', visible: false).set("42.874")
+    first('input#problem-lng', visible: false).set("74.567")
+    page.attach_file("problem[images][]", Rails.root + 'app/assets/images/logo.png', :visible => false)
+
+    find('.btn-primary').trigger('click')
+
+    expect(page).to have_content("Название")
+
+    find('.btn-primary').trigger('click')
+
+    expect(page).to have_content("Название")
+  end
 end

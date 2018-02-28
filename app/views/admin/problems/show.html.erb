@@ -4,7 +4,7 @@
       <h1>Проблема #<%= @problem.id %></h1>
       <h3>Название: <%= @problem.title %></h3>
       <p><b style="font-size: 20px">Описание:</b> <%= @problem.description %></p>
-      <p><b style="font-size: 20px">Статус:</b> <%= @problem.status %></p>
+      <p><b style="font-size: 20px">Статус:</b> <%= @problem.status.humanize %></p>
       <br>
       <% @problem.images.each do | image | %>
         <%= image_tag image.url(:thumb)  %>

@@ -3,9 +3,11 @@ require 'rails_helper'
 
 RSpec.feature 'Comments', type: :feature do
   let(:user) { create(:user) }
+  let(:problem) { create(:problem) }
 
-  scenario 'New user successfully place an comment' do
+  scenario 'New user successfully place an comment', js: true do
     visit root_path
+
     find('.create').trigger('click')
 
     find('.signup').trigger('click')
@@ -22,17 +24,38 @@ RSpec.feature 'Comments', type: :feature do
     find('.create').trigger('click')
     expect(page).to have_content("Создать проблему")
 
-    fill_in 'Title...', with: 'terrible road'
-    fill_in 'Description...', with: 'fuuuu'
+    fill_in 'Название...', with: 'terrible road'
+    fill_in 'Описание...', with: 'fuuuu'
     first('input#problem-lat', visible: false).set("42.874")
     first('input#problem-lng', visible: false).set("74.567")
     page.attach_file("problem[images][]", Rails.root + 'app/assets/images/logo.png', :visible => false)
-
     find('.create_problem').trigger('click')
 
     expect(page).to have_content("Название")
 
     fill_in 'Написать коментарий....', with: 'testing'
     find('.create_comment_btn').trigger('click')
+  end
+
+  scenario 'Registered user successfully places an comment', js: true do
+    sign_in user
+
+    visit root_path
+
+    find('.create').trigger('click')
+    expect(page).to have_content("Создать проблему")
+
+    fill_in 'Название...', with: 'terrible road'
+    fill_in 'Описание...', with: 'fuuuu'
+    first('input#problem-lat', visible: false).set("42.874")
+    first('input#problem-lng', visible: false).set("74.567")
+    page.attach_file("problem[images][]", Rails.root + 'app/assets/images/logo.png', :visible => false)
+    find('.create_problem').trigger('click')
+
+    expect(page).to have_content("Название")
+
+    fill_in 'Написать коментарий....', with: 'testing'
+    find('.create_comment_btn').trigger('click')
+
   end
 end

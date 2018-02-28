@@ -5,7 +5,7 @@ FactoryBot.define do
     description {Faker::Internet.description}
     latitude {Faker::Internet.latitude(10)}
     longitude {Faker::Internet.longitude(10)}
-    status {Faker::Internet.status(0)}
+    status {1}
     user nil
   end
 end

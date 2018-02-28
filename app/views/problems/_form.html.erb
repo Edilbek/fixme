@@ -6,13 +6,13 @@
       <div class="col-sm-4 description-problem">
         <%= f.label 'Название'%><br>
         <hr>
-        <%= f.text_field :title, class: "form-control", placeholder: 'Title...' %>
+        <%= f.text_field :title, class: "form-control", placeholder: 'Название...' %>
       </div>
 
       <div class="col-sm-4 description-problem">
         <%= f.label 'Описание' %><br>
         <hr>
-        <%= f.text_area :description, class: "form-control", placeholder: 'Description...' %>
+        <%= f.text_area :description, class: "form-control", placeholder: 'Описание...' %>
       </div>
 
       <div class="col-sm-4 image-problem">
@@ -20,17 +20,17 @@
         <hr>
         <%= f.file_field :images, multiple: true, class: "images" %><br>
       </div>
-
+      <%= f.hidden_field :status, id: "status"%>
     </div>
     <section>
       <h3 align='center' class="choose-place-label">Выберите место проблемного участка</h3>
       <div id='map_canvas'></div>
-      <div id="current">Nothing yet...</div>
+      <div id="current">Еще не выбрали...</div>
     </section>
 
     <div class="save-problem col-sm-12">
       <div class="text-center">
-        <%= f.submit "Save", class: "btn btn-primary create_problem" %>
+        <%= f.submit "Добавить", class: "btn btn-primary create_problem" %>
       </div>
     </div>
   <% end %>
