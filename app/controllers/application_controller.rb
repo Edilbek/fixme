@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
   before_action :count_of_problems
   before_action :all_in_progress_problems
   before_action :all_resolved_problems
-  protect_from_forgery with: :exception
+  protect_from_forgery 
   layout :layout
 
   include Pundit
