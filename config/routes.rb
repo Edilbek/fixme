@@ -3,7 +3,6 @@ Rails.application.routes.draw do
   devise_for :admin, controllers: {
     sessions: 'admin/sessions'
   }
-
   resources :problems do
     collection do
       match 'search' => 'problems#search', via: [:get, :post], as: :search
