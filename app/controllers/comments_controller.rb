@@ -4,6 +4,11 @@ class CommentsController < ApplicationController
   before_action :find_comment, only: [:destroy, :edit, :update, :comment_owner]
   before_action :comment_owner, only: [:destroy, :edit, :update]
 
+  def new
+    @problem = Problem.find(params[:problem_id])
+    @comment = @problem.comments.find(params[:id])
+  end
+
   def create
     @comment = @problem.comments.create(comment_params)
     @comment.user_id = current_user.id

@@ -14,6 +14,7 @@ gem "mini_magick"
 gem 'ransack'
 gem 'kaminari'
 gem 'pundit'
+gem 'rails-controller-testing'
 # gem 'rack-cors', :require => 'rack/cors'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

@@ -1,6 +1,7 @@
 # -*- encoding : utf-8 -*-
 class ProblemsController < ApplicationController
   before_action :find_problem, only: [:show, :edit, :update]
+
   def index
     @problems = current_user.problems
   end
@@ -20,7 +21,7 @@ class ProblemsController < ApplicationController
   end
 
   def create
-    @problem = current_user.problems.new problem_params
+    @problem = current_user.problems.new(problem_params)
     if @problem.save
        redirect_to user_problem_path(current_user, @problem)
     else

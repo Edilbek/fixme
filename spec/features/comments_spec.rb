@@ -27,7 +27,7 @@ RSpec.feature 'Comments', type: :feature do
     fill_in 'Название...', with: 'terrible road'
     fill_in 'Описание...', with: 'fuuuu'
     first('input#problem-lat', visible: false).set("42.874")
-    first('input#problem-lng', visible: false).set("74.567")
+    first('input#problem-lng', visible: false).set("74.591")
     page.attach_file("problem[images][]", Rails.root + 'app/assets/images/logo.png', :visible => false)
     find('.create_problem').trigger('click')
 
@@ -56,6 +56,5 @@ RSpec.feature 'Comments', type: :feature do
 
     fill_in 'Написать коментарий....', with: 'testing'
     find('.create_comment_btn').trigger('click')
-
   end
 end
