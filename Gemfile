@@ -15,6 +15,7 @@ gem 'ransack'
 gem 'kaminari'
 gem 'pundit'
 gem 'rails-controller-testing'
+gem 'faker'
 # gem 'rack-cors', :require => 'rack/cors'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -52,7 +53,6 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'rspec-rails', '~> 3.6'
   gem 'factory_bot_rails'
-  gem 'faker'
 
 end
 
