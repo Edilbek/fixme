@@ -1,6 +1,6 @@
 # -*- encoding : utf-8 -*-
 class Admin::UsersController < ApplicationAdminController
-  before_action :find_user, only: [:show, :edit, :update]
+  before_action :find_user, only: [:show, :edit, :update, :destroy]
 
   def index
     @users = User.order("id DESC").all
