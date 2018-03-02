@@ -1,8 +1,8 @@
 /* NAVIGATON */
 .navigation {
-  border: 1px solid lightgrey;
-  margin-top: 10px;
-  background-color: white;
+  // border: 1px solid lightgrey;
+  // margin-top: 10px;
+  background-color: #274e68;
 }
 
 .navbar-brand {
@@ -18,7 +18,7 @@
 
 .login {
   margin-left: -9px;
-  color: grey;
+  color: white;
 }
 
 .login:hover{
@@ -28,21 +28,22 @@
 
 .signup {
   margin-left: -12px;
-  color: grey;
+  color: white;
 }
 
 .signup:hover{
   text-decoration: none;
+  color: #28A745;
 }
 
 .logout {
   margin-left: -12px;
-  color: grey;
+  color: white;
 }
 
 .profile {
   margin-left: -4px;
-  color: grey;
+  color: white;
   margin-right: 10px;
 }
 

@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light navigation">
-  <%= link_to image_tag("logo.png", :alt => "logo", :class => "logo"), root_path, class: 'navbar-brand' %>
+  <%= link_to image_tag("logo5.png", :alt => "logo", :class => "logo", style: "width: 250px;"), root_path, class: 'navbar-brand' %>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -17,7 +17,7 @@
     <div class="nav-user-actions">
       <div class="user-action">
         <% if user_signed_in? %>
-          <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+          <i class="fa fa-pencil-square-o" aria-hidden="true" style="color: white;"></i>
           <%= link_to 'Профиль', user_path(current_user), class: "profile" %>
           <% if current_user.role == 'user' %>
             <%= link_to 'Мои проблемы', user_problems_path(current_user), class: "profile" %>
@@ -27,12 +27,12 @@
             <%= link_to 'Все проблемы', all_problems_path, class: "profile all_problems" %>
             <%= link_to 'Мои проблемы', user_problems_path(current_user), class: "profile" %>
           <% end %>
-          <i class="fa fa-sign-out" aria-hidden="true"></i>
+          <i class="fa fa-sign-out" aria-hidden="true" style="color: white;"></i>
           <%= link_to 'Выход', destroy_user_session_path, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn-sm logout" %>
         <% else %>
-          <i class="fa fa-user" aria-hidden="true"></i>
+          <i class="fa fa-user" aria-hidden="true" style="color: white;"></i>
           <%= link_to 'Регистрация', new_user_registration_path, class: "btn-sm signup" %>
-          <i class="fa fa-sign-in" aria-hidden="true"></i>
+          <i class="fa fa-sign-in" aria-hidden="true" style="color: white;"></i>
           <%= link_to 'Вход', new_user_session_path, class: "btn-sm login" %>
         <% end %>
       </div>

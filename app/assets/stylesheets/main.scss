@@ -5,16 +5,12 @@
 @import "font-awesome";
 
 body {
-  background-image: url('background.jpeg');
-  margin: 0 auto;
-  width: 90%;
+  // background-image: url('background.jpeg');
+  // margin: 0 auto;
+  // width: 90%;
 }
 
 .yield {
-  background-color: white;
-  border: 1px solid lightgrey;
-  margin-top: 10px;
-  padding: 15px 0 15px 0;
 }
 
 .main-problems {
@@ -50,8 +46,6 @@ body {
   }
 
 .count_problems {
-  background-color: white;
-  border: 1px solid lightgrey;
   margin-top: 10px;
 }
 
@@ -59,11 +53,11 @@ body {
   margin-top: 10px;
 }
 
-@media (min-width: 992px) {
-  body {
-    // padding-top: 56px;
-  }
-}
+// @media (min-width: 992px) {
+//   body {
+//     // padding-top: 56px;
+//   }
+// }
 
 .problem_show:hover {
   border: 1px solid white;
