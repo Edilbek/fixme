@@ -44,3 +44,11 @@ function showMap(){
   map.setCenter(myMarker.position);
   myMarker.setMap(map);
 }
+
+function homeMap() {
+  var map = new google.maps.Map(document.getElementById('index_map_canvas'), {
+      zoom: 13,
+      center: new google.maps.LatLng(42.8746, 74.5698),
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+  });
+}
