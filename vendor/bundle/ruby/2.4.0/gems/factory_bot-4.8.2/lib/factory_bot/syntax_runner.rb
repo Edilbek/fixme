@@ -1,7 +1,0 @@
-# -*- encoding : utf-8 -*-
-module FactoryBot
-  # @api private
-  class SyntaxRunner
-    include Syntax::Methods
-  end
-end
