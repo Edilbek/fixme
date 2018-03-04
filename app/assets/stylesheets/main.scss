@@ -53,17 +53,13 @@ body {
 
 .count_problems {
   margin-top: 10px;
+  background-color: #274e68;
+  color: white;
 }
 
 .flash_error{
   margin-top: 10px;
 }
-
-// @media (min-width: 992px) {
-//   body {
-//     // padding-top: 56px;
-//   }
-// }
 
 .problem_show:hover {
   border: 1px solid white;
@@ -74,8 +70,16 @@ body {
 }
 
 
-@media (min-width: 992px) {
-  .in_progress .resolved {
-    text-align: center;
-  }
+/* Carousel and pictures */
+
+.view:not(.hm-zoom) {
+    overflow:visible;
+}
+
+/* Margin from the top */
+
+.container {
+    .row {
+        margin-top: 2.5rem;
+    }
 }

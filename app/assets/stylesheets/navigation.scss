@@ -1,26 +1,11 @@
 /* NAVIGATON */
-.navigation {
-  // border: 1px solid lightgrey;
-  // margin-top: 10px;
+.navbar {
   background-color: #274e68;
 }
 
-// .navbar-brand {
-//   // margin-top: -22px;
-//   // margin-bottom: -22px;
-//   padding: 0px;
-// }
-.logo {
-  height: 80px;
-  // width: 170px;
-  overflow: hidden;
-  margin-top: -8px;
-  margin-bottom: -8px;
-}
-
 .login {
-  margin-left: -9px;
   color: white;
+  margin-left: -4px;
 }
 
 .login:hover{
@@ -29,8 +14,8 @@
 }
 
 .signup {
-  margin-left: -12px;
   color: white;
+  margin-left: -10px;
 }
 
 .signup:hover{
@@ -39,18 +24,19 @@
 }
 
 .logout {
-  margin-left: -12px;
   color: white;
+  margin-left: -12px;
 }
 
 .profile {
   margin-left: -4px;
   color: white;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .profile:hover{
   text-decoration: none;
+  color: #28A745 !important;
 }
 
 .logout:hover{
@@ -61,51 +47,5 @@
 .create {
   background-color: #28A745;
   color: white;
-  margin-left: 10px;
 }
-
-// .nav-user-actions {
-//   float:right;
-// }
-
-.search-create {
-  float: right;
-  margin-left: 10px;
-}
-
-.user-action {
-  // padding-left: 60%;
-}
-
 /* END NAVIGATON */
-
-main {
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-}
-
-.extra-margins {
-    margin-top: 1rem;
-    margin-bottom: 2.5rem;
-}
-
-.jumbotron {
-    text-align: center;
-}
-
-.navbar {
-    background-color: #274e68;
-}
-
-footer.page-footer {
-    background-color: #274e68;
-    margin-top: 2rem;
-}
-
-.navbar .btn-group .dropdown-menu a:hover {
-    color: #000 !important;
-}
-
-.navbar .btn-group .dropdown-menu a:active {
-    color: #fff !important;
-}
