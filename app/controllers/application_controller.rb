@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
   before_action :count_of_problems
   before_action :all_in_progress_problems
   before_action :all_resolved_problems
-  protect_from_forgery 
+  protect_from_forgery
   layout :layout
 
   include Pundit
@@ -33,12 +33,12 @@ class ApplicationController < ActionController::Base
   end
 
   def all_in_progress_problems
-    @all_in_progress_problems = Problem.in_progress.order(created_at: :desc).page(params[:page]).per(4)
+    @all_in_progress_problems = Problem.in_progress.order(created_at: :desc).page(params[:page]).per(3)
     @all_in_progress_problems1 = Problem.in_progress.all
   end
 
   def all_resolved_problems
-    @all_resolved_problems = Problem.resolved.order(created_at: :desc).page(params[:page]).per(4)
+    @all_resolved_problems = Problem.resolved.order(created_at: :desc).page(params[:page]).per(3)
     @all_resolved_problems1 = Problem.resolved.all
   end
 
