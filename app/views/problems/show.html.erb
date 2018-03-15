@@ -1,12 +1,12 @@
 <%= render 'shared/show_google_map' %>
 
-<div class="show_problem">
+<div class="show_problem ">
   <h2 align='center'>Название: <%= @problem.title %></h2>
   <p><b>Описание:</b> <%= @problem.description %></p>
   <p><b>Статус: </b><%= @problem.status.humanize %></p>
   <p>
     <% @problem.images.each do | image | %>
-      <%= image_tag image.url(:thumb)  %>
+      <%= image_tag image.url(:thumb) %>
     <% end %>
   </p>
 </div>

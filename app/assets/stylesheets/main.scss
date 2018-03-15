@@ -110,6 +110,11 @@
 
 @media only screen and (max-width: 500px) {
   .in_progress_problem, .resolved_problem  {
-    margin-bottom: 40px;
+    margin-bottom: 35px;
   }
 }
+
+// .in_progress_problem, .resolved_problem  {
+//   padding-left: 3px;
+//   padding-right: 3px;
+// }

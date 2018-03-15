@@ -2,7 +2,7 @@
   <h2 class="my-4">
     Все Проблемы
   </h2>
-  <div class="row">
+  <!-- <div class="row">
     <% @problems_for_moderator.each do |problem| %>
       <%= link_to edit_problem_path(problem.id) do %>
         <div class="col-lg-3 col-md-4 col-sm-6 problem_show">
@@ -22,5 +22,22 @@
         </div>
       <% end %>
     <% end %>
-  </div>
+  </div> -->
+  <div class="row">
+    <% @problems_for_moderator.each do |problem| %>
+      <div class="col-md-4 in_progress_problem">
+        <div class="card mb-r wow fadeIn" data-wow-delay="0.2s">
+          <%= image_tag "#{problem.images.first.url(:medium)}", class: 'img-fluid' if problem.images? %>
+          <div class="card-body">
+            <h5 class="card-title">
+                <strong><%= "#{problem.title}" %></strong>
+            </h5>
+            <p class="card-text"><%= truncate("#{problem.description}", length: 50) %></p>
+            <!-- <a href="#" class="btn btn-md view">Просмотр</a> -->
+            <%= link_to 'Просмотр', problem_path(problem), class: "btn btn-md view" %>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div
 </div>

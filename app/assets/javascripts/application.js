@@ -15,3 +15,4 @@
 //= require popper
 //= require bootstrap-sprockets
 //= require maps
+//= require problems/problems

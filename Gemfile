@@ -16,6 +16,8 @@ gem 'kaminari'
 gem 'pundit'
 gem 'rails-controller-testing'
 gem 'faker'
+gem 'lightbox-bootstrap-rails', '5.1.0.1'
+
 # gem 'rack-cors', :require => 'rack/cors'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
