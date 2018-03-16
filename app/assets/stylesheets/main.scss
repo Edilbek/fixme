@@ -10,8 +10,41 @@
   margin: 0 auto;
 }
 
+.in_prog_label_btn {
+  overflow:hidden;
+}
+
+.in_prog_label {
+  float: left;
+}
+
+.in_prog_btn {
+  float: right;
+}
+
+.resolved_label_btn {
+  overflow:hidden;
+}
+
+.resolved_label {
+  float: left;
+}
+
+.resolved_btn {
+  float: right;
+}
+
 .card_and_map {
   box-shadow: 0 0 15px rgba(0,0,0,0.5); /* Параметры тени */
+}
+
+.in_prog_text {
+  display: inline;
+}
+
+.view_all_btn {
+  display: inline;
+  float: right;
 }
 
 .yield {
@@ -58,14 +91,6 @@
   margin-top: 10px;
 }
 
-.gran{
-  margin-left: 80px;
-  margin-right: 80px;
-  // border: 1px solid black;
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
 .col-md-3{
     text-align: center;
     margin: 0 auto;
@@ -84,11 +109,6 @@
 .flash_error{
   margin-top: 10px;
 }
-
-.pagination {
-  margin-bottom: 30px;
-}
-
 
 /* Carousel and pictures */
 

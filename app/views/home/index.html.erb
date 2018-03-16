@@ -17,9 +17,14 @@
     </div>
   </div>
   <div class="">
-    <h3 class="my-4  mt-5 pt-4">
-      В Процессе
-    </h3>
+    <div class="my-4 mt-5 in_prog_label_btn">
+      <div class="in_prog_label">
+        <h3>В Процессе</h3>
+      </div>
+      <div class="in_prog_btn">
+        <%= link_to 'Посмотреть все', all_in_progress_problems_path , class: "btn btn-primary pull-right btn-sm all_in_progress_problems_btn" if @all_in_progress_problems.present?%>
+      </div>
+    </div>
     <div class="row">
       <% @all_in_progress_problems.each do |inprogress_problem| %>
         <div class="col-md-4 in_progress_problem">
@@ -40,9 +45,14 @@
   </div>
 
   <div class="">
-    <h3 class="my-4  mt-5 pt-4">
-      Исправлены
-    </h3>
+    <div class="my-4 mt-5 resolved_label_btn">
+      <div class="resolved_label">
+        <h3>Исправлены</h3>
+      </div>
+      <div class="resolved_btn">
+        <%= link_to 'Посмотреть все', all_resolved_problems_path , class: "btn btn-primary pull-right btn-sm all_resolved_problems_btn" if @all_resolved_problems.present? %>
+      </div>
+    </div>
     <div class="row">
       <% @all_resolved_problems.each do |resolved_problem| %>
         <div class="col-md-4 resolved_problem">

@@ -2,27 +2,6 @@
   <h2 class="my-4">
     Все Проблемы
   </h2>
-  <!-- <div class="row">
-    <% @problems_for_moderator.each do |problem| %>
-      <%= link_to edit_problem_path(problem.id) do %>
-        <div class="col-lg-3 col-md-4 col-sm-6 problem_show">
-          <div class="card h-100">
-            <div class="card-img-top">
-              <%= link_to image_tag "#{problem.images.first.url(:thumb)}", class: 'img-fluid' if problem.images? %>
-            </div>
-            <div class="card-body">
-              <h4 class="card-title">
-                <%= link_to "#{problem.title}", edit_problem_path(problem.id)%>
-              </h4>
-              <div class="card-text">
-                <%= link_to truncate("#{problem.description}", length: 150), edit_problem_path(problem.id)%>
-              </div>
-            </div>
-          </div>
-        </div>
-      <% end %>
-    <% end %>
-  </div> -->
   <div class="row">
     <% @problems_for_moderator.each do |problem| %>
       <div class="col-md-4 in_progress_problem">
