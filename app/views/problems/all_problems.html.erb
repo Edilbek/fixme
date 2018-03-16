@@ -13,7 +13,7 @@
             </h5>
             <p class="card-text"><%= truncate("#{problem.description}", length: 50) %></p>
             <!-- <a href="#" class="btn btn-md view">Просмотр</a> -->
-            <%= link_to 'Просмотр', problem_path(problem), class: "btn btn-md view" %>
+            <%= link_to 'Просмотр', edit_problem_path(problem), class: "btn btn-md view" %>
           </div>
         </div>
       </div>

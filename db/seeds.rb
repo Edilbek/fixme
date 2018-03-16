@@ -6,11 +6,11 @@ end
 
 20.times do |pr|
   problem = Problem.create!(
-    title: Faker::Name.title,
+    title: Faker::Lorem.characters(10),
     description: Faker::Lorem.sentence(100),
     user_id: 1,
-    latitude: rand(43.3...50.5),
-    longitude: rand(65.3...76.5),
+    latitude: rand(42.85..42.89),
+    longitude: rand(74.5..74.64),
     status: rand(1..2),
     images: [ seed_image(rand(1..2)) ]
   )

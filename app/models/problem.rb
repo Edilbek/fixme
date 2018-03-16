@@ -12,7 +12,7 @@ class Problem < ApplicationRecord
   has_many :comments, dependent: :destroy
   belongs_to :user, optional: true
 
-  validates :title, presence: true, length: {minimum: 5, maximum: 35}
+  validates :title, presence: true, length: {minimum: 5, maximum: 20}
   validates :description, presence: true
   validates :images, presence: true
   validates :latitude, presence: true
