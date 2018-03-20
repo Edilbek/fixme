@@ -11,7 +11,7 @@ end
     user_id: 1,
     latitude: rand(42.85..42.89),
     longitude: rand(74.5..74.64),
-    status: rand(1..2),
+    status: rand(0..2),
     images: [ seed_image(rand(1..2)) ]
   )
 end
