@@ -54,7 +54,10 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'rspec-rails', '~> 3.6'
   gem 'factory_bot_rails'
+end
 
+group :production do
+  gem 'rails_12factor'
 end
 
 group :development do
