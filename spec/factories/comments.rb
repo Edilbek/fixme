@@ -2,7 +2,7 @@
 FactoryBot.define do
   factory :comment do
     content 'Edil comment'
-    problem nil
-    user nil
+    problem_id nil
+    user_id nil
   end
 end

@@ -15,7 +15,6 @@ gem 'ransack'
 gem 'kaminari'
 gem 'pundit'
 gem 'rails-controller-testing'
-gem 'faker'
 gem 'gon'
 
 # gem 'rack-cors', :require => 'rack/cors'
@@ -72,6 +71,8 @@ group :test do
   gem 'poltergeist'
   gem 'phantomjs', :require => 'phantomjs/poltergeist'
   gem 'capybara-screenshot'
+  gem 'faker'
+  gem 'shoulda-matchers', '~> 3.1'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
