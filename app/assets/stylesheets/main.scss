@@ -10,6 +10,13 @@
   margin: 0 auto;
 }
 
+body {
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+  padding-bottom: 200px;
+}
+
 .in_prog_label_btn {
   overflow:hidden;
 }
@@ -48,6 +55,7 @@
 }
 
 .yield {
+
 }
 
 .create {
@@ -101,9 +109,11 @@
   }
 
 .count_problems {
-  margin-top: 10px;
+  width: 100%;
   background-color: #274e68;
   color: white;
+  position: absolute;
+  bottom: 0;
 }
 
 .flash_error{
@@ -133,11 +143,6 @@
     margin-bottom: 35px;
   }
 }
-
-// .in_progress_problem, .resolved_problem  {
-//   padding-left: 3px;
-//   padding-right: 3px;
-// }
 
 .gm-style-iw {
   color: black;
