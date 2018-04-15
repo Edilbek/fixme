@@ -17,6 +17,7 @@ class User < ApplicationRecord
   has_many :comments
 
   after_create :welcome
+  
   def welcome
     WelcomeMailer.welcome(self).deliver_now
   end
