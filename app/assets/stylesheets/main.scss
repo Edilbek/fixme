@@ -144,6 +144,12 @@ body {
   }
 }
 
+@media only screen and (max-width: 500px) {
+  .yield  {
+    margin-bottom: 200px;
+  }
+}
+
 .gm-style-iw {
   color: black;
 }
