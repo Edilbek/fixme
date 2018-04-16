@@ -4,3 +4,13 @@ require_relative 'application'
 require 'carrierwave/orm/activerecord'
 # Initialize the Rails application.
 Rails.application.initialize!
+
+ActionMailer::Base.smtp_settings = {
+  :user_name => 'edil.talantbekov',
+  :password => 'barcelona123',
+  :domain => 'heroku.com',
+  :address => 'smtp.sendgrid.net',
+  :port => 587,
+  :authentication => :plain,
+  :enable_starttls_auto => true
+}
