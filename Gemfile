@@ -16,6 +16,7 @@ gem 'kaminari'
 gem 'pundit'
 gem 'rails-controller-testing'
 gem 'gon'
+gem 'simple_form'
 
 # gem 'rack-cors', :require => 'rack/cors'
 
