@@ -5,7 +5,7 @@ class CommentsController < ApplicationController
   before_action :comment_owner, only: [:destroy, :edit, :update]
 
   def index
-    @comments = Comment.all
+    @comments = @problem.comments.all
   end
 
   def new

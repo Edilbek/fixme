@@ -1,8 +1,9 @@
-<h2 align='center'>Все комментарии проблемы #<%= @problem.id %></h2>
+<h2 align='center'>Все комментарии пролемы #<%= @problem.id %></h2>
 <div class="comments">
   <% @comments.each do |comment| %>
     <div class="show_all_comment">
       <p>“<%= comment.content %>”</p>
+      <p><%= link_to "#{problem_url(@problem)}", problem_url(@problem) %></p>
       <span><b><%= comment.user.email %></b></span>,
       <span class="datetime"><%= comment.created_at.strftime("%d %b. %Y, %H:%M") %></span>
       <span class="pull-right">
