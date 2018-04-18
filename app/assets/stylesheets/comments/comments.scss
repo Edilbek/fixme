@@ -1,16 +1,28 @@
 .comments{
   margin-top: 17px;
-  margin-left: 27px;
+  margin-left: 35px;
 }
 
 .show_comment{
-  border: 2px solid lightgrey;
+  border: 1px solid lightgrey;
   width: 40%;
   text-align: center;
   margin: 10px 0 10px 0;
-  border-radius: 10px;
+  border-radius: 4px;
 }
 .show_comment:hover{
+  border: 2px solid #28A745;
+}
+
+.show_all_comment{
+  border: 1px solid lightgrey;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 70%;
+  text-align: center;
+  border-radius: 4px;
+}
+.show_all_comment:hover{
   border: 2px solid #28A745;
 }
 
@@ -20,10 +32,46 @@
   margin-top: 10px;
 }
 
+@media only screen and (max-width: 600px) {
+    .create_comment {
+        width: 90%;
+        margin: 0 auto;
+        margin-left: -1px;
+    }
+
+    .show_all_comment {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .show_comment {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        margin-left: -1px;
+    }
+    .comments {
+      padding-bottom: 10px;
+    }
+}
+
 .create_comment_btn{
-  margin-top: -25px;
+  margin-top: -18px;
+  float: left;
+  margin-bottom: 3px;
+}
+.all_comments_btn {
+  margin-top: -18px;
+  float: right;
+  margin-bottom: 3px;
 }
 
 .datetime{
   font-size: 13px;
+}
+
+.edit_comment {
+  margin: 0 auto;
+  width: 50%;
 }

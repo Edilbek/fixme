@@ -4,6 +4,10 @@ class CommentsController < ApplicationController
   before_action :find_comment, only: [:destroy, :edit, :update, :comment_owner]
   before_action :comment_owner, only: [:destroy, :edit, :update]
 
+  def index
+    @comments = Comment.all
+  end
+
   def new
     @problem = Problem.find(params[:problem_id])
     @comment = @problem.comments.find(params[:id])

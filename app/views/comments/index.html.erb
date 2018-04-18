@@ -1,6 +1,7 @@
+<h2 align='center'>Все комментарии проблемы #<%= @problem.id %></h2>
 <div class="comments">
-  <% @comments.limit(2).each do |comment| %>
-    <div class="show_comment">
+  <% @comments.each do |comment| %>
+    <div class="show_all_comment">
       <p>“<%= comment.content %>”</p>
       <span><b><%= comment.user.email %></b></span>,
       <span class="datetime"><%= comment.created_at.strftime("%d %b. %Y, %H:%M") %></span>
@@ -12,6 +13,4 @@
       </span>
     </div>
   <% end %>
-
-  <%= render 'comments/form' %>
 </div>
