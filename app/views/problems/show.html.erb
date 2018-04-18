@@ -3,7 +3,7 @@
 <div class="show_problem ">
   <h2 align='center'>Название: <%= @problem.title %></h2>
   <p><b>Описание:</b> <%= @problem.description %></p>
-  <p><b>Статус: </b><%= @problem.status.humanize %></p>
+  <p><b>Статус: </b> <%= enum_l(@problem, :status) %></p>
   <p>
     <% @problem.images.each do | image | %>
       <%= image_tag image.url(:thumb) %>

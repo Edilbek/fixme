@@ -11,7 +11,7 @@ function initMap(){
   });
 
   google.maps.event.addListener(myMarker, 'dragend', function (evt) {
-      document.getElementById('current').innerHTML = '<p>Marker dropped: Current Lat: ' + evt.latLng.lat().toFixed(3) + ' Current Lng: ' + evt.latLng.lng().toFixed(3) + '</p>';
+      document.getElementById('current').innerHTML = '<p>Текущие координаты: ' + "ш: " + evt.latLng.lat().toFixed(3) + " | " + " д: " + evt.latLng.lng().toFixed(3) + '</p>';
       var lat = myMarker.getPosition().lat();
       var lng = myMarker.getPosition().lng();
       $('#problem-lat').val(lat);
@@ -19,7 +19,7 @@ function initMap(){
   });
 
   google.maps.event.addListener(myMarker, 'dragstart', function (evt) {
-      document.getElementById('current').innerHTML = '<p>Currently dragging marker...</p>';
+      document.getElementById('current').innerHTML = '<p>Выберите точное место вашей проблемы...</p>';
   });
 
   map.setCenter(myMarker.position);

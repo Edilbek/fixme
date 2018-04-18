@@ -18,7 +18,7 @@
       <div class="col-sm-4 image-problem">
         <%= f.label 'Изображения' %><br>
         <hr>
-        <%= f.input :images, multiple: true, class: "images", label: false, as: :file %><br>
+        <%= f.input :images, multiple: true, class: "images", label: false, as: :file, error: "Картинки: Не могут быть пустыми" %><br>
       </div>
       <%= f.hidden_field :status, id: "status"%>
     </div>

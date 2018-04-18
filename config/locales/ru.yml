@@ -266,20 +266,17 @@ ru:
       simple: ! '%d.%m.%Y'
     pm: вечера
   # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
-  activemodel:
-    errors:
-      <<: *errors
-    attributes:
-      contacts:
-        name: 'Имя Фамилия:'
-        email: 'E-mail:'
-        subject: 'Тема:'
-        content: 'Сообщение:'
   activerecord:
+    enums:
+      problem:
+        statuses:
+          resolved: "Решено"
+          in_progress: "В процессе"
+          unresolved: "Не решено"
     errors:
       <<: *errors
     attributes:
-      customer:
+      user:
         full_name: 'Имя Фамилия:'
         phone: 'Номер телефона:'
         email: 'E-mail:'
@@ -290,3 +287,11 @@ ru:
         address: 'Адрес доставки:'
         created_at: 'Зарегистрирован'
         last_sign_in_at: 'В последний раз был'
+      problem:
+        title: 'Название'
+        description: 'Описание:'
+        images: 'Картинки: '
+        status:
+          resolved: Решено
+          in_progress: В процессе
+          unresolved: Нерешено

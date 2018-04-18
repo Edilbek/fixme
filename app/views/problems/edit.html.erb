@@ -32,7 +32,7 @@
       <div id='map_canvas'></div>
     </section>
 
-    <%= f.select :status, Problem.statuses.map { |key, value| [key.humanize, key] } %>
+    <%= f.select :status, enum_options_for_select(Problem, :status) %>
 
     <div class="save-problem col-sm-12">
       <div class="text-center">
