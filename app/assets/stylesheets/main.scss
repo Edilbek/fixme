@@ -23,6 +23,10 @@ body {
 
 .in_prog_label {
   float: left;
+  h3 {
+    padding: 0px;
+    margin: 0px;
+  }
 }
 
 .in_prog_btn {
@@ -35,6 +39,10 @@ body {
 
 .resolved_label {
   float: left;
+  h3 {
+    padding: 0px;
+    margin: 0px;
+  }
 }
 
 .resolved_btn {
@@ -181,3 +189,36 @@ body {
 .gm-style-iw {
   color: black;
 }
+
+
+.flash_error{
+  margin-top: 10px;
+}
+
+.alert-error {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+  text-align: left;
+ }
+
+.alert-alert {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+  text-align: left;
+ }
+
+.alert-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+  text-align: left;
+ }
+
+.alert-notice {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+  text-align: left;
+ }

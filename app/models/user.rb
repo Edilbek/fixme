@@ -16,9 +16,13 @@ class User < ApplicationRecord
   has_many :problems
   has_many :comments
 
+  def send_devise_notification(notification, *args)
+    devise_mailer.send(notification, self, *args).deliver_later
+  end
+
   after_create :welcome
-  
+
   def welcome
-    WelcomeMailer.welcome(self).deliver_now
+    WelcomeMailer.welcome(self).deliver_later
   end
 end

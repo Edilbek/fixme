@@ -17,6 +17,7 @@ module Fixme
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
     config.i18n.default_locale = :ru
+    config.active_job.queue_adapter = :delayed_job
     config.assets.precompile += [
      'hella-tite.css'
     ]

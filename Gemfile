@@ -20,6 +20,11 @@ gem 'simple_form'
 
 # gem 'rack-cors', :require => 'rack/cors'
 
+# Background job
+gem 'delayed_job'
+gem 'delayed_job_active_record'
+gem 'daemons'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
 # Use sqlite3 as the database for Active Record
