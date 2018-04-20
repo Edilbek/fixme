@@ -1,6 +1,6 @@
 <div class="edit_comment">
   <%= form_for([@problem, @comment]) do |f| %>
-    <%= f.text_area :content, class: "form-control", placeholder: 'Написать коментарий....' %><br>
+    <%= f.text_area :content, class: "form-control", placeholder: 'Написать коментарий....', rows: "6" %><br>
     <span><%= f.submit 'Изменить', class: "btn btn-primary btn-sm" %></span>
     <div class="clearfix"></div>
   <% end %>

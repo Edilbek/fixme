@@ -73,5 +73,11 @@
 
 .edit_comment {
   margin: 0 auto;
-  width: 50%;
+  width: 70%;
+}
+
+@media only screen and (max-width: 600px) {
+  .edit_comment {
+    width: 95%;
+  }
 }
