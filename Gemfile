@@ -17,6 +17,7 @@ gem 'pundit'
 gem 'rails-controller-testing'
 gem 'gon'
 gem 'simple_form'
+gem 'faker'
 
 # gem 'rack-cors', :require => 'rack/cors'
 
@@ -80,7 +81,6 @@ group :test do
   gem 'poltergeist'
   gem 'phantomjs', :require => 'phantomjs/poltergeist'
   gem 'capybara-screenshot'
-  gem 'faker'
   gem 'shoulda-matchers', '~> 3.1'
 end
 

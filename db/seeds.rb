@@ -1,13 +1,13 @@
-# Admin.create!(email: 'admin@admin', password: 'parol123', password_confirmation: 'parol123')
+Admin.create!(email: 'admin@admin', password: 'parol123', password_confirmation: 'parol123')
 
 def seed_image(id)
   File.open(File.join(Rails.root, "/public/seeds/problem_#{id}.png"))
 end
 
-20.times do |pr|
+30.times do |pr|
   problem = Problem.create!(
     title: Faker::Lorem.characters(10),
-    description: Faker::Lorem.sentence(100),
+    description: Faker::Lorem.sentence(60),
     user_id: 1,
     latitude: rand(42.85..42.89),
     longitude: rand(74.5..74.64),

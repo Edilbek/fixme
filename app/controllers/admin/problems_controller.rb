@@ -12,7 +12,7 @@ class Admin::ProblemsController < ApplicationAdminController
   def update
     if @problem.update(problem_params)
       redirect_to admin_problem_path(@problem)
-      ProblemMailer.state_changed(@problem).deliver_now
+      NotifyMailerJob.perform_later(@problem.id)
     else
       render 'edit'
     end

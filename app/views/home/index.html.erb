@@ -29,7 +29,7 @@
       <% @all_in_progress_problems.each do |inprogress_problem| %>
         <div class="col-md-4 in_progress_problem">
           <div class="card mb-r wow fadeIn" data-wow-delay="0.2s">
-            <%= image_tag "#{inprogress_problem.images.first.url(:medium)}", class: 'img-fluid' if inprogress_problem.images? %>
+            <%= image_tag "#{inprogress_problem.images.first.url(:thumb)}", class: 'img-fluid' if inprogress_problem.images? %>
             <div class="card-body">
               <h5 class="card-title">
                   <strong><%= "#{inprogress_problem.title}" %></strong>
@@ -57,7 +57,7 @@
       <% @all_resolved_problems.each do |resolved_problem| %>
         <div class="col-md-4 resolved_problem">
           <div class="card mb-r wow fadeIn" data-wow-delay="0.2s">
-            <%= image_tag "#{resolved_problem.images.first.url(:medium)}", class: 'img-fluid' if resolved_problem.images? %>
+            <%= image_tag "#{resolved_problem.images.first.url(:thumb)}", class: 'img-fluid' if resolved_problem.images? %>
             <div class="card-body">
               <h5 class="card-title">
                   <strong><%= "#{resolved_problem.title}" %></strong>
