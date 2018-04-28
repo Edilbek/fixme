@@ -57,8 +57,8 @@ Rails.application.configure do
     :enable_starttls_auto => true,
     :address              => "smtp.gmail.com",
     :port                 => 587,
-    :user_name            => 'fixmekg@gmail.com',
-    :password             => 'parol123',
+    :user_name            => ENV["FIXME_USERNAME"],
+    :password             => ENV["FIXME_PASSWORD"],
     :authentication       => "plain",
     :openssl_verify_mode => 'none'
   }

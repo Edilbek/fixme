@@ -100,7 +100,7 @@ Rails.application.configure do
     domain: "fixme-edil.herokuapp.com",
     authentication: "plain",
     enable_starttls_auto: true,
-    user_name: "fixmekg@gmail.com",
-    password: "parol123"
+    user_name: ENV["FIXME_USERNAME"],
+    password: ENV["FIXME_PASSWORD"]
   }
 end
