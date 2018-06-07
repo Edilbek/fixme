@@ -18,6 +18,7 @@ gem 'rails-controller-testing'
 gem 'gon'
 gem 'simple_form'
 gem 'faker'
+gem 'lightbox2-rails'
 
 # gem 'rack-cors', :require => 'rack/cors'
 

@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe "Todos API", type: :request do
   # initialize test data
   let!(:problems) { create_list(:problem, 10) }
-  let(:problem_id) {problems.first.data}
+  let(:problem_id) { problems.first.data }
 
   describe "GET /problems" do
     # make HTTP get request before each example

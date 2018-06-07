@@ -4,3 +4,5 @@
 //= require bootstrap-sprockets
 //= require maps
 //= require problems/problems
+//= require turbolinks
+//= require lightbox

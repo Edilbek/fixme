@@ -37,6 +37,8 @@ end
 # If you are not using ActiveRecord, you can remove this line.
 ActiveRecord::Migration.maintain_test_schema!
 
+Dir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }
+
 RSpec.configure do |config|
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
   config.fixture_path = "#{::Rails.root}/spec/fixtures"
@@ -64,6 +66,7 @@ RSpec.configure do |config|
   Capybara.default_driver = :poltergeist
   Capybara.javascript_driver = :poltergeist
 
+  config.include RequestSpecHelper, type: :request
   config.include FactoryBot::Syntax::Methods
   config.include Devise::Test::ControllerHelpers, type: :controller
   config.include Capybara::DSL, type: :request

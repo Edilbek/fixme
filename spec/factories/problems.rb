@@ -5,7 +5,7 @@ FactoryBot.define do
     description { Faker::Lorem.sentence(20) }
     latitude { Faker::Address.latitude }
     longitude { Faker::Address.longitude }
-    images { Rack::Test::UploadedFile.new(File.open(File.join(Rails.root, '/app/assets/images/logo.png'))) }
+    images { Rack::Test::UploadedFile.new(File.join(Rails.root, 'app/assets/images/logo.png')) }
     status {1}
     user_id nil
   end

@@ -7,4 +7,10 @@
 *= require comments/comments
 *= require problems/problems
 *= require users/users
+*= require_tree .
+*= require_self
 */
+
+@import "bootstrap";
+@import "font-awesome";
+@import 'lightbox';

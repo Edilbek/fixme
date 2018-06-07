@@ -1,18 +1,22 @@
 <%= render 'shared/show_google_map' %>
 
-<div class="show_problem ">
-  <h2 align='center'>Название: <%= @problem.title %></h2>
-  <p><b>Описание:</b> <%= @problem.description %></p>
-  <p><b>Статус: </b> <%= enum_l(@problem, :status) %></p>
-  <p>
-    <% @problem.images.each do | image | %>
-      <%= image_tag image.url(:thumb) %>
-    <% end %>
-  </p>
+<div class="container">
+  <div class="show_problem ">
+    <h2 align='center'>Название: <%= @problem.title %></h2>
+    <p><b>Описание:</b> <%= @problem.description %></p>
+    <p><b>Статус: </b> <%= enum_l(@problem, :status) %></p>
+    <p>
+      <% @problem.images.each do | image | %>
+        <%= link_to image_path(image.url(:large), data: { lightbox: 'roadtrip' }) do %>
+          <%= image_tag image.url(:thumb) %>
+        <% end %>
+      <% end %>
+    </p>
+  </div>
+
+  <section data-lat="<%= @problem.latitude %>" data-lng="<%= @problem.longitude %>">
+    <div id='map_canvas'></div>
+  </section>
+
+  <%= render 'comments/comment' %>
 </div>
-
-<section data-lat="<%= @problem.latitude %>" data-lng="<%= @problem.longitude %>">
-  <div id='map_canvas'></div>
-</section>
-
-<%= render 'comments/comment' %>
