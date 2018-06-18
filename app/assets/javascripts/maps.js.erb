@@ -11,7 +11,7 @@ function initMap(){
   });
 
   google.maps.event.addListener(myMarker, 'dragend', function (evt) {
-      document.getElementById('current').innerHTML = '<p>Текущие координаты: ' + "ш: " + evt.latLng.lat().toFixed(3) + " | " + " д: " + evt.latLng.lng().toFixed(3) + '</p>';
+      document.getElementById('current').innerHTML = '<p>Текущие координаты: ' + "широта: " + evt.latLng.lat().toFixed(3) + " | " + " долгота: " + evt.latLng.lng().toFixed(3) + '</p>';
       var lat = myMarker.getPosition().lat();
       var lng = myMarker.getPosition().lng();
       $('#problem-lat').val(lat);

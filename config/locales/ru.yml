@@ -273,6 +273,12 @@ ru:
           resolved: "Решено"
           in_progress: "В процессе"
           unresolved: "Не решено"
+        districts:
+          unknown: "неизвестно"
+          leninskiy: "ленинский"
+          oktyabrskiy: "октябрьский"
+          pervomayskiy: "первомайский"
+          sverdlovskiy: "свердловский"
     errors:
       <<: *errors
     attributes:
@@ -287,11 +293,3 @@ ru:
         address: 'Адрес доставки:'
         created_at: 'Зарегистрирован'
         last_sign_in_at: 'В последний раз был'
-      problem:
-        title: 'Название'
-        description: 'Описание:'
-        images: 'Картинки: '
-        status:
-          resolved: Решено
-          in_progress: В процессе
-          unresolved: Нерешено

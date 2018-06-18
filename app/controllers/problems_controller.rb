@@ -62,6 +62,7 @@ class ProblemsController < ApplicationController
       :description,
       :status,
       :title,
+      :district,
       :latitude,
       :longitude,
       :address,

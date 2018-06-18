@@ -2,6 +2,7 @@ ru:
   simple_form:
     labels:
       problem:
-        title: 'Название:'
-        description: 'Описание:'
-        images: 'Картинки: '
+        title: 'Название'
+        description: 'Описание'
+        images: 'Изображение'
+        district: 'Район'
