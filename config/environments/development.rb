@@ -1,4 +1,7 @@
 # -*- encoding : utf-8 -*-
+require 'net/http'
+require 'openssl'
+require 'resolv-replace'
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
   config.cache_classes = false

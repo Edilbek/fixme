@@ -8,10 +8,10 @@
         </div>
         <div class="card-body text-center mb-3">
           <h3 class="card-title mt-2 pb-4">
-            <strong>Добавление проблемы</strong>
+            <strong><%= t ".adding_text" %></strong>
           </h3>
-          <p class="card-text">Fixme — проект, созданный для тех, кто недоволен состоянием города и хочет это исправить.</p>
-          <%= link_to 'Добавить', new_problem_path, class: "btn-lg create" %>
+          <p class="card-text"><%= t ".project_description" %></p>
+          <%= link_to "#{t ".add_button"}", new_problem_path, class: "btn-lg create" %>
         </div>
       </div>
     </div>
@@ -19,10 +19,10 @@
   <div class="">
     <div class="mt-5 in_prog_label_btn">
       <div class="in_prog_label">
-        <h3>В Процессе</h3>
+        <h3><%= t ".in_progress_label" %></h3>
       </div>
       <div class="in_prog_btn">
-        <%= link_to 'Посмотреть все', all_in_progress_problems_path , class: "btn btn-primary pull-right btn-sm all_in_progress_problems_btn" if @all_in_progress_problems.present?%>
+        <%= link_to "#{t ".see_all_button"}", all_in_progress_problems_path , class: "btn btn-primary pull-right btn-sm all_in_progress_problems_btn" if @all_in_progress_problems.present?%>
       </div>
     </div>
     <div class="row">
@@ -36,7 +36,7 @@
               </h5>
               <p class="card-text"><%= truncate("#{inprogress_problem.description}", length: 50) %></p>
               <!-- <a href="#" class="btn btn-md view">Просмотр</a> -->
-              <%= link_to 'Просмотр', problem_path(inprogress_problem), class: "btn btn-md view" %>
+              <%= link_to "#{t ".view"}", problem_path(inprogress_problem), class: "btn btn-md view" %>
             </div>
           </div>
         </div>
@@ -47,10 +47,10 @@
   <div class="">
     <div class="mt-5 resolved_label_btn">
       <div class="resolved_label">
-        <h3>Исправлены</h3>
+        <h3><%= t ".resolved_label" %></h3>
       </div>
       <div class="resolved_btn">
-        <%= link_to 'Посмотреть все', all_resolved_problems_path , class: "btn btn-primary pull-right btn-sm all_resolved_problems_btn" if @all_resolved_problems.present? %>
+        <%= link_to "#{t ".see_all_button"}", all_resolved_problems_path , class: "btn btn-primary pull-right btn-sm all_resolved_problems_btn" if @all_resolved_problems.present? %>
       </div>
     </div>
     <div class="row">
@@ -64,7 +64,7 @@
               </h5>
               <p class="card-text"><%= truncate("#{resolved_problem.description}", length: 50) %></p>
               <!-- <a href="#" class="btn btn-md view">Просмотр</a> -->
-              <%= link_to 'Просмотр', problem_path(resolved_problem), class: "btn btn-md view" %>
+              <%= link_to "#{t ".view"}", problem_path(resolved_problem), class: "btn btn-md view" %>
             </div>
           </div>
         </div>

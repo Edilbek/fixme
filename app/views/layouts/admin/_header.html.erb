@@ -24,6 +24,10 @@
         <% end %>
       </li>
     </ul>
+    <div class="languages">
+      <%= link_to_unless_current "En", locale: 'en' %> |
+      <%= link_to_unless_current "Ru", locale: 'ru' %>
+    </div>&nbsp&nbsp&nbsp&nbsp
     <form class="form-inline my-2 my-lg-0">
       <% if admin_signed_in? %>
         <%= link_to 'Выход', destroy_admin_session_path, method: :delete, data: { confirm: 'Вы уверены?' } %>

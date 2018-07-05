@@ -2,10 +2,10 @@
 
 <div class="container">
   <div class="show_problem ">
-    <h2 align='center'>Название: <%= @problem.title %></h2>
-    <p><b>Описание:</b> <%= @problem.description %></p>
-    <p><b>Статус: </b> <%= enum_l(@problem, :status) %></p>
-    <p><b>Район: </b> <%= enum_l(@problem, :district) %></p>
+    <h2 align='center'><%= t ".name_label" %>: <%= @problem.title %></h2>
+    <p><b><%= t ".description_label" %>:</b> <%= @problem.description %></p>
+    <p><b><%= t ".status_label" %>: </b> <%= enum_l(@problem, :status) %></p>
+    <p><b><%= t ".district_label" %>: </b> <%= enum_l(@problem, :district) %></p>
     <p>
       <% @problem.images.each do | image | %>
         <%= link_to image_path(image.url(:large), data: { lightbox: 'roadtrip' }) do %>

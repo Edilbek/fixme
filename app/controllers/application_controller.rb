@@ -7,6 +7,7 @@ class ApplicationController < ActionController::Base
   before_action :all_resolved_problems
   protect_from_forgery
   layout :layout
+  before_action :set_locale
 
   include Pundit
   rescue_from Pundit::NotAuthorizedError, with: :user_not_authorized
@@ -48,5 +49,19 @@ class ApplicationController < ActionController::Base
     else
       'application'
     end
+  end
+
+  private
+
+  def set_locale
+    I18n.locale = params[:locale] if params[:locale].present?
+    # current_user.locale
+    # request.subdomain
+    # request.env["HTTP_ACCEPT_LANGUAGE"]
+    # request.remote_ip
+  end
+
+  def default_url_options(options = {})
+    {locale: I18n.locale}
   end
 end

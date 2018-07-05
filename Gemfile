@@ -19,7 +19,7 @@ gem 'gon'
 gem 'simple_form'
 gem 'faker'
 gem 'lightbox2-rails'
-
+gem 'omniauth-facebook'
 # gem 'rack-cors', :require => 'rack/cors'
 
 # Background job

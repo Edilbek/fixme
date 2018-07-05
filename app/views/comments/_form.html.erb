@@ -1,7 +1,7 @@
 <div class="create_comment">
   <%= form_for([@problem, @problem.comments.build ]) do |f| %>
-    <%= f.text_area :content, class: "form-control comment_content", placeholder: 'Написать коментарий....' %><br>
-    <span><%= f.submit 'Отправить', class: "btn btn-primary create_comment_btn btn-sm" %></span>
+    <%= f.text_area :content, class: "form-control comment_content", placeholder: "#{t ".write_comment"}" %><br>
+    <span><%= f.submit "#{t ".send_comment"}", class: "btn btn-primary create_comment_btn btn-sm" %></span>
     <span>
       <% if @comments.count > 2 %>
         <%= link_to 'Посмотреть все отзывы', problem_comments_path(@problem), class: 'btn btn-success btn-sm all_comments_btn' %>

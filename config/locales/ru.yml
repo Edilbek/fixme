@@ -1,4 +1,39 @@
 ru:
+  home:
+    index:
+      adding_text: "Добавление проблемы"
+      project_description: 'Fixme — проект, созданный для тех,
+        кто недоволен состоянием города и хочет это исправить.'
+      add_button: "Добавить"
+      see_all_button: 'Посмотреть все'
+      in_progress_label: 'В процессе'
+      resolved_label: "Исправлены"
+      view: 'Просмотр'
+  layouts:
+    front:
+      header:
+        profile: "Профиль"
+        my_problems: "Мои проблемы"
+        all_problems: "Все проблемы"
+        users: 'Пользователи'
+        logout: 'Выход'
+      search:
+        search_something: "Что-то ищете...."
+      footer:
+        statistic: 'Статистика'
+        added_prob_to_site_st: 'Добавлено на сайт'
+        inprogress_prob_st: 'Обрабатывается'
+        resolved_label_st: 'Исправлено'
+  problems:
+    show:
+      name_label: 'Название'
+      description_label: 'Описание'
+      district_label: 'Район'
+      status_label: "Статус"
+  comments:
+    form:
+      send_comment: 'Отправить'
+      write_comment: 'Написать комментарии...'
   helpers:
     page_entries_info:
       more_pages:

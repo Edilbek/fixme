@@ -276,4 +276,7 @@ Devise.setup do |config|
   # so you need to do it manually. For the users scope, it would be:
   # config.omniauth_path_prefix = '/my_engine/users/auth'
   config.sign_out_all_scopes = false
+
+  config.omniauth :facebook, "758014571256078", "b4777c8059d69cf96a35ef48843189f3", 
+    callback_url: "http://localhost:3000/users/auth/facebook/callback"
 end

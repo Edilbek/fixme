@@ -11,22 +11,22 @@
           <% if user_signed_in? %>
             <li class="nav-link active">
               <i class="fa fa-pencil-square-o" aria-hidden="true" style="color: white;"></i>
-              <%= link_to 'Профиль', user_path(current_user), class: "profile" %>
+              <%= link_to "#{t ".profile"}", user_path(current_user), class: "profile" %>
             </li>
             <% if current_user.role == 'user' %>
               <li class="nav-link active">
-                <%= link_to 'Мои проблемы', user_problems_path(current_user), class: "profile" %>
+                <%= link_to "#{t ".my_problems"}", user_problems_path(current_user), class: "profile" %>
               </li>
             <% end %>
             <% if current_user.role == 'moderator' %>
               <li class="nav-link active">
-                <%= link_to 'Пользователи', users_path, class: "profile" %>
+                <%= link_to "#{t ".users"}", users_path, class: "profile" %>
               </li>
               <li class="nav-link active">
-                <%= link_to 'Все проблемы', all_problems_path, class: "profile all_problems" %>
+                <%= link_to "#{t ".all_problems"}", all_problems_path, class: "profile all_problems" %>
               </li>
               <li class="nav-link active">
-                <%= link_to 'Мои проблемы', user_problems_path(current_user), class: "profile" %>
+                <%= link_to "#{t ".my_problems"}", user_problems_path(current_user), class: "profile" %>
               </li>
             <% end %>
           </ul>
@@ -36,7 +36,7 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-link active">
               <i class="fa fa-sign-out" aria-hidden="true" style="color: white;"></i>
-              <%= link_to 'Выход', destroy_user_session_path, method: :delete, data: { confirm: 'Вы уверены?' }, class: "btn-sm logout" %>
+              <%= link_to "#{t ".logout"}", destroy_user_session_path, method: :delete, data: { confirm: 'Вы уверены?' }, class: "btn-sm logout" %>
             </li>
           </ul>
         <% else %>
@@ -49,10 +49,18 @@
               <i class="fa fa-sign-in" aria-hidden="true" style="color: white;"></i>
               <%= link_to 'Вход', new_user_session_path, class: "btn-sm login" %>
             </li>
+            <li class="nav-link">
+              <span style="color: white; font-size: 13px">или войти</span>&nbsp&nbsp
+              <%= link_to " ", user_facebook_omniauth_authorize_path, class: "fa fa-facebook", style: 'color: white; font-size: 18px' %>&nbsp&nbsp
+            </li>
           </ul>
         <% end %>
         <div class="form-inline">
             <%= render 'layouts/front/search', class: "form-control mr-sm-2" %>
+        </div>
+        <div class="languages">
+          <%= link_to_unless_current "En", locale: 'en' %> |
+          <%= link_to_unless_current "Ru", locale: 'ru' %>
         </div>
       </div>
     </div>
