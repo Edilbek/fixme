@@ -16,6 +16,9 @@ en:
         all_problems: "All problems"
         users: 'Users'
         logout: 'Logout'
+        login: 'Login'
+        registration: 'Registration'
+        or_signin: 'or sign in with'
       search:
         search_something: "Search...."
       footer:

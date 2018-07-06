@@ -17,6 +17,9 @@ ru:
         all_problems: "Все проблемы"
         users: 'Пользователи'
         logout: 'Выход'
+        login: 'Вход'
+        registration: "Регистрация"
+        or_signin: 'или войти'
       search:
         search_something: "Что-то ищете...."
       footer:
