@@ -1,5 +1,5 @@
 <div class="create_comment">
-  <%= form_for([@problem, @problem.comments.build ]) do |f| %>
+  <%= form_for([@problem, @problem.comments.build ], remote: true) do |f| %>
     <%= f.text_area :content, class: "form-control comment_content", placeholder: "#{t ".write_comment"}" %><br>
     <span><%= f.submit "#{t ".send_comment"}", class: "btn btn-primary create_comment_btn btn-sm" %></span>
     <span>

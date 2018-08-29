@@ -1,10 +1,8 @@
 # -*- encoding : utf-8 -*-
 Rails.application.routes.draw do
-  devise_for :users, skip: [:session, :password, :registration], controllers: {
-    :omniauth_callbacks => "omniauth_callbacks"
-  }
-  scope ":locale", locale: /#{I18n.available_locales.join("|")}/ do
-    devise_for :users, skip: [:omniauth_callbacks]
+  devise_for :users, :controllers => { :omniauth_callbacks => "omniauth_callbacks" }
+
+  scope "/:locale"  do
 
     devise_for :admin, controllers: {
       sessions: 'admin/sessions'
@@ -40,6 +38,6 @@ Rails.application.routes.draw do
     #   end
     # end
   end
-  get '*path', to: redirect("/#{I18n.default_locale}/%{path}"), constraints: lambda { |req| !req.path.starts_with? "/#{I18n.default_locale}/" }
-  get '', to: redirect("/#{I18n.default_locale}")
+  match '*path', to: redirect("/#{I18n.default_locale}/%{path}"), :via => [:get, :post]
+  match '', to: redirect("/#{I18n.default_locale}"), :via => [:get, :post]
 end

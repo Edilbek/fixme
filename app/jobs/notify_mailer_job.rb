@@ -3,6 +3,6 @@ class NotifyMailerJob < ApplicationJob
 
   def perform(problem_id)
     problem = Problem.find_by(id: problem_id)
-    ProblemMailer.state_changed(problem).deliver
+    ProblemMailer.state_changed(problem).deliver_later
   end
 end

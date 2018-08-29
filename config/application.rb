@@ -1,4 +1,5 @@
 # -*- encoding : utf-8 -*-
+require 'yaml'
 require_relative 'boot'
 
 require 'rails/all'

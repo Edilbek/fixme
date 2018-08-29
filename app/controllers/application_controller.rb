@@ -1,13 +1,14 @@
 # -*- encoding : utf-8 -*-
 class ApplicationController < ActionController::Base
+  before_action :set_locale
   before_action :authenticate_user!, except: [:index, :search, :show, :all_in_progress_problems, :all_resolved_problems]
   before_action :global_search
   before_action :count_of_problems
   before_action :all_in_progress_problems
   before_action :all_resolved_problems
-  protect_from_forgery
+  protect_from_forgery with: :exception
   layout :layout
-  before_action :set_locale
+
 
   include Pundit
   rescue_from Pundit::NotAuthorizedError, with: :user_not_authorized
@@ -54,14 +55,14 @@ class ApplicationController < ActionController::Base
   private
 
   def set_locale
-    I18n.locale = params[:locale] if params[:locale].present?
+    I18n.locale = params[:locale] || I18n.default_locale
     # current_user.locale
     # request.subdomain
     # request.env["HTTP_ACCEPT_LANGUAGE"]
     # request.remote_ip
   end
 
-  def default_url_options(options = {})
-    {locale: I18n.locale}
+  def default_url_options(options={})
+    { locale: I18n.locale }
   end
 end

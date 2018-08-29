@@ -15,8 +15,8 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :trackable, :validatable,
          :omniauthable, :omniauth_providers => [:facebook]
 
-  has_many :problems
-  has_many :comments
+  has_many :problems, dependent: :destroy
+  has_many :comments, dependent: :destroy
 
   def self.new_with_session(params, session)
     super.tap do |user|
