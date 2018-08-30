@@ -9,7 +9,7 @@ end
   problem = Problem.create!(
     title: Faker::Lorem.characters(10),
     description: Faker::Lorem.sentence(60),
-    user_id: 1,
+    user_id: rand(1..20),
     latitude: rand(42.85..42.89),
     longitude: rand(74.5..74.64),
     status: rand(0..2),
