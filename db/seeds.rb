@@ -1,4 +1,4 @@
-unless Admin.exists?('admin@admin')
+if Admin.nil?
   Admin.create!(email: 'admin@admin', password: 'parol123', password_confirmation: 'parol123')
 end
 def seed_image(id)
