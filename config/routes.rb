@@ -2,7 +2,7 @@
 Rails.application.routes.draw do
   devise_for :users, :controllers => { :omniauth_callbacks => "omniauth_callbacks" }
 
-  scope "(:locale)", locale: /#{I18n.available_locales.join("|")}/, defaults: {locale: "ru"}  do
+  scope "/:locale", locale: /#{I18n.available_locales.join("|")}/, defaults: {locale: "ru"}  do
     root to: "home#index"
 
     devise_for :admin, controllers: {
