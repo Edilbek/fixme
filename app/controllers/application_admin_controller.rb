@@ -12,7 +12,7 @@ class ApplicationAdminController < ActionController::Base
     # request.env["HTTP_ACCEPT_LANGUAGE"]
     # request.remote_ip
   end
-  
+
   def default_url_options(options = {})
     {locale: I18n.locale}
   end

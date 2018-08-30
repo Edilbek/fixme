@@ -2,11 +2,13 @@
 Rails.application.routes.draw do
   devise_for :users, :controllers => { :omniauth_callbacks => "omniauth_callbacks" }
 
-  scope "/:locale"  do
+  scope "(:locale)", locale: /#{I18n.available_locales.join("|")}/, defaults: {locale: "ru"}  do
+    root to: "home#index"
 
     devise_for :admin, controllers: {
       sessions: 'admin/sessions'
     }
+
     resources :problems do
       collection do
         match 'search' => 'problems#search', via: [:get, :post], as: :search
@@ -24,8 +26,6 @@ Rails.application.routes.draw do
     get 'all_problems', to: :all_problems, controller: 'problems'
     get 'all_in_progress_problems', to: :all_in_progress_problems, controller: 'problems'
     get 'all_resolved_problems', to: :all_resolved_problems, controller: 'problems'
-
-    root to: "home#index"
 
     resources :users do
       resources :problems

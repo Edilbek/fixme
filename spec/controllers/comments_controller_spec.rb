@@ -11,7 +11,7 @@ RSpec.describe CommentsController, type: :controller do
       end
 
       it 'creates new comment' do
-        
+
       end
     end
 
