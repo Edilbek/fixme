@@ -40,7 +40,7 @@ class ProblemsController < ApplicationController
   def update
     if @problem.update(problem_params)
       flash[:success] = 'Проблема успешно обновлена'
-      redirect_to problem_path(I18n.locale, @problem)
+      redirect_to problem_path(@problem)
       NotifyMailerJob.perform_later(@problem)
     else
       render 'edit'
