@@ -11,6 +11,7 @@ require 'capybara/poltergeist'
 require 'capybara/rspec'
 require 'capybara-screenshot/rspec'
 require 'phantomjs'
+require 'support/factory_bot'
 
 # Add additional requires below this line. Rails is not loaded until this point!
 Shoulda::Matchers.configure do |config|

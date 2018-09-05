@@ -34,7 +34,7 @@ RSpec.feature 'Comments', type: :feature do
 
     expect(page).to have_content("Название")
 
-    fill_in 'Написать коментарий....', with: 'testing'
+    fill_in 'comment_content', with: 'testing'
     find('.create_comment_btn').trigger('click')
   end
 
@@ -55,7 +55,7 @@ RSpec.feature 'Comments', type: :feature do
 
     expect(page).to have_content("Название")
 
-    fill_in 'Написать коментарий....', with: 'testing'
+    fill_in 'comment_content', with: 'testing'
     find('.create_comment_btn').trigger('click')
   end
 end
