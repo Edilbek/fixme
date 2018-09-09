@@ -6,7 +6,7 @@
     <% @all_resolved_problems1.each do |problem| %>
       <div class="col-md-4 in_progress_problem">
         <div class="card mb-r wow fadeIn" data-wow-delay="0.2s">
-          <%= image_tag "#{problem.images.first.url(:medium)}", class: 'img-fluid' if problem.images? %>
+          <%= image_tag "#{problem.images.first.url(:thumb)}", class: 'img-fluid' if problem.images? %>
           <div class="card-body">
             <h5 class="card-title">
                 <strong><%= "#{problem.title}" %></strong>
