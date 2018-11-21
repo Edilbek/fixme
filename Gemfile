@@ -6,6 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 gem 'devise'
+gem 'devise-jwt'
 gem 'bootstrap', '~> 4.0.0.beta'
 gem 'jquery-rails'
 gem "font-awesome-rails"

@@ -1,9 +1,12 @@
-# -*- encoding : utf-8 -*-
 # class Api::V1::ProblemsController < ApplicationController
 #   before_action :find_problem, only: [:show, :update, :destroy]
 #   def index
 #     @problems = current_user.problems
-#     json_response(@problems)
+#     respond_to do |format|
+#       format.html
+#       format.json { render json: @problems }
+#     end
+#     # json_response(@problems)
 #   end
 #
 #   def all_problems
