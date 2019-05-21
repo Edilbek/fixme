@@ -9,12 +9,14 @@ development:
   <<: *default
   host: localhost
   username: edil
+  password: 'parol123'
   database: fixme_development
 
 test:
   <<: *default
   host: localhost
   username: edil
+  password: 'parol123'
   database: fixme_test
 
 production:

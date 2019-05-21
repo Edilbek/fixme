@@ -13,8 +13,8 @@ ru:
     front:
       header:
         profile: "Профиль"
-        my_problems: "Мои проблемы"
-        all_problems: "Все проблемы"
+        my_problems: "Мои завки"
+        all_problems: "Все заявки"
         users: 'Пользователи'
         logout: 'Выход'
         login: 'Вход'

@@ -12,8 +12,8 @@ en:
     front:
       header:
         profile: "Profile"
-        my_problems: "My problems"
-        all_problems: "All problems"
+        my_problems: "My bids"
+        all_problems: "All bids"
         users: 'Users'
         logout: 'Logout'
         login: 'Login'
