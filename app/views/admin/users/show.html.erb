@@ -1,5 +1,6 @@
-<h1><%= @user.email %></h1>
-<%= @user.role %>
+<h2><%= @user.email %></h2>
+<b>Role:</b> <%= @user.role %>
+<br>
 Problems of this user: <% @user.problems.each do |prob| %>
-   <%= link_to "#{prob.title}", problem_path(prob.id) %>
+   <%= link_to "#{prob.title}", admin_problem_path(prob.id) %>
 <% end %>

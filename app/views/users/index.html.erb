@@ -1,6 +1,6 @@
 <% @users.each do |user| %>
   <div class="users_index">
-    <%= user.id%>
-    <%= user.email %>
+    <%= user.id%>. 
+    <%= link_to "#{user.email}", user_path(user.id)  %>
   </div>
 <% end %>
