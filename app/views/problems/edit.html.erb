@@ -1,6 +1,6 @@
 <%= render 'shared/show_google_map'%>
 <%= render 'errors' %>
-<h1 align='center'>Редактировать проблему</h1>
+<h1 align='center'>Редактировать заявку</h1>
 <div class="container">
   <%= form_for [current_user, @problem], html: { multipart: true } do |f| %>
     <%= f.hidden_field :latitude, id: "problem-lat" %>

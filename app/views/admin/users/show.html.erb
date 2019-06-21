@@ -1,6 +1,6 @@
 <h2><%= @user.email %></h2>
-<b>Role:</b> <%= @user.role %>
+<b>Роль:</b> <%= @user.role %>
 <br>
-Problems of this user: <% @user.problems.each do |prob| %>
+Заявки пользователя: <% @user.problems.each do |prob| %>
    <%= link_to "#{prob.title}", admin_problem_path(prob.id) %>
 <% end %>

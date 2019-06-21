@@ -8,15 +8,15 @@
       </div>
 
       <div class="form-group">
-        Role: <%= f.select :role, User.roles.map { |key, value| [key.humanize, key] } %><br>
+        Роль: <%= f.select :role, User.roles.map { |key, value| [key.humanize, key] } %><br>
       </div>
 
       <div class="actions form-group">
-        Problems of this user: <% @user.problems.each do |prob| %>
-            <%= link_to "#{prob.title}", problem_path(prob.id) %>
-        <% end %><br>
+        Заявки пользователя: <% @user.problems.each do |prob| %>
+          </br><%= link_to "#{prob.title}", problem_path(prob.id) %>
+        <% end %>
       </div>
-      <%= f.submit 'Edit', class: "btn btn-primary" %></br>
+      <%= f.submit 'Сохранить', class: "btn btn-primary" %></br>
     <%= link_to 'Удалить аккаунт', admin_user_path(@user), method: :delete, data: { confirm: 'Are you sure?', method: :delete, class: "btn btn-danger" } %></br>
 
     <%= link_to "Назад", :back %>

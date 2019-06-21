@@ -16,7 +16,7 @@
         <td><%= problem.id %></td>
         <td><%= problem.title %></td>
         <td><%= problem.created_at.strftime("%b %e, %H:%M") %></td>
-        <td><%= problem.status.humanize %></td>
+        <td><%= enum_l(problem, :status) %></td>
         <td><%= link_to 'Показать', edit_admin_problem_path(problem), class: "show_order" %></td>
       </tr>
     <% end %>

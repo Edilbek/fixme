@@ -4,6 +4,7 @@ class ProblemsController < ApplicationController
 
   def index
     @problems = current_user.problems
+    @problem = Problem.new
   end
 
   def all_problems
